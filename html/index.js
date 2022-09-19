@@ -76,6 +76,9 @@ module.exports = () => `
       </script>
       <link rel="stylesheet" href="style.css">
       <link rel="shortcut icon" href="img/favicon.ico">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
    </head>
    <body>
       <nav class="navbar navbar-inverse navbar-fixed-top ">
@@ -108,63 +111,15 @@ module.exports = () => `
                </video>
             </div>
             <div class="slider-content">
-               <div class="icons">
-                  <i class="fab fa-bitcoin "></i>
-                  <i class="fab fa-ethereum"></i>
-                  <i class="fas fa-dollar-sign"></i>
-               </div>
                <br>
-               <h1 class="text-align:center"><span style="color:dodgerblue">NASDAQ</span>:SGLY</h1>
-               <div style="display:flex;justify-content:center">
-                  <!-- TradingView Widget BEGIN -->
-                  <div class="tradingview-widget-container">
-                     <div class="tradingview-widget-container__widget"></div>
-                     <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>
-                        {
-                        
-                        "symbol": "NASDAQ:SGLY",
-                        
-                        "width": 350,
-                        
-                        "height": 220,
-                        
-                        "locale": "en",
-                        
-                        "dateRange": "1D",
-                        
-                        "colorTheme": "dark",
-                        
-                        "trendLineColor": "rgba(41, 98, 255, 1)",
-                        
-                        "underLineColor": "rgba(41, 98, 255, 0.3)",
-                        
-                        "underLineBottomColor": "rgba(41, 98, 255, 0)",
-                        
-                        "isTransparent": true,
-                        
-                        "autosize": false,
-                        
-                        "largeChartUrl": ""
-                        
-                        }
-                        
-                     </script>
-                  </div>
-                  <!-- TradingView Widget END -->
-               </div>
                <br>
-               <div class="text"></div>
+               <div class = "title">
+               <h1>WE MADE <span style="color:gold">CRYPTOCURRENCY</span> BETTER</h1>
+               </div>
                <div class="cta-div">
-                  <a href="#contact" class="btn1">CONTACT US</a>
-                  <a href="#services" class="btn2">LEARN MORE</a>
+                  <a href="/service" class="btn2">LEARN MORE</a>
                </div>
                <br><br>
-               <div class="social-networks">
-                  <a href="https://www.facebook.com/profile.php?id=100078178533864" class="fab fa-facebook"></a>
-                  <a href="https://www.instagram.com/thor_miner/" class="fab fa-instagram"></a>
-                  <!--a href="" class="fab fa-twitter"></a-->
-                  <!--a href="" class="fab fa-weixin"></a-->
-               </div>
             </div>
          </div>
       </section>
@@ -175,32 +130,55 @@ module.exports = () => `
          </section> -->
       <!-------------Footer markups--------------->
       <footer class="footer">
-         <div class="container">
-            <div class="row">
-               <div class="col-sm-12 text-center">
-                  <div class="social-icon">
-                     <!-- <a href=""><i class="fab fa-facebook wow fadeInLeft" data-wow-duration=".3s" data-wow-delay=".3s" ></i></a>  
-                        <a href=""><i class="fab fa-twitter wow fadeInLeft" data-wow-duration=".6s" data-wow-delay=".6s"></i></a>  
-                        <a href=""><i class="fab fa-instagram wow fadeInLeft" data-wow-duration=".9s" data-wow-delay=".9s"></i></a>   -->
-                     <!-- <a href=""><i class="fab fa-pinterest wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay="1.2s"></i></a>  
-                        <a href=""><i class="fab fa-rss wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="1.5s" ></i></a>  
-                        <a href=""><i class="fab fa-linkedin wow fadeInLeft" data-wow-duration="1.8s" data-wow-delay="1.8s" ></i></a>  
-                        <a href=""><i class="fab fa-vimeo-square wow fadeInLeft" data-wow-duration="2.1s" data-wow-delay="2.1s"></i></a>  
-                        <a href=""><i class="fab fa-youtube-square wow fadeInLeft" data-wow-duration="2.3s" data-wow-delay="2.3s" ></i></a>  
-                        <a href=""><i class="fab fa-dribbble wow fadeInLeft" data-wow-duration="2.6s" data-wow-delay="2.6s"></i></a>                           -->
-                  </div>
-                  <br>
-                  <div class="copyright">
-                     <p class="footerlogo">
-                        &copy; <img src="img/logo2.png" class="logo" style="width: 202px; height: 50px;">
-                     </p>
-                     <div class="bordernow"></div>
-                  </div>
-               </div>
-            </div>
+      <div class="footer__addr">
+         <h1 class="footer__logo"><img src="img/logo2.png" class="logo" style="width: 202px; height: 50px;"></h1>
+         <h2>Contact</h2>
+         <address>
+         98 Cuttermill Road,
+         Great Neck Plaza, New York 11021<br>
+            <a class="footer__btn" href="mailto:inquiry@singularity.us">Email Us</a>
+         </address>
+      </div>
+      <ul class="footer__nav">
+         <li class="nav__item nav__item--extra">
+            <h2 class="nav__title">Know us more</h2>
+            <ul class="nav__ul nav__ul--extra">
+               <li>
+                  <a href="/service">Product and Services</a>
+               </li>
+               <li>
+                  <a href="/news">News</a>
+               </li>
+               <li>
+                  <a href="/contact">Contact Us</a>
+               </li>
+            </ul>
+         </li>
+         <li class="nav__item">
+            <h2 class="nav__title">Legal</h2>
+            <ul class="nav__ul">
+               <li>
+                  <a href="#">Privacy Policy</a>
+               </li>
+               <li>
+                  <a href="#">Terms of Use</a>
+               </li>
+            </ul>
+         </li>
+      </ul>
+      <div class="legal">
+         <p>&copy; 2022 Singularity Future Technology Ltd. All rights reserved.</p>
+         <div class="legal__links">
+            <span>Made with <span class="heart">♥</span> remotely from Anywhere</span>
          </div>
-      </footer>
-      <a href="index.html" class="back-to-top"><i class="fas fa-home"></i></a>
+         <div class="social-networks">
+         <a href="https://www.facebook.com/profile.php?id=100078178533864" class="fab fa-facebook"></a>
+         <a href="https://www.instagram.com/thor_miner/" class="fab fa-instagram"></a>
+         <!--a href="" class="fab fa-twitter"></a-->
+         <!--a href="" class="fab fa-weixin"></a-->
+      </div>
+      </div>
+   </footer>
       <script src="js/jquery.ripples-min.js" type="text/javascript"></script>  
       <script src="js/typed.min.js" type="text/javascript"></script>
       <script src="js/jquery.waypoints.min.js" type="text/javascript"></script>

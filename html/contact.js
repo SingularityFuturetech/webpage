@@ -189,6 +189,7 @@ module.exports = () => `
             </div>
          </div>
       </footer>
+      
       <script src="js/jquery.ripples-min.js" type="text/javascript"></script>  
       <script src="js/typed.min.js" type="text/javascript"></script>
       <script src="js/jquery.waypoints.min.js" type="text/javascript"></script>

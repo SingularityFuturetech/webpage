@@ -163,6 +163,40 @@ module.exports = () => `
       <br><br>
       <p class="my-4" id="secteam">      
    </section  >
+   <!-- TradingView Widget BEGIN -->
+   <div class="tradingview-widget-container">
+      <div class="tradingview-widget-container__widget"></div>
+      <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>
+         {
+         
+         "symbol": "NASDAQ:SGLY",
+         
+         "width": 350,
+         
+         "height": 220,
+         
+         "locale": "en",
+         
+         "dateRange": "1D",
+         
+         "colorTheme": "dark",
+         
+         "trendLineColor": "rgba(41, 98, 255, 1)",
+         
+         "underLineColor": "rgba(41, 98, 255, 0.3)",
+         
+         "underLineBottomColor": "rgba(41, 98, 255, 0)",
+         
+         "isTransparent": true,
+         
+         "autosize": false,
+         
+         "largeChartUrl": ""
+         
+         }
+         
+      </script>
+   </div>
    <br><br><br> <br>
    <p class="my-4" >
    <section class="teams" >
@@ -179,6 +213,7 @@ module.exports = () => `
          </p>
       </div>
     </section>
+    
       <section class="testi my-4" id="testi">
 <div class="container">
    <div class="row">
