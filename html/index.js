@@ -158,7 +158,7 @@ module.exports = () => `
             <h2 class="nav__title">Legal</h2>
             <ul class="nav__ul">
                <li>
-                  <a href="#">Privacy Policy</a>
+                  <a href="/privacypolicy">Privacy Policy</a>
                </li>
                <li>
                   <a href="#">Terms of Use</a>

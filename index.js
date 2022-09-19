@@ -1,18 +1,19 @@
-const express = require("express");
-const bodyParser = require("body-parser");
-const homePage = require("./html/index");
-const service = require("./html/service");
-const news = require("./html/news");
-const about = require("./html/about");
-const contact = require("./html/contact");
+const express = require('express');
+const bodyParser = require('body-parser');
+const homePage = require('./html/index');
+const service = require('./html/service');
+const news = require('./html/news');
+const about = require('./html/about');
+const contact = require('./html/contact');
+const policy = require('./html/privacyPolicy');
 
-const path = require("path");
+const path = require('path');
 app = express();
-app.use(express.static(__dirname + "/public"));
+app.use(express.static(__dirname + '/public'));
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
-app.get("/", async (req, res, next) => {
+app.get('/', async (req, res, next) => {
   try {
     res.send(homePage());
   } catch (ex) {
@@ -20,7 +21,7 @@ app.get("/", async (req, res, next) => {
   }
 });
 
-app.get("/service", async (req, res, next) => {
+app.get('/service', async (req, res, next) => {
   try {
     res.send(service());
   } catch (ex) {
@@ -28,7 +29,7 @@ app.get("/service", async (req, res, next) => {
   }
 });
 
-app.get("/about", async (req, res, next) => {
+app.get('/about', async (req, res, next) => {
   try {
     res.send(about());
   } catch (ex) {
@@ -36,7 +37,7 @@ app.get("/about", async (req, res, next) => {
   }
 });
 
-app.get("/news", async (req, res, next) => {
+app.get('/news', async (req, res, next) => {
   try {
     res.send(news());
   } catch (ex) {
@@ -44,9 +45,17 @@ app.get("/news", async (req, res, next) => {
   }
 });
 
-app.get("/contact", async (req, res, next) => {
+app.get('/contact', async (req, res, next) => {
   try {
     res.send(contact());
+  } catch (ex) {
+    next(ex);
+  }
+});
+
+app.get('/privacypolicy', async (req, res, next) => {
+  try {
+    res.send(policy());
   } catch (ex) {
     next(ex);
   }
