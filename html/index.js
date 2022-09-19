@@ -20,6 +20,10 @@ module.exports = () => `
       <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
       <!-------------Animate css file------------->
       <link href="css/animate.css" type="text/css" rel="stylesheet">
+      <!-------------Animate css file------------->
+      <style>
+      @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+      </style>
       <!-- jQuery library -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
       <!-------------Owl Carousel Js file------------->
@@ -93,10 +97,10 @@ module.exports = () => `
             </div>
             <div class="collapse navbar-collapse" id="navi">
                <ul class="nav navbar-nav navbar-right ">
-                  <li><a href="/about">ABOUT US</a></li>
-                  <li><a href="/service">PRODUCT & SERVICES</a></li>
-                  <li><a href="/news">NEWS</a></li>
-                  <li><a href="/contact">CONTACT US</a></li>
+                  <li><a href="/about" class="hover-underline-animation">ABOUT US</a></li>
+                  <li><a href="/service" class="hover-underline-animation">PRODUCT & SERVICES</a></li>
+                  <li><a href="/news" class="hover-underline-animation">NEWS</a></li>
+                  <li><a href="/contact" class="hover-underline-animation">CONTACT US</a></li>
                   <li><a href="https://thorminer.com/" class="contact">THOR MINER</a></li>
                </ul>
             </div>
@@ -123,6 +127,44 @@ module.exports = () => `
             </div>
          </div>
       </section>
+      <section class="service-area" id="welcome">
+      <div class="container">
+         <div class="row">
+            <div class="col-xs-12">
+   
+         </div>
+         <div class="mainpage_word">
+            <div class="container text-center">
+            <div class="section-title text-center wow zoomIn" data-wow-duration=".15s" data-wow-delay=".15s">       
+               <h3 style="color:#373C38">
+               We builds tehnologies make crytocurrency mining easier
+               </h3>
+               </div>
+            </div>
+         </div>
+      </div>
+      <br><br>
+      <p class="my-4" id="secteam">      
+   </section  >
+   <section class="service-area" id="welcome">
+   <div class="container">
+      <div class="row">
+         <div class="col-xs-12">
+
+      </div>
+      <div class="mainpage_word">
+         <div class="container text-center">
+         <div class="section-title text-center wow zoomIn" data-wow-duration=".15s" data-wow-delay=".15s">       
+            <h3 style="color:#373C38">
+            We builds tehnologies make crytocurrency mining easier
+            </h3>
+            </div>
+         </div>
+      </div>
+   </div>
+   <br><br>
+   <p class="my-4" id="secteam">      
+</section  >
       <!-----------Markup for Maps----------------->
       <!-- <section class="maps wow fadeInUp" id="map">
          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115133.0101685027!2d85.07300236037258!3d25.608020764441754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f29937c52d4f05%3A0x831a0e05f607b270!2sPatna%2C+Bihar!5e0!3m2!1sen!2sin!4v1515053726215" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>

@@ -2,28 +2,50 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    background-color: #F9F9F9;
+}
+
 .navbar{
     height: 80px;
     padding: 5px 0;
     border-bottom: none;
     transition: all 0.5s ease-in-out;
+    background-color: #f9f9f9;
+
 }
-.navbar-inverse{
-    background-color: transparent;
-}
+
 .navbar ul li a{
-    color: white !important;
+    display: inline-block;
+    position: relative;
+    color: #2f2f2f !important;
     font-weight: bold;
     font-size: 15px;
     letter-spacing: 1px;
     transition:all 0.5s ease-in-out;
 }
-.navbar ul li a:hover{
-    color:gold !important;
-    cursor: pointer !important;
-}
+
+
+.hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: gold;
+    transform-origin: bottom right;
+    transition: transform 0.35s ease-out;
+  }
+  
+  .hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
 .navbar-toggle{
-    border:1px solid white !important;
+    border:1px solid #f9f9f9 !important;
     transition:all 0.5s ease-in-out;
 }
 .navbar-toggle:hover{
@@ -34,7 +56,7 @@
     padding: 10px;
 }
 .contact{
-    border:solid 1px white;
+    border:solid 2px black;
     border-radius: 50px;
 }
 .slider{
@@ -42,14 +64,14 @@
     height: 1000px;
     background-size: cover;
     background-position: center;
-    color: white;
+    color: #f9f9f9;
 }
 video {
     position: absolute;
     right: 0;
     bottom: 0;
     min-width: 100%;
-    min-height: 1200px;
+    min-height: 1000px;
     z-index: -100;
 }
 #video:after {
@@ -90,10 +112,10 @@ video {
 .btn2{
     padding: 13px 18px;
     background-color: transparent;
-    color: white;
+    color: #f9f9f9;
     letter-spacing: 1px;
     font-size: 13px;
-    border:solid 2px white;
+    border:solid 2px #f9f9f9;
     transition: all 0.5s ease-in-out;
     margin-right: 10px;
     font-family: 'Roboto', sans-serif; 
@@ -101,7 +123,7 @@ video {
 }
 .btn2:hover{
     text-decoration: none;
-    color:white;
+    color:#f9f9f9;
     background-color: gold !important;
     border-color: gold !important;
 }
@@ -115,9 +137,9 @@ video {
     font-size: 30px;
 }
 .social-networks a.fab{
-    border:white 1px solid;
+    border:#f9f9f9 1px solid;
     padding:10px;
-    color:white;
+    color:#f9f9f9;
     width: 50px;
     height: 50px;
     border-radius: 100%;
@@ -178,10 +200,28 @@ video {
    }
 }
 .secondary{
-    background-color: #1F2B37;
+    background-color: #f9f9f9;
 }
+
+.secondary ul li a {
+    color: #1F2b37 !important;
+}
+
+.secondary .contact {
+    border:solid 2px #1F2b37 !important;
+}
+
+.mainpage_word {
+    margin:50px
+}
+
+.mainpage_word h3 {
+    font-weight: 700;
+}
+
+
 .service-area {
-    margin-top: 30px;
+    margin-top: 80px;
 }
 .service-area p {
     margin-bottom: -5px;
@@ -223,16 +263,16 @@ video {
     opacity: 1;
 }
 .service-wrap:hover{
-    color:white 
+    color:#f9f9f9 
 }
 .service-wrap:h3{
-    color: white;
+    color: #f9f9f9;
 }
 .service-wrap:hover h3{
-    color:white 
+    color:#f9f9f9 
 }
 .service-wrap:hover h3:after{
-    background-color:white 
+    background-color:#f9f9f9 
 }
 .service-icon i{
     font-size: 30px;
@@ -308,7 +348,7 @@ h4.team-member-designation{
     width: 330px;
     height: 230px;
     border-radius: 100%;
-    border: 3px solid white;
+    border: 3px solid #f9f9f9;
     padding:5px;
 }
 .testi{
@@ -316,7 +356,7 @@ h4.team-member-designation{
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    color: whitesmoke;
+    color: #f9f9f9smoke;
     padding-top: 80px;
     padding-bottom: 150px;
 }
@@ -326,7 +366,7 @@ h4.team-member-designation{
 .border-bottom {
     width: 40px;
     height: 2px;
-    background-color: white;
+    background-color: #f9f9f9;
     margin:0 auto;
 }
 .carousel-inner p {
@@ -351,7 +391,7 @@ h4.team-member-designation{
     padding: 25px 35px;
     font-size: 20px;
     font-weight: 400;
-    color: white;
+    color: #f9f9f9;
     background: #34495e;
     border: none;
     position: relative;
@@ -367,8 +407,8 @@ h4.team-member-designation{
     background: #34495e;
     text-align: center;
     font-size: 15px;
-    color: white;
-    border: 5px solid white;
+    color: #f9f9f9;
+    border: 5px solid #f9f9f9;
     position: absolute;
     top: 10px;
     left: -20px;
@@ -402,18 +442,20 @@ h4.team-member-designation{
     display: flex;
     justify-content: flex-start;
     margin-left: 80px;
-    font-family: 'Roboto', sans-serif; 
+    
 }
 
 .title h1 {
-    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+
+
 }
 /*======================================= FAQs style Ends =========================================*/
 /*======================================= Blog style Start =========================================*/
 .latest-news-area {
     margin-top: 40px;
     background-image: url(img/bg_news.jpg);
-    color: white;
+    color: #f9f9f9;
 }
 .latest-news-wrap {
     box-shadow: 0px 3px 10px rgba(0,0,0,.1);
@@ -449,7 +491,7 @@ h4.team-member-designation{
 }
 .deat span {
     display: block;
-    color: white;
+    color: #f9f9f9;
     font-weight: 700;
     font-size: 16px;
 }
@@ -489,7 +531,7 @@ h4.team-member-designation{
     font-size: 14px;
     background-color: #34495e;
     padding: 10px 20px;
-    color: white;
+    color: #f9f9f9;
     transition: all 0.5s ease-in;
     text-decoration: none;
 }
@@ -497,7 +539,7 @@ h4.team-member-designation{
     font-size: 14px;
     border: 1px solid #34495e;
     border-top-right-radius: 20px;
-    background-color: whitesmoke;
+    background-color: #f9f9f9smoke;
     color: #34495e;
     margin-right: 0;
     text-decoration: none;
@@ -509,9 +551,8 @@ h4.team-member-designation{
     background-position: center;
     padding-top: 180px;
     padding-bottom: 200px;
-    color: white;
+    color: #f9f9f9;
     background-attachment: fixed;
-    margin-top: 100px;
     opacity: 0.8;
 }
 .stat i {
@@ -558,16 +599,16 @@ h4.team-member-designation{
     padding-bottom: 35px;
 }
 .contact-infos .fa {
-    color: white;
+    color: #f9f9f9;
     font-size: 26px;
-    border: 1px solid white;
+    border: 1px solid #f9f9f9;
     width: 50px;
     height: 50px;
     border-radius: 50%;
     line-height: 50px;
 }
 .contact-infos p {
-    color: white;
+    color: #f9f9f9;
     margin-top: 15px;
 }
 /*======================================= Contact area style End =========================================*/
@@ -581,8 +622,8 @@ h4.team-member-designation{
     display: flex;
     flex-flow: row wrap;
     padding: 30px 30px 20px 30px;
-    color: #F9F9F9;
-    background-color: #1F2B37;
+    color: #000000;
+    background-color: #f9f9f9;
 }
 .footer > * {
     flex: 1 100%;
@@ -627,7 +668,7 @@ h4.team-member-designation{
 }
 .footer__btn:hover {
     background-color:rgba(79, 118, 246, 0.3);
-    color: white;
+    color: #f9f9f9;
 }
 .footer ul {
     list-style:none;
