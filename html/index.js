@@ -21,9 +21,9 @@ module.exports = () => `
       <!-------------Animate css file------------->
       <link href="css/animate.css" type="text/css" rel="stylesheet">
       <!-------------Animate css file------------->
-      <style>
-      @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
-      </style>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
       <!-- jQuery library -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
       <!-------------Owl Carousel Js file------------->
@@ -109,10 +109,6 @@ module.exports = () => `
       <section class="slider text-center" id="slider">
          <div class="slider-overlay">
             <div id="video" >
-               <!-- Video -->
-               <video autoplay muted loop playsinline algin="center">
-                  <source src="video.mp4" type="video/mp4" id="video">
-               </video>
             </div>
             <div class="slider-content">
                <br>
@@ -129,42 +125,47 @@ module.exports = () => `
       </section>
       <section class="service-area" id="welcome">
       <div class="container">
-         <div class="row">
-            <div class="col-xs-12">
-   
-         </div>
+      <div style="display:flex;justify-content: center;">
          <div class="mainpage_word">
-            <div class="container text-center">
             <div class="section-title text-center wow zoomIn" data-wow-duration=".15s" data-wow-delay=".15s">       
-               <h3 style="color:#373C38">
-               We builds tehnologies make crytocurrency mining easier
-               </h3>
-               </div>
+               <h1 style="color:#373C38">
+               The future of cryto miner
+               </h1>
+               <h4 class="section-title text-center wow zoomIn" data-wow-duration=".65s" data-wow-delay=".65s" style="color:#999">We develops solutions for interconnected AI networks in the revolutionized AI and Blockchain supply management area and establishes crypto mining pools. </h4>
+               <a href="/service" class="hover-underline-animation section-title text-center wow zoomIn" data-wow-duration=".65s" data-wow-delay=".65s" " style="text-decoration: none;">Checkout our latest miner</a>
             </div>
          </div>
       </div>
+      <div class="video_bottom" >
+               <!-- Video -->
+               <video autoplay muted loop playsinline algin="center">
+                  <source src="video.mp4" type="video/mp4" id="video">
+               </video>
+            </div>
       <br><br>
-      <p class="my-4" id="secteam">      
+      <div style="margin-top:100px">
+      <h1 class="hover-underline-animation section-title text-center wow zoomIn" data-wow-duration=".65s" data-wow-delay=".65s" " style="text-decoration: none;">Get to Know us</h1>
+      <p class="my-4" id="secteam">  
+      </div>
+  <div class="band">
+    <div class="item-2">
+          <a href="/about" class="card section-title text-center wow zoomIn" data-wow-duration=".65s" data-wow-delay=".65s"">
+            <div class="thumb" style="background-image: url(https://images.pexels.com/photos/380769/pexels-photo-380769.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);"></div>
+            <article>
+              <span>About us</span>
+            </article>
+          </a>
+    </div>
+    <div class="item-2">
+    <a href="/news" class="card section-title text-center wow zoomIn" data-wow-duration=".75s" data-wow-delay=".75s"">
+      <div class="thumb" style="background-image: url(https://images.pexels.com/photos/3944463/pexels-photo-3944463.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);"></div>
+      <article>
+        <span>Our News</span>
+      </article>
+    </a>
+</div>
+  </div>    
    </section  >
-   <section class="service-area" id="welcome">
-   <div class="container">
-      <div class="row">
-         <div class="col-xs-12">
-
-      </div>
-      <div class="mainpage_word">
-         <div class="container text-center">
-         <div class="section-title text-center wow zoomIn" data-wow-duration=".15s" data-wow-delay=".15s">       
-            <h3 style="color:#373C38">
-            We builds tehnologies make crytocurrency mining easier
-            </h3>
-            </div>
-         </div>
-      </div>
-   </div>
-   <br><br>
-   <p class="my-4" id="secteam">      
-</section  >
       <!-----------Markup for Maps----------------->
       <!-- <section class="maps wow fadeInUp" id="map">
          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115133.0101685027!2d85.07300236037258!3d25.608020764441754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f29937c52d4f05%3A0x831a0e05f607b270!2sPatna%2C+Bihar!5e0!3m2!1sen!2sin!4v1515053726215" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>

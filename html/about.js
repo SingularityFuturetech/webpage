@@ -99,49 +99,6 @@ module.exports = () => `
    </div>
 </nav>
 
-      <!------------Counter Starts-------------> 
-      <section class="stat " id="stats">
-         <div class="section-title text-center wow zoomIn" data-wow-duration=".2s" data-wow-delay=".2s">
-            <h2><b>ACHIEVEMENT</b></h2>
-         </div>
-         <div class="content-box">
-            <br><br>
-            <div class="container">
-               <div class="row text-center">
-                  <div class="col-md-4 wow fadeInLeft" data-wow-duration=".3s" data-wow-delay=".3s">
-                     <div class="stat-items">
-                        <i class="fa fa-globe-africa"></i>
-                        <h2><span class="counter text-center ">50</span> <span>STATES</span></h2>
-                        <p>SERVICE AREA</p>
-                     </div>
-                  </div>
-                  <div class="col-md-4 wow fadeInLeft" data-wow-duration=".6s" data-wow-delay=".6s">
-                     <div class="stat-items">
-                        <i class="fa fa-chart-line"></i>
-                        <h2><span class="counter text-center">1840</span> <span>PH</span></h2>
-                        <p>HASH RATE</p>
-                     </div>
-                  </div>
-                  <!-- <div class="col-md-3 wow fadeInLeft" data-wow-duration=".9s" data-wow-delay=".9s"> 
-                     <div class="stat-items">
-                         <i class="fa fa-money-bill-wave"></i>
-                         <h2><span class="counter text-center">7289</span> <span>+</span></h2>
-                         <p>PROFIT</p>
-                     </div>
-                     
-                     </div> -->
-                  <div class="col-md-4 wow fadeInLeft"  data-wow-duration="1.2s" data-wow-delay="1.2s">
-                     <div class="stat-items">
-                        <i class="fa fa-dollar-sign"></i>
-                        <h2><span class="counter text-center">20000</span> <span>+</span></h2>
-                        <p>SALE MINERS</p>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </section>
-
       <section class="service-area" id="welcome">
       <div class="container">
          <div class="row">

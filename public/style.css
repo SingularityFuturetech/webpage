@@ -12,14 +12,16 @@ body {
     padding: 5px 0;
     border-bottom: none;
     transition: all 0.5s ease-in-out;
-    background-color: #f9f9f9;
+    background-color: rgba(0,0,0,0.25);
+    backdrop-filter: blur(8px);
+    
 
 }
 
 .navbar ul li a{
     display: inline-block;
     position: relative;
-    color: #2f2f2f !important;
+    color: #f9f9f9 !important;
     font-weight: bold;
     font-size: 15px;
     letter-spacing: 1px;
@@ -60,27 +62,27 @@ body {
     border-radius: 50px;
 }
 .slider{
+    background-image: url(img/homepage.jpg);
     width: 100%;
     height: 1000px;
     background-size: cover;
-    background-position: center;
+    background-position:center;
     color: #f9f9f9;
 }
 video {
-    position: absolute;
     right: 0;
     bottom: 0;
-    min-width: 100%;
-    min-height: 1000px;
-    z-index: -100;
+    max-width: 850px;
+    max-height:850px;
 }
-#video:after {
-    position: fixed;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
+
+.video_bottom {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
 }
+
+
 .slider-overlay{
     width:100%;
     height: 100%;
@@ -111,6 +113,7 @@ video {
 }
 .btn2{
     padding: 13px 18px;
+    border-radius: 10px;
     background-color: transparent;
     color: #f9f9f9;
     letter-spacing: 1px;
@@ -129,9 +132,8 @@ video {
 }
 .cta-div{
     display: flex;
-    justify-content: flex-start;
-    margin-left: 80px;
-    margin-top: 30px;
+    justify-content: center;
+    margin-top: 20px;
 }
 .fab{
     font-size: 30px;
@@ -200,11 +202,11 @@ video {
    }
 }
 .secondary{
-    background-color: #f9f9f9;
-}
+    background-color: rgba(0,0,0,0.25);
+    backdrop-filter: blur(8px);}
 
 .secondary ul li a {
-    color: #1F2b37 !important;
+    color: #ffffff !important;
 }
 
 .secondary .contact {
@@ -212,7 +214,11 @@ video {
 }
 
 .mainpage_word {
-    margin:50px
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    width: 600px;
+
 }
 
 .mainpage_word h3 {
@@ -356,7 +362,7 @@ h4.team-member-designation{
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    color: #f9f9f9smoke;
+    color: #f9f9f9;
     padding-top: 80px;
     padding-bottom: 150px;
 }
@@ -440,14 +446,13 @@ h4.team-member-designation{
 
 .title {
     display: flex;
-    justify-content: flex-start;
-    margin-left: 80px;
+    justify-content: center;
     
 }
 
 .title h1 {
-    font-family: 'Roboto', sans-serif;
-
+    font-family: 'Libre Baskerville', serif;
+    font-size: 30px;
 
 }
 /*======================================= FAQs style Ends =========================================*/
@@ -539,7 +544,7 @@ h4.team-member-designation{
     font-size: 14px;
     border: 1px solid #34495e;
     border-top-right-radius: 20px;
-    background-color: #f9f9f9smoke;
+    background-color: #f9f9f9;
     color: #34495e;
     margin-right: 0;
     text-decoration: none;
@@ -655,11 +660,11 @@ h4.team-member-designation{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 36px;
-    max-width: max-content;
-    background-color:#f9f9f9d0;
-    border-radius: 100px;
-    color: rgba(79, 118, 246);
+    height: 40px;
+    width: 100px;
+    background-color:rgba(78, 78, 78, 0.5);
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
     line-height: 0;
     margin: 0.6em 0;
     font-size: 1rem;
@@ -667,7 +672,7 @@ h4.team-member-designation{
     transition: 0.3s;
 }
 .footer__btn:hover {
-    background-color:rgba(79, 118, 246, 0.3);
+    background-color:rgb(78, 78, 78);
     color: #f9f9f9;
 }
 .footer ul {
@@ -734,9 +739,11 @@ h4.team-member-designation{
     justify-content: center;
     margin-left:0px ;
     margin-top: -10px;
+    font-family: 'Libre Baskerville', serif;
 
    }
    .title h1{
+    font-family: 'Libre Baskerville', serif;
     font-size: 40px;
    }
    .cta-div{
@@ -748,3 +755,90 @@ h4.team-member-designation{
     margin-left: 60px;
     margin-right: 60px;
    }
+}
+}
+
+/* card */
+
+
+  
+.card {
+    height: 300px;
+    width: 400px;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #444;
+    position: relative;
+    margin-top: 30px;
+    transition: all .1s ease-in;
+    margin: 20px;
+  }
+  
+  .card:hover {
+    top: -2px;
+    box-shadow: 0 4px 5px rgba(0,0,0,0.2);
+  }
+  
+  .card article {
+    padding: 10px;
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    flex-direction: column;
+    
+  }
+  .card .thumb {
+    padding-bottom: 60%;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .card p { 
+    flex: 1; /* make p grow to fill available space*/
+    line-height: 1.4;
+  }
+  
+  /* typography */
+  
+  .card span {
+    font-size: 12px;
+    font-weight: bold;
+    color: #999;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    margin: 2em 0 0 0;
+  }
+
+  .band {
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+
+  }
+
+  .item-2{
+    margin: 10px;
+  }
+  
+  @media only screen and (min-width: 500px) {
+    .band {
+      grid-template-columns: 1fr 1fr;
+    }  
+    .item-1 {
+    grid-column: 1/ span 2;
+    }
+    .item-1 h1 {
+      font-size: 30px;
+    }
+  }
+  
+  @media only screen and (min-width: 850px) {
+    .band {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+  }
