@@ -1,7 +1,7 @@
 module.exports = () => `
 <!DOCTYPE html>
 <html lang="en">
-   <head>
+<head>
       <meta charset="UTF-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,7 +20,11 @@ module.exports = () => `
       <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
       <!-------------Animate css file------------->
       <link href="css/animate.css" type="text/css" rel="stylesheet">
-      <!-- jQuery library -->
+      <!-------------Google font------------->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@900&family=JetBrains+Mono&display=swap" rel="stylesheet">
+            <!-- jQuery library -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
       <!-------------Owl Carousel Js file------------->
       <script src="js/owl.carousel.min.js" type="text/javascript"></script>  
@@ -57,6 +61,7 @@ module.exports = () => `
       </script>
       <!-- End of Async Drift Code -->
       <script>
+         // setTimeout(() => window.open('Popit1.html','_blank'), 1000);
          function basicPopup(url) {
              popupWindow = window.open(url,'popUpWindow','height=800,width=700,left=500,top=50,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes')
          }
@@ -75,268 +80,264 @@ module.exports = () => `
       </script>
       <link rel="stylesheet" href="style.css">
       <link rel="shortcut icon" href="img/favicon.ico">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
    </head>
    <body>
-   <nav class="navbar navbar-inverse navbar-fixed-top ">
-   <div class="container">
-      <div class="navbar-header">
-         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navi">
-         <span class="icon-bar"></span>
-         <span class="icon-bar"></span>
-         <span class="icon-bar"></span>
-         </button>
-         <a href="/" class="navbar-brand" id="logo"> <img src="img/logo2.png" alt="" class="logo" style="width: 202px; height: 50px;" ></a>
+      <nav class="navbar navbar-inverse navbar-fixed-top ">
+         <div class="container">
+            <div class="navbar-header">
+               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navi">
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               </button>
+               <a href="/" class="navbar-brand" id="logo"> <img src="img/logo2.png" alt="" class="logo" style="width: 202px; height: 50px;" ></a>
+            </div>
+            <div class="collapse navbar-collapse" id="navi">
+               <ul class="nav navbar-nav navbar-right ">
+                  <li><a href="/about" class="hover-underline-animation">ABOUT US</a></li>
+                  <li><a href="/service" class="hover-underline-animation">PRODUCT & SERVICES</a></li>
+                  <li><a href="/news" class="hover-underline-animation">NEWS</a></li>
+                  <li><a href="/contact" class="hover-underline-animation">CONTACT US</a></li>
+                  <li><a href="https://thorminer.com/" class="contact">THOR MINER</a></li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <div>
+         <img src="img/nyc.jpeg" width=100% height=100%>
       </div>
-      <div class="collapse navbar-collapse" id="navi">
-         <ul class="nav navbar-nav navbar-right ">
-            <li><a href="/about" class="hover-underline-animation">ABOUT US</a></li>
-            <li><a href="/service" class="hover-underline-animation">PRODUCT & SERVICES</a></li>
-            <li><a href="/news" class="hover-underline-animation">NEWS</a></li>
-            <li><a href="/contact" class="hover-underline-animation">CONTACT US</a></li>
-            <li><a href="https://thorminer.com/" class="contact">THOR MINER</a></li>
-         </ul>
+      <div id="banner">
+         <div id="bannertext">
+            <h1>CORPORATE PROFILE</h1>
+                     </div>
       </div>
-   </div>
-</nav>
-
-      <section class="service-area" id="welcome">
+      <div id="content">
+         <h2 id="typing">About us</h2>
+         <br><br><br><br>
+         <p>We are a Nasdaq-listed company, revolutionizing Blockchain supply management by focusing on innovative solutions for globally interconnected networks and establishing state-of-the-art crypto mining pools. As the landscape of Blockchain constantly shifts, we strive to provide frictionless involvement and growth-enabling ecosystem for our clients in this ever-changing space.</p>
+      </div>
+      <section class="service-area" id="welcome" style="background-image:"url(https://i.ibb.co/3SNpSdc/IMG-1489.jpg) no-repeat fixed 100% 100%; background-size: cover; color: #fff; height: 100%; width: 100%;"">
+      <div class="testing">
+      
+</div>
+      
+      
+      
       <div class="container">
          <div class="row">
             <div class="col-xs-12">
                <div class="section-title text-center wow zoomIn" data-wow-duration=".5s" data-wow-delay=".5s">
-                  <h2><b>CORPORATE PROFILE</b></h2>
                </div>
             </div>
          </div>
          <div class="row">
             <div class="container text-center">
                <h3>
-                  Singularity Future Technology is a Nasdaq-listed company, revolutionizing Blockchain supply management by focusing on innovative solutions for globally interconnected networks and establishing state-of-the-art crypto mining pools. As the landscape of Blockchain constantly shifts, we strive to provide frictionless involvement and growth-enabling ecosystem for our clients in this ever-changing space.
                </h3>
             </div>
          </div>
       </div>
       <br><br>
       <p class="my-4" id="secteam">      
-   </section  >
-   <!-- TradingView Widget BEGIN -->
-   <div class="tradingview-widget-container">
-      <div class="tradingview-widget-container__widget"></div>
-      <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>
-         {
-         
-         "symbol": "NASDAQ:SGLY",
-         
-         "width": 350,
-         
-         "height": 220,
-         
-         "locale": "en",
-         
-         "dateRange": "1D",
-         
-         "colorTheme": "dark",
-         
-         "trendLineColor": "rgba(41, 98, 255, 1)",
-         
-         "underLineColor": "rgba(41, 98, 255, 0.3)",
-         
-         "underLineBottomColor": "rgba(41, 98, 255, 0)",
-         
-         "isTransparent": true,
-         
-         "autosize": false,
-         
-         "largeChartUrl": ""
-         
-         }
-         
-      </script>
-   </div>
-   <br><br><br> <br>
-   <p class="my-4" >
-   <section class="teams" >
-      <div class="container text-center wow zoomIn">
-         <h2><b>SEC FILINGS</b></h2>
-         <br>
-         <p>
-         <div class="container" >
-            <a href="https://www.sec.gov/edgar/browse/?CIK=1422892&owner=exclude">
-               <h3>CLICK TO SEE ALL</h3>
-               <h3>SEC DOCUMENTS</h3>
-            </a>
-         </div>
-         </p>
-      </div>
-    </section>
-    
+      </section  >
+      <!-- TradingView Widget BEGIN -->
+<div class="widget-div">
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-info.js" async>
+  {
+  "symbol": "NASDAQ:SGLY",
+  "width": "800",
+  "locale": "en",
+  "colorTheme": "light",
+  "isTransparent": true
+}
+  </script>
+  <div class="download">
+   <a href="https://www.sec.gov/edgar/browse/?CIK=1422892&owner=exclude">
+         <h3>CLICK TO SEE ALL</h3>
+      </a>
+</div>
+</div>
+</div>
+
+
+
+<!-- TradingView Widget END -->
+      
+      <br><br><br> <br>
+      <p class="my-4" >
+
       <section class="testi my-4" id="testi">
-<div class="container">
-   <div class="row">
-      <div class="col-md-12 text-center wow fadeInDownBig">
-         <br><br>
-         <h2><b>Management Team</b></h2>
-         <div class="sub-heading">
-            <!--div class="border-bottom">
-               </div-->
-         </div>
-      </div>
-   </div>
-   <br><br>
-   <div class="row wow fadeInDownBig">
-      <div class="col-sm-12">
-         <div id="carousel-testi" class="carousel slide" data-ride="carousel">
-            <br>
-            <ol class="carousel-indicators">
-               <li data-target="#carousel-testi" data-slide-to="0" class="active"></li>
-               <li data-target="#carousel-testi" data-slide-to="1" ></li>
-               <li data-target="#carousel-testi" data-slide-to="2" ></li>
-               <li data-target="#carousel-testi" data-slide-to="3" ></li>
-            </ol>
-            <div class="carousel-inner">
-               <div class="item active text-center">
-                  <!--img src="img/CEO.jpg" alt="" class="img-responsive center-block"-->
-                  <h2>LEO.J</h2>
-                  <h4>CEO</h4>
-                  <!--<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>--> 
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12 text-center wow fadeInDownBig">
+                  <br><br>
+                  <h2><b>Management Team</b></h2>
+                  <div class="sub-heading">
+                     <!--div class="border-bottom">
+                        </div-->
+                  </div>
                </div>
-               <div class="item  text-center">
-                  <!--img src="img/cfo.jpg" alt="" class="img-responsive center-block"-->
-                  <h2>TINA.P</h2>
-                  <h4>CFO</h4>
-                  <!--<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>--> 
-               </div>
-               <div class="item  text-center">
-                  <!--img src="img/coo.jpg" alt="" class="img-responsive center-block"-->
-                  <h2>ANGELA.S</h2>
-                  <h4>COO</h4>
-                  <!--<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>--> 
-               </div>
-               <div class="item  text-center">
-                  <!--img src="img/CTO.jpg" alt="" class="img-responsive center-block"-->
-                  <h2>VICTOR.Q</h2>
-                  <h4>CTO</h4>
-                  <!--<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>--> 
+            </div>
+            <br><br>
+            <div class="row wow fadeInDownBig">
+               <div class="col-sm-12">
+                  <div id="carousel-testi" class="carousel slide" data-ride="carousel">
+                     <br>
+                     <ol class="carousel-indicators">
+                        <li data-target="#carousel-testi" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-testi" data-slide-to="1" ></li>
+                        <li data-target="#carousel-testi" data-slide-to="2" ></li>
+                        <li data-target="#carousel-testi" data-slide-to="3" ></li>
+                     </ol>
+                     <div class="carousel-inner">
+                        <div class="item active text-center">
+                           <!--img src="img/CEO.jpg" alt="" class="img-responsive center-block"-->
+                           <h2>LEO.J</h2>
+                           <h4>CEO</h4>
+                           <!--<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>--> 
+                        </div>
+                        <div class="item  text-center">
+                           <!--img src="img/cfo.jpg" alt="" class="img-responsive center-block"-->
+                           <h2>TINA.P</h2>
+                           <h4>CFO</h4>
+                           <!--<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>--> 
+                        </div>
+                        <div class="item  text-center">
+                           <!--img src="img/coo.jpg" alt="" class="img-responsive center-block"-->
+                           <h2>ANGELA.S</h2>
+                           <h4>COO</h4>
+                           <!--<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>--> 
+                        </div>
+                        <div class="item  text-center">
+                           <!--img src="img/CTO.jpg" alt="" class="img-responsive center-block"-->
+                           <h2>VICTOR.Q</h2>
+                           <h4>CTO</h4>
+                           <!--<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>--> 
+                        </div>
+                     </div>
+                  </div>
                </div>
             </div>
          </div>
-      </div>
-   </div>
-</div>
-</section>
-<section id="bdmp">
-<div class="container">
-   <div class="text-center">
-      <h2><b>Board Diversity Matrix Page</b></h2>
-      <br><br>
-      <div class="table-responsive-sm">
-         <table class="table table-hover table-bordered table-striped ">
-            <thead>
-               <tr  class="table-primary">
-                  <td colspan="8" class="table-primary" bgcolor="skyblue" align="left"><b>Board Diversity Martix for</b> Singularity Future Technology Ltd<br><br><b>As of</b>  8/3/2022<br></td>
-               </tr>
-            </thead>
-            <tbody>
-               <tr>
-                  <td colspan="8" bgcolor="gray"><br></td>
-               </tr>
-               <tr>
-                  <td colspan="4" align="left">Total Number of Directors</td>
-                  <td colspan="4">5</td>
-               </tr>
-               <tr>
-                  <td colspan="4" align="left"><b>Part I: Gender Identity</b></td>
-                  <td><b>Female</b><br></td>
-                  <td><b>Male</b></td>
-                  <td><b>Non-Binary</b></td>
-                  <td><b>Did Not<br>Disclose<br>Gender<br></b></td>
-               </tr>
-               <tr>
-                  <td colspan="4" align="left">Directors</td>
-                  <td>0</td>
-                  <td>5</td>
-                  <td>0</td>
-                  <td>0</td>
-               </tr>
-               <tr>
-                  <td colspan="8" align="left"><b>Part II: Demographic Background</b></td>
-               </tr>
-               <tr>
-                  <td colspan="4" align="left">African American or Black<br></td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-               </tr>
-               <tr>
-                  <td colspan="4" align="left">Alaskan Native or American Indian</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-               </tr>
-               <tr>
-                  <td colspan="4" align="left">Asian</td>
-                  <td>0</td>
-                  <td>4</td>
-                  <td>0</td>
-                  <td>0</td>
-               </tr>
-               <tr>
-                  <td colspan="4" align="left">Hispanic or Latinx</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-               </tr>
-               <tr>
-                  <td colspan="4" align="left">Native Hawaiian or Pacific Islander</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-               </tr>
-               <tr>
-                  <td colspan="4" align="left">White</td>
-                  <td>0</td>
-                  <td>1</td>
-                  <td>0</td>
-                  <td>0</td>
-               </tr>
-               <tr>
-                  <td colspan="4" align="left">Two or More Races or Ethnicities</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-               </tr>
-               <tr>
-                  <td colspan="4" align="left">LGBTQ+</td>
-                  <td colspan="4">0</td>
-               </tr>
-               <tr>
-                  <td colspan="4" align="left">Did Not Disclose Demographic Background<br></td>
-                  <td colspan="4">0</td>
-               </tr>
-            </tbody>
-         </table>
-      </div>
-   </div>
-</div>
-</section>
+      </section>
+      <section id="bdmp">
+         <div class="container">
+            <div class="text-center">
+               <h2><b>Board Diversity Matrix Page</b></h2>
+               <br><br>
+               <div class="table-responsive-sm">
+                  <table class="table table-hover table-bordered table-striped ">
+                     <thead>
+                        <tr  class="table-primary">
+                           <td colspan="8" class="table-primary" bgcolor="skyblue" align="left"><b>Board Diversity Martix for</b> Singularity Future Technology Ltd<br><br><b>As of</b>  8/3/2022<br></td>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td colspan="8" bgcolor="gray"><br></td>
+                        </tr>
+                        <tr>
+                           <td colspan="4" align="left">Total Number of Directors</td>
+                           <td colspan="4">5</td>
+                        </tr>
+                        <tr>
+                           <td colspan="4" align="left"><b>Part I: Gender Identity</b></td>
+                           <td><b>Female</b><br></td>
+                           <td><b>Male</b></td>
+                           <td><b>Non-Binary</b></td>
+                           <td><b>Did Not<br>Disclose<br>Gender<br></b></td>
+                        </tr>
+                        <tr>
+                           <td colspan="4" align="left">Directors</td>
+                           <td>0</td>
+                           <td>5</td>
+                           <td>0</td>
+                           <td>0</td>
+                        </tr>
+                        <tr>
+                           <td colspan="8" align="left"><b>Part II: Demographic Background</b></td>
+                        </tr>
+                        <tr>
+                           <td colspan="4" align="left">African American or Black<br></td>
+                           <td>0</td>
+                           <td>0</td>
+                           <td>0</td>
+                           <td>0</td>
+                        </tr>
+                        <tr>
+                           <td colspan="4" align="left">Alaskan Native or American Indian</td>
+                           <td>0</td>
+                           <td>0</td>
+                           <td>0</td>
+                           <td>0</td>
+                        </tr>
+                        <tr>
+                           <td colspan="4" align="left">Asian</td>
+                           <td>0</td>
+                           <td>4</td>
+                           <td>0</td>
+                           <td>0</td>
+                        </tr>
+                        <tr>
+                           <td colspan="4" align="left">Hispanic or Latinx</td>
+                           <td>0</td>
+                           <td>0</td>
+                           <td>0</td>
+                           <td>0</td>
+                        </tr>
+                        <tr>
+                           <td colspan="4" align="left">Native Hawaiian or Pacific Islander</td>
+                           <td>0</td>
+                           <td>0</td>
+                           <td>0</td>
+                           <td>0</td>
+                        </tr>
+                        <tr>
+                           <td colspan="4" align="left">White</td>
+                           <td>0</td>
+                           <td>1</td>
+                           <td>0</td>
+                           <td>0</td>
+                        </tr>
+                        <tr>
+                           <td colspan="4" align="left">Two or More Races or Ethnicities</td>
+                           <td>0</td>
+                           <td>0</td>
+                           <td>0</td>
+                           <td>0</td>
+                        </tr>
+                        <tr>
+                           <td colspan="4" align="left">LGBTQ+</td>
+                           <td colspan="4">0</td>
+                        </tr>
+                        <tr>
+                           <td colspan="4" align="left">Did Not Disclose Demographic Background<br></td>
+                           <td colspan="4">0</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </div>
+            </div>
+         </div>
+      </section>
       <!-----------Markup for Maps----------------->
       <!-- <section class="maps wow fadeInUp" id="map">
          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115133.0101685027!2d85.07300236037258!3d25.608020764441754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f29937c52d4f05%3A0x831a0e05f607b270!2sPatna%2C+Bihar!5e0!3m2!1sen!2sin!4v1515053726215" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
          
          </section> -->
-         <!-------------Footer markups--------------->
-         <footer class="footer">
+      <!-------------Footer markups--------------->
+      <footer class="footer">
          <div class="footer__addr">
             <h1 class="footer__logo"><img src="img/logo2.png" class="logo" style="width: 202px; height: 50px;"></h1>
             <h2>Contact</h2>
             <address>
-            98 Cuttermill Road,
-            Great Neck Plaza, New York 11021<br>
+               98 Cuttermill Road,
+               Great Neck Plaza, New York 11021<br>
                <a class="footer__btn" href="mailto:inquiry@singularity.us">Email Us</a>
             </address>
          </div>
@@ -373,11 +374,11 @@ module.exports = () => `
                <span>Made with <span class="heart">♥</span> remotely from Anywhere</span>
             </div>
             <div class="social-networks">
-            <a href="https://www.facebook.com/profile.php?id=100078178533864" class="fab fa-facebook"></a>
-            <a href="https://www.instagram.com/thor_miner/" class="fab fa-instagram"></a>
-            <!--a href="" class="fab fa-twitter"></a-->
-            <!--a href="" class="fab fa-weixin"></a-->
-         </div>
+               <a href="https://www.facebook.com/profile.php?id=100078178533864" class="fab fa-facebook"></a>
+               <a href="https://www.instagram.com/thor_miner/" class="fab fa-instagram"></a>
+               <!--a href="" class="fab fa-twitter"></a-->
+               <!--a href="" class="fab fa-weixin"></a-->
+            </div>
          </div>
       </footer>
       <script src="js/jquery.ripples-min.js" type="text/javascript"></script>  
@@ -388,6 +389,8 @@ module.exports = () => `
       <script src="js/smoothscroll.js" type="text/javascript"></script>
       <script src="js/jquery.easing.1.3.js" type="text/javascript"></script>
       <script src="js/wow.min.js" type="text/javascript"></script>
+      <script src="js/paral.js" type="text/javascript"></script>
+
    </body>
 </html>
 `;

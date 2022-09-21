@@ -20,11 +20,11 @@ module.exports = () => `
       <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
       <!-------------Animate css file------------->
       <link href="css/animate.css" type="text/css" rel="stylesheet">
-      <!-------------Animate css file------------->
+      <!-------------Google font------------->
       <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
-      <!-- jQuery library -->
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@900&family=JetBrains+Mono&display=swap" rel="stylesheet">
+            <!-- jQuery library -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
       <!-------------Owl Carousel Js file------------->
       <script src="js/owl.carousel.min.js" type="text/javascript"></script>  
@@ -123,6 +123,66 @@ module.exports = () => `
             </div>
          </div>
       </section>
+      <!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+  {
+  "symbols": [
+    {
+      "proName": "BITSTAMP:BTCUSD",
+      "title": "Bitcoin"
+    },
+    {
+      "proName": "BITSTAMP:ETHUSD",
+      "title": "Ethereum"
+    },
+    {
+      "description": "Tether",
+      "proName": "CRYPTOCAP:USDT"
+    },
+    {
+      "description": "USD COIN",
+      "proName": "CRYPTOCAP:USDC"
+    },
+    {
+      "description": "BNB",
+      "proName": "CRYPTOCAP:BNB"
+    },
+    {
+      "description": "Binance USD",
+      "proName": "BINANCE:BUSDTRY"
+    },
+    {
+      "description": "XRP",
+      "proName": "CRYPTOCAP:XRP"
+    },
+    {
+      "description": "Solana",
+      "proName": "CRYPTOCAP:SOL"
+    },
+    {
+      "description": "dogecoin",
+      "proName": "CRYPTOCAP:DOGE"
+    },
+    {
+      "description": "polkadot",
+      "proName": "CRYPTOCAP:DOT"
+    },
+    {
+      "description": "polygon",
+      "proName": "CRYPTOCAP:MATIC"
+    }
+  ],
+  "showSymbolLogo": true,
+  "colorTheme": "light",
+  "isTransparent": false,
+  "displayMode": "regular",
+  "locale": "en"
+}
+  </script>
+</div>
+<!-- TradingView Widget END -->
       <section class="service-area" id="welcome">
       <div class="container">
       <div style="display:flex;justify-content: center;">
@@ -144,18 +204,22 @@ module.exports = () => `
             </div>
       <br><br>
       <div style="margin-top:100px">
-      <h1 class="hover-underline-animation section-title text-center wow zoomIn" data-wow-duration=".65s" data-wow-delay=".65s" " style="text-decoration: none;">Get to Know us</h1>
+      
+      <h1 class="hover-underline-animation section-title text-center wow zoomIn" data-wow-duration=".65s" data-wow-delay=".65s" " style="text-decoration: none;">Our Story</h1>
       <p class="my-4" id="secteam">  
       </div>
-  <div class="band">
-    <div class="item-2">
+      <div class="row">
+      <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="item-2">
           <a href="/about" class="card section-title text-center wow zoomIn" data-wow-duration=".65s" data-wow-delay=".65s"">
             <div class="thumb" style="background-image: url(https://images.pexels.com/photos/380769/pexels-photo-380769.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);"></div>
             <article>
               <span>About us</span>
             </article>
           </a>
-    </div>
+            </div>
+      </div>
+      <div class="col-md-6 col-sm-6 col-xs-12">
     <div class="item-2">
     <a href="/news" class="card section-title text-center wow zoomIn" data-wow-duration=".75s" data-wow-delay=".75s"">
       <div class="thumb" style="background-image: url(https://images.pexels.com/photos/3944463/pexels-photo-3944463.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);"></div>
@@ -163,7 +227,9 @@ module.exports = () => `
         <span>Our News</span>
       </article>
     </a>
-</div>
+   </div>
+   </div>
+
   </div>    
    </section  >
       <!-----------Markup for Maps----------------->

@@ -275,6 +275,7 @@ module.exports = () =>
       <ul>
       <li>By email: inquiry@singularity.us</li>
       </ul>
+  </div>
       <!-------------Footer markups--------------->
       <footer class="footer">
       <div class="footer__addr">

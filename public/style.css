@@ -3,6 +3,8 @@
     padding: 0;
 }
 
+
+
 body {
     background-color: #F9F9F9;
 }
@@ -14,7 +16,7 @@ body {
     transition: all 0.5s ease-in-out;
     background-color: rgba(0,0,0,0.25);
     backdrop-filter: blur(8px);
-    
+    font-family: 'JetBrains Mono', monospace;
 
 }
 
@@ -451,7 +453,7 @@ h4.team-member-designation{
 }
 
 .title h1 {
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Hahmlet', serif;
     font-size: 30px;
 
 }
@@ -718,6 +720,8 @@ h4.team-member-designation{
     .legal .legal__links {
         margin-left: auto;
 }
+
+
 @media screen and (min-width: 40.375em) {
     .footer__nav > * {
         flex: 1;
@@ -731,6 +735,7 @@ h4.team-member-designation{
     .footer__nav {
         flex: 2 0px;
    }
+
 }
 
 @media screen and (max-width: 24.375em) {
@@ -739,11 +744,11 @@ h4.team-member-designation{
     justify-content: center;
     margin-left:0px ;
     margin-top: -10px;
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'JetBrains Mono', monospace;
 
    }
    .title h1{
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'JetBrains Mono', monospace;
     font-size: 40px;
    }
    .cta-div{
@@ -755,6 +760,12 @@ h4.team-member-designation{
     margin-left: 60px;
     margin-right: 60px;
    }
+
+   video{
+    max-width: 100px;
+   }
+
+
 }
 }
 
@@ -763,8 +774,6 @@ h4.team-member-designation{
 
   
 .card {
-    height: 300px;
-    width: 400px;
     background: white;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     display: flex;
@@ -813,11 +822,6 @@ h4.team-member-designation{
   }
 
   .band {
-    display: flex;
-    justify-content: center;
-    width: 1000px;
-    height: 500px;
-    margin: 0 auto;
 
   }
 
@@ -825,20 +829,42 @@ h4.team-member-designation{
     margin: 10px;
   }
   
-  @media only screen and (min-width: 500px) {
-    .band {
-      grid-template-columns: 1fr 1fr;
-    }  
-    .item-1 {
-    grid-column: 1/ span 2;
-    }
-    .item-1 h1 {
-      font-size: 30px;
-    }
-  }
-  
-  @media only screen and (min-width: 850px) {
-    .band {
-      grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
-  }
+
+  /* About page  */
+
+  #banner {
+    color: #fff;
+    height: 100%;
+    width: 100%;
+}
+#bannertext {
+    text-align: center;
+    width: 24em;
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    border: .5em solid #fff;
+    margin-left: -12em;
+    padding: 2em 0;
+}
+#content {
+    max-width: 48em;
+    text-align: justify;
+    margin: 0 auto;
+    padding: 2em;
+}
+#content p {
+    margin: 0 0 2em;
+}
+
+.widget-div {
+   display:flex;
+   justify-content: center; 
+   padding-top:140px;
+   background-color: #dddddda6;
+   padding-bottom: 140px;
+
+}
+
+@import url("https://fonts.googleapis.com/css?family=Share+Tech+Mono|Montserrat:700");
+
