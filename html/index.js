@@ -238,6 +238,7 @@ module.exports = () => `
          
          </section> -->
       <!-------------Footer markups--------------->
+      <div class="column-12 column-xs-12 column-sm-12 tab">
       <footer class="footer">
       <div class="footer__addr">
          <h1 class="footer__logo"><img src="img/logo2.png" class="logo" style="width: 202px; height: 50px;"></h1>
@@ -288,6 +289,7 @@ module.exports = () => `
       </div>
       </div>
    </footer>
+   </div>
       <script src="js/jquery.ripples-min.js" type="text/javascript"></script>  
       <script src="js/typed.min.js" type="text/javascript"></script>
       <script src="js/jquery.waypoints.min.js" type="text/javascript"></script>

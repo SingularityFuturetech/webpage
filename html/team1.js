@@ -107,146 +107,210 @@ module.exports = () => `
          </div>
       </nav>
       <div>
-         <img src="img/nyc.jpeg" width=100% height=100%>
-      </div>
-      <div id="banner">
-         <div id="bannertext">
-            <h1>CORPORATE PROFILE</h1>
-                     </div>
-      </div>
-      <div id="content">
-         <h2 id="typing">About us</h2>
-         <br><br><br><br>
-         <p>We are a Nasdaq-listed company, revolutionizing Blockchain supply management by focusing on innovative solutions for globally interconnected networks and establishing state-of-the-art crypto mining pools. As the landscape of Blockchain constantly shifts, we strive to provide frictionless involvement and growth-enabling ecosystem for our clients in this ever-changing space.</p>
-      </div>
-      <section class="service-area" id="welcome" style="background-image:"url(https://i.ibb.co/3SNpSdc/IMG-1489.jpg) no-repeat fixed 100% 100%; background-size: cover; color: #fff; height: 100%; width: 100%;"">
-      <div class="testing">
+      <br><br><br> <br>
+      <p class="my-4" >
+      <div class="about_container">
+      <h1 class="center">Management Team</h1>
+      <article class="episode">
+        <div class="episode__number">CEO</div>
+        <div class="episode__content">
+          <div class="title"></div>
+          <div class="story">
+            <h2>LEO.J</h2>
+          </div>
+        </div>
+      </article>
       
-</div>
-      <div class="container">
-         <div class="row">
-            <div class="col-xs-12">
-               <div class="section-title text-center wow zoomIn" data-wow-duration=".5s" data-wow-delay=".5s">
+      <article class="episode">
+        <div class="episode__number">CFO</div>
+        <div class="episode__content">
+          <div class="title"></div>
+          <div class="story">
+            <h2>TINA.P </h2>
+          </div>
+        </div>
+      </article>
+      
+      <article class="episode">
+        <div class="episode__number">COO</div>
+        <div class="episode__content">
+          <div class="title"></div>
+          <div class="story">
+            <h2>ANGELA.S</h2>
+            </div>
+        </div>
+      </article>
+      
+      <article class="episode">
+        <div class="episode__number">CTO</div>
+        <div class="episode__content">
+          <div class="title"></div>
+          <div class="story">
+          <h2>VICTOR.Q<h2>
+          </div>
+        </div>
+      </article>
+    </div>
+      <section class="testi my-4" id="testi">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12 text-center wow fadeInDownBig">
+                  <br><br>
+                  <h2><b>Management Team</b></h2>
+                  <div class="sub-heading">
+                     <!--div class="border-bottom">
+                        </div-->
+                  </div>
+               </div>
+            </div>
+            <br><br>
+            <div class="row wow fadeInDownBig">
+               <div class="col-sm-12">
+                  <div id="carousel-testi" class="carousel slide" data-ride="carousel">
+                     <br>
+                     <ol class="carousel-indicators">
+                        <li data-target="#carousel-testi" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-testi" data-slide-to="1" ></li>
+                        <li data-target="#carousel-testi" data-slide-to="2" ></li>
+                        <li data-target="#carousel-testi" data-slide-to="3" ></li>
+                     </ol>
+                     <div class="carousel-inner">
+                        <div class="item active text-center">
+                           <!--img src="img/CEO.jpg" alt="" class="img-responsive center-block"-->
+                           <h2>LEO.J</h2>
+                           <h4>CEO</h4>
+                           <!--<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>--> 
+                        </div>
+                        <div class="item  text-center">
+                           <!--img src="img/cfo.jpg" alt="" class="img-responsive center-block"-->
+                           <h2>TINA.P</h2>
+                           <h4>CFO</h4>
+                           <!--<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>--> 
+                        </div>
+                        <div class="item  text-center">
+                           <!--img src="img/coo.jpg" alt="" class="img-responsive center-block"-->
+                           <h2>ANGELA.S</h2>
+                           <h4>COO</h4>
+                           <!--<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>--> 
+                        </div>
+                        <div class="item  text-center">
+                           <!--img src="img/CTO.jpg" alt="" class="img-responsive center-block"-->
+                           <h2>VICTOR.Q</h2>
+                           <h4>CTO</h4>
+                           <!--<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>--> 
+                        </div>
+                     </div>
+                  </div>
                </div>
             </div>
          </div>
-         <div class="row">
-            <div class="container text-center">
-               <h3>
-               </h3>
+      </section>
+      <section id="bdmp">
+         <div class="container">
+            <div class="text-center">
+               <h2><b>Board Diversity Matrix Page</b></h2>
+               <br><br>
+               <div class="table-responsive-sm">
+                  <table class="table table-hover table-bordered table-striped ">
+                     <thead>
+                        <tr  class="table-primary">
+                           <td colspan="8" class="table-primary" bgcolor="skyblue" align="left"><b>Board Diversity Martix for</b> Singularity Future Technology Ltd<br><br><b>As of</b>  8/3/2022<br></td>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td colspan="8" bgcolor="gray"><br></td>
+                        </tr>
+                        <tr>
+                           <td colspan="4" align="left">Total Number of Directors</td>
+                           <td colspan="4">5</td>
+                        </tr>
+                        <tr>
+                           <td colspan="4" align="left"><b>Part I: Gender Identity</b></td>
+                           <td><b>Female</b><br></td>
+                           <td><b>Male</b></td>
+                           <td><b>Non-Binary</b></td>
+                           <td><b>Did Not<br>Disclose<br>Gender<br></b></td>
+                        </tr>
+                        <tr>
+                           <td colspan="4" align="left">Directors</td>
+                           <td>0</td>
+                           <td>5</td>
+                           <td>0</td>
+                           <td>0</td>
+                        </tr>
+                        <tr>
+                           <td colspan="8" align="left"><b>Part II: Demographic Background</b></td>
+                        </tr>
+                        <tr>
+                           <td colspan="4" align="left">African American or Black<br></td>
+                           <td>0</td>
+                           <td>0</td>
+                           <td>0</td>
+                           <td>0</td>
+                        </tr>
+                        <tr>
+                           <td colspan="4" align="left">Alaskan Native or American Indian</td>
+                           <td>0</td>
+                           <td>0</td>
+                           <td>0</td>
+                           <td>0</td>
+                        </tr>
+                        <tr>
+                           <td colspan="4" align="left">Asian</td>
+                           <td>0</td>
+                           <td>4</td>
+                           <td>0</td>
+                           <td>0</td>
+                        </tr>
+                        <tr>
+                           <td colspan="4" align="left">Hispanic or Latinx</td>
+                           <td>0</td>
+                           <td>0</td>
+                           <td>0</td>
+                           <td>0</td>
+                        </tr>
+                        <tr>
+                           <td colspan="4" align="left">Native Hawaiian or Pacific Islander</td>
+                           <td>0</td>
+                           <td>0</td>
+                           <td>0</td>
+                           <td>0</td>
+                        </tr>
+                        <tr>
+                           <td colspan="4" align="left">White</td>
+                           <td>0</td>
+                           <td>1</td>
+                           <td>0</td>
+                           <td>0</td>
+                        </tr>
+                        <tr>
+                           <td colspan="4" align="left">Two or More Races or Ethnicities</td>
+                           <td>0</td>
+                           <td>0</td>
+                           <td>0</td>
+                           <td>0</td>
+                        </tr>
+                        <tr>
+                           <td colspan="4" align="left">LGBTQ+</td>
+                           <td colspan="4">0</td>
+                        </tr>
+                        <tr>
+                           <td colspan="4" align="left">Did Not Disclose Demographic Background<br></td>
+                           <td colspan="4">0</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </div>
             </div>
          </div>
-      </div>
-      <br><br>
-      <p class="my-4" id="secteam">      
-      </section  >
-      <div class="column-12 column-xs-12 column-sm-12 tab">
-      <!-- TradingView Widget BEGIN -->
-<div class="widget-div">
-<div class="tradingview-widget-container">
-  <div class="tradingview-widget-container__widget"></div>
-  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-info.js" async>
-  {
-  "symbol": "NASDAQ:SGLY",
-  "width": "800",
-  "locale": "en",
-  "colorTheme": "light",
-  "isTransparent": true
-}
-  </script>
-  <div class="download">
-   <a href="/team">
-         see more
-      </a>
-</div>
-</div>
-</div>
-<!-- TradingView Widget END -->
-</div>
-
-
-
-<!-- About Section -->
-<section id="about">
-    <div class="container" style="margin-bottom:200px" >
-        <div class="row">
-            <div class="col-lg-12 text-center" style="margin-top:250px; margin-bottom:100px">
-                <h2 class="section-heading">About</h2>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-12">
-                <ul class="timeline">
-                    <li>
-                        <div class="timeline-image">
-                            <img class="img-circle img-responsive" src="img/about/1.jpg" alt="">
-                        </div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>2009-2011</h4>
-                                <h4 class="subheading">Our Humble Beginnings</h4>
-                            </div>
-                            <div class="timeline-body">
-                                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image">
-                            <img class="img-circle img-responsive" src="img/about/2.jpg" alt="">
-                        </div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>March 2011</h4>
-                                <h4 class="subheading">An Agency is Born</h4>
-                            </div>
-                            <div class="timeline-body">
-                                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="timeline-image">
-                            <img class="img-circle img-responsive" src="img/about/3.jpg" alt="">
-                        </div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>December 2012</h4>
-                                <h4 class="subheading">Transition to Full Service</h4>
-                            </div>
-                            <div class="timeline-body">
-                                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image">
-                            <img class="img-circle img-responsive" src="img/about/4.jpg" alt="">
-                        </div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>July 2014</h4>
-                                <h4 class="subheading">Phase Two Expansion</h4>
-                            </div>
-                            <div class="timeline-body">
-                                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image">
-                            <h4>Be Part
-                                <br>Of Our
-                                <br>Story!</h4>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</section>
+      </section>
+      <!-----------Markup for Maps----------------->
+      <!-- <section class="maps wow fadeInUp" id="map">
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115133.0101685027!2d85.07300236037258!3d25.608020764441754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f29937c52d4f05%3A0x831a0e05f607b270!2sPatna%2C+Bihar!5e0!3m2!1sen!2sin!4v1515053726215" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+         
+         </section> -->
       <!-------------Footer markups--------------->
-      <div class="column-12 column-xs-12 column-sm-12 tab">
       <footer class="footer">
          <div class="footer__addr">
             <h1 class="footer__logo"><img src="img/logo2.png" class="logo" style="width: 202px; height: 50px;"></h1>
@@ -297,7 +361,6 @@ module.exports = () => `
             </div>
          </div>
       </footer>
-      </div>
       <script src="js/jquery.ripples-min.js" type="text/javascript"></script>  
       <script src="js/typed.min.js" type="text/javascript"></script>
       <script src="js/jquery.waypoints.min.js" type="text/javascript"></script>

@@ -6,6 +6,7 @@ const news = require('./html/news');
 const about = require('./html/about');
 const contact = require('./html/contact');
 const policy = require('./html/privacyPolicy');
+const team = require('./html/team');
 
 const path = require('path');
 app = express();
@@ -56,6 +57,14 @@ app.get('/contact', async (req, res, next) => {
 app.get('/privacypolicy', async (req, res, next) => {
   try {
     res.send(policy());
+  } catch (ex) {
+    next(ex);
+  }
+});
+
+app.get('/team', async (req, res, next) => {
+  try {
+    res.send(team());
   } catch (ex) {
     next(ex);
   }
