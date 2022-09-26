@@ -327,7 +327,7 @@ module.exports = () => `
                      <a href="/service">Product and Services</a>
                   </li>
                   <li>
-                     <a href="/news">News</a>
+                     <a href="/team">Team</a>
                   </li>
                   <li>
                      <a href="/contact">Contact Us</a>
@@ -348,15 +348,6 @@ module.exports = () => `
          </ul>
          <div class="legal">
             <p>&copy; 2022 Singularity Future Technology Ltd. All rights reserved.</p>
-            <div class="legal__links">
-               <span>Made with <span class="heart">♥</span> remotely from Anywhere</span>
-            </div>
-            <div class="social-networks">
-               <a href="https://www.facebook.com/profile.php?id=100078178533864" class="fab fa-facebook"></a>
-               <a href="https://www.instagram.com/thor_miner/" class="fab fa-instagram"></a>
-               <!--a href="" class="fab fa-twitter"></a-->
-               <!--a href="" class="fab fa-weixin"></a-->
-            </div>
          </div>
       </footer>
       </div>
@@ -369,7 +360,6 @@ module.exports = () => `
       <script src="js/jquery.easing.1.3.js" type="text/javascript"></script>
       <script src="js/wow.min.js" type="text/javascript"></script>
       <script src="js/paral.js" type="text/javascript"></script>
-
    </body>
 </html>
 `;

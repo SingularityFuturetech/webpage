@@ -232,20 +232,15 @@ module.exports = () => `
 
   </div>    
    </section  >
-      <!-----------Markup for Maps----------------->
-      <!-- <section class="maps wow fadeInUp" id="map">
-         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115133.0101685027!2d85.07300236037258!3d25.608020764441754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f29937c52d4f05%3A0x831a0e05f607b270!2sPatna%2C+Bihar!5e0!3m2!1sen!2sin!4v1515053726215" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-         
-         </section> -->
-      <!-------------Footer markups--------------->
-      <div class="column-12 column-xs-12 column-sm-12 tab">
-      <footer class="footer">
+   <!-------------Footer markups--------------->
+   <div class="column-12 column-xs-12 column-sm-12 tab">
+   <footer class="footer">
       <div class="footer__addr">
          <h1 class="footer__logo"><img src="img/logo2.png" class="logo" style="width: 202px; height: 50px;"></h1>
          <h2>Contact</h2>
          <address>
-         98 Cuttermill Road,
-         Great Neck Plaza, New York 11021<br>
+            98 Cuttermill Road,
+            Great Neck Plaza, New York 11021<br>
             <a class="footer__btn" href="mailto:inquiry@singularity.us">Email Us</a>
          </address>
       </div>
@@ -257,7 +252,7 @@ module.exports = () => `
                   <a href="/service">Product and Services</a>
                </li>
                <li>
-                  <a href="/news">News</a>
+                  <a href="/team">Team</a>
                </li>
                <li>
                   <a href="/contact">Contact Us</a>
@@ -271,22 +266,13 @@ module.exports = () => `
                   <a href="/privacypolicy">Privacy Policy</a>
                </li>
                <li>
-                  <a href="#">Terms of Use</a>
+                  <a href="/terms">Terms of Use</a>
                </li>
             </ul>
          </li>
       </ul>
       <div class="legal">
          <p>&copy; 2022 Singularity Future Technology Ltd. All rights reserved.</p>
-         <div class="legal__links">
-            <span>Made with <span class="heart">♥</span> remotely from Anywhere</span>
-         </div>
-         <div class="social-networks">
-         <a href="https://www.facebook.com/profile.php?id=100078178533864" class="fab fa-facebook"></a>
-         <a href="https://www.instagram.com/thor_miner/" class="fab fa-instagram"></a>
-         <!--a href="" class="fab fa-twitter"></a-->
-         <!--a href="" class="fab fa-weixin"></a-->
-      </div>
       </div>
    </footer>
    </div>

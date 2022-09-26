@@ -5,6 +5,8 @@ const about = require('./html/about');
 const contact = require('./html/contact');
 const policy = require('./html/privacyPolicy');
 const team = require('./html/team');
+const terms = require('./html/termsOfUse');
+
 
 const path = require('path');
 app = express();
@@ -60,6 +62,15 @@ app.get('/team', async (req, res, next) => {
     next(ex);
   }
 });
+
+app.get('/terms', async (req, res, next) => {
+  try {
+    res.send(terms());
+  } catch (ex) {
+    next(ex);
+  }
+});
+
 
 const PORT = process.env.PORT || 3000;
 
