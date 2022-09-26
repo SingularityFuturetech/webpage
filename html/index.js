@@ -85,27 +85,27 @@ module.exports = () => `
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
    </head>
    <body>
-      <nav class="navbar navbar-inverse navbar-fixed-top ">
-         <div class="container">
-            <div class="navbar-header">
-               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navi">
-               <span class="icon-bar"></span>
-               <span class="icon-bar"></span>
-               <span class="icon-bar"></span>
-               </button>
-               <a href="/" class="navbar-brand" id="logo"> <img src="img/logo2.png" alt="" class="logo" style="width: 202px; height: 50px;" ></a>
-            </div>
-            <div class="collapse navbar-collapse" id="navi">
-               <ul class="nav navbar-nav navbar-right ">
-                  <li><a href="/about" class="hover-underline-animation">ABOUT US</a></li>
-                  <li><a href="/service" class="hover-underline-animation">PRODUCT & SERVICES</a></li>
-                  <li><a href="/news" class="hover-underline-animation">NEWS</a></li>
-                  <li><a href="/contact" class="hover-underline-animation">CONTACT US</a></li>
-                  <li><a href="https://thorminer.com/" class="contact">THOR MINER</a></li>
-               </ul>
-            </div>
-         </div>
-      </nav>
+   <nav class="navbar navbar-inverse navbar-fixed-top ">
+   <div class="container">
+      <div class="navbar-header">
+         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navi">
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+         </button>
+         <a href="/" class="navbar-brand" id="logo"> <img src="img/logo2.png" alt="" class="logo" style="width: 202px; height: 50px;" ></a>
+      </div>
+      <div class="collapse navbar-collapse" id="navi">
+         <ul class="nav navbar-nav navbar-right ">
+            <li><a href="/about" class="hover-underline-animation">ABOUT US</a></li>
+            <li><a href="/service" class="hover-underline-animation">PRODUCT & SERVICES</a></li>
+            <li><a href="/team" class="hover-underline-animation">TEAM</a></li>
+            <li><a href="/contact" class="hover-underline-animation">CONTACT US</a></li>
+            <li><a href="https://thorminer.com/" class="contact">THOR MINER</a></li>
+         </ul>
+      </div>
+   </div>
+</nav>
       <section class="slider text-center" id="slider">
          <div class="slider-overlay">
             <div id="video" >
@@ -221,10 +221,10 @@ module.exports = () => `
       </div>
       <div class="col-md-6 col-sm-6 col-xs-12">
     <div class="item-2">
-    <a href="/news" class="card section-title text-center wow zoomIn" data-wow-duration=".75s" data-wow-delay=".75s"">
-      <div class="thumb" style="background-image: url(https://images.pexels.com/photos/3944463/pexels-photo-3944463.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);"></div>
+    <a href="/team" class="card section-title text-center wow zoomIn" data-wow-duration=".75s" data-wow-delay=".75s"">
+      <div class="thumb" style="background-image: url(https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);"></div>
       <article>
-        <span>Our News</span>
+        <span>Our Team</span>
       </article>
     </a>
    </div>

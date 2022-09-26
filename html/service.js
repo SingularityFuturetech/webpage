@@ -20,6 +20,10 @@ module.exports = () => `
       <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
       <!-------------Animate css file------------->
       <link href="css/animate.css" type="text/css" rel="stylesheet">
+      <!-------------Google font------------->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@900&family=JetBrains+Mono&display=swap" rel="stylesheet">
       <!-- jQuery library -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
       <!-------------Owl Carousel Js file------------->
@@ -91,7 +95,7 @@ module.exports = () => `
          <ul class="nav navbar-nav navbar-right ">
             <li><a href="/about" class="hover-underline-animation">ABOUT US</a></li>
             <li><a href="/service" class="hover-underline-animation">PRODUCT & SERVICES</a></li>
-            <li><a href="/news" class="hover-underline-animation">NEWS</a></li>
+            <li><a href="/team" class="hover-underline-animation">TEAM</a></li>
             <li><a href="/contact" class="hover-underline-animation">CONTACT US</a></li>
             <li><a href="https://thorminer.com/" class="contact">THOR MINER</a></li>
          </ul>

@@ -22,6 +22,10 @@ module.exports = () => `
       <link href="css/animate.css" type="text/css" rel="stylesheet">
       <!-- jQuery library -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <!-------------Google font------------->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@900&family=JetBrains+Mono&display=swap" rel="stylesheet">
       <!-------------Owl Carousel Js file------------->
       <script src="js/owl.carousel.min.js" type="text/javascript"></script>  
       <!-------------Magnific popup Js file------------->
@@ -91,80 +95,57 @@ module.exports = () => `
          <ul class="nav navbar-nav navbar-right ">
             <li><a href="/about" class="hover-underline-animation">ABOUT US</a></li>
             <li><a href="/service" class="hover-underline-animation">PRODUCT & SERVICES</a></li>
-            <li><a href="/news" class="hover-underline-animation">NEWS</a></li>
+            <li><a href="/team" class="hover-underline-animation">TEAM</a></li>
             <li><a href="/contact" class="hover-underline-animation">CONTACT US</a></li>
             <li><a href="https://thorminer.com/" class="contact">THOR MINER</a></li>
          </ul>
       </div>
    </div>
 </nav>
+   <div class="contact-us-body">
+   <div class="contact-form-container">
+   <div class="contact-us">
+     <div class="contact-header">
+       <h1>&#9135;&#9135;&#9135;&#9135;&nbsp;&nbsp;CONTACT US</h1>
+     </div>
+   </div>
+   <div class="header">
+     <h1>Let's keep in touch</h1>
+   </div>
+   <div class="address">
+     <i class="fas fa-map-marker-alt">
+     </i>
+     <h3>98 Cuttermill Road</h3>
+     <h3>Great Neck Plaza, New York</h3>
+   </div>
+   <div class="phone">
+     <i class="fas fa-phone-alt">
+     </i>
+     <h3>718-888-1814 </h3>
+     <h3>917-714-4331 </h3>
 
-      
-      <section class="contact-area" id="contact">
-      <div class="container-fluid">
-         <div class="row">
-            <div class="col-md-6 col-md-offset-3 text-center">
-               <div class="section-heading wow fadeInUp" data-wow-duration=".2s" data-wow-delay=".2s">
-                  <h2 class="section-title"><b>SEND MESSAGE</b></h2>
-                  <div class="border-bottom-now"></div>
-               </div>
-            </div>
-         </div>
-         <br><br><br><br>
-         <div class="row wow fadeInUp">
-            <div class="col-md-8 col-md-offset-2">
-               <form id="contactform" class="contact-form" action="https://formspree.io/f/xpzbpjrj"
-                  method="POST">
-                  <div class="row">
-                     <div class="col-md-6"><input id="name" type="text" class="form-control" name="name" placeholder="Name" required></div>
-                     <div class="col-md-6"><input id="email" class="form-control" type="email" name="Email" placeholder="Email" required></div>
-                     <div class="col-md-12"><br>
-                        <input type="text" id="subject" placeholder="Subject" class="form-control" name
-                           ="name" required>
-                     </div>
-                     <div class="col-md-12"><br>
-                        <textarea id="message" rows="5" class="form-control" placeholder="Message" required></textarea>                                  
-                     </div>
-                     <div class="col-md-12 text-center"><br><br>
-                        <button class="btn" type="submit">Submit Message</button>                                    
-                     </div>
-                  </div>
-               </form>
-            </div>
-         </div>
-         <div class="row">
-            <div class="contact-infos">
-               <div class="col-md-4 text-center">
-                  <div class="contact-item wow fadeInLeft" data-wow-duration=".3s" data-wow-delay=".3s">
-                     <span class="contact-icon"><i class="fa fa-map-marker"></i></span>
-                     <p class="contact-detail">
-                        98 Cuttermill Road<br>
-                        Great Neck Plaza, New York                                     
-                     </p>
-                  </div>
-               </div>
-               <div class="col-md-4 text-center">
-                  <div class="contact-item wow fadeInLeft" data-wow-duration=".6s" data-wow-delay=".6s">
-                     <span class="contact-icon"><i class="fa fa-envelope"></i></span>
-                     <p class="contact-detail">
-                        inquiry@singularity.us <br>
-                        support@singularity.us                                 
-                     </p>
-                  </div>
-               </div>
-               <div class="col-md-4 text-center">
-                  <div class="contact-item wow fadeInLeft" data-wow-duration=".9s" data-wow-delay=".9s">
-                     <span class="contact-icon"><i class="fa fa-phone"></i></span>
-                     <p class="contact-detail">
-                        718-888-1814 - Central Office<br>
-                        917-714-4331 - HQ <br>
-                     </p>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-   </section>
+   </div>
+   <div class="email">
+     <i class="fas fa-envelope">
+     </i>
+     <h3>inquiry@singularity.us </h3>
+     <h3>support@singularity.us  </h3>
+   </div>
+   <div class="contact-form">
+     <form action="https://formspree.io/f/xpzbpjrj"
+     method="POST">
+       <input type="text" name="name" placeholder="Name" required  />
+       <input placeholder="Email" type="email" name="Email" placeholder="Email" required />
+       <textarea placeholder="Message..." rows="4" required>
+ </textarea>
+       <button type="submit">SEND </button>
+     </form>
+   </div>
+ </div>
+ </div>
+
+
+
       <!-----------Markup for Maps----------------->
       <!-- <section class="maps wow fadeInUp" id="map">
          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115133.0101685027!2d85.07300236037258!3d25.608020764441754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f29937c52d4f05%3A0x831a0e05f607b270!2sPatna%2C+Bihar!5e0!3m2!1sen!2sin!4v1515053726215" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>

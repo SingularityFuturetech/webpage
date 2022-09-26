@@ -1,8 +1,6 @@
 const express = require('express');
-const bodyParser = require('body-parser');
 const homePage = require('./html/index');
 const service = require('./html/service');
-const news = require('./html/news');
 const about = require('./html/about');
 const contact = require('./html/contact');
 const policy = require('./html/privacyPolicy');
@@ -38,13 +36,6 @@ app.get('/about', async (req, res, next) => {
   }
 });
 
-app.get('/news', async (req, res, next) => {
-  try {
-    res.send(news());
-  } catch (ex) {
-    next(ex);
-  }
-});
 
 app.get('/contact', async (req, res, next) => {
   try {

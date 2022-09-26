@@ -99,7 +99,7 @@ module.exports = () => `
                <ul class="nav navbar-nav navbar-right ">
                   <li><a href="/about" class="hover-underline-animation">ABOUT US</a></li>
                   <li><a href="/service" class="hover-underline-animation">PRODUCT & SERVICES</a></li>
-                  <li><a href="/news" class="hover-underline-animation">NEWS</a></li>
+                  <li><a href="/team" class="hover-underline-animation">TEAM</a></li>
                   <li><a href="/contact" class="hover-underline-animation">CONTACT US</a></li>
                   <li><a href="https://thorminer.com/" class="contact">THOR MINER</a></li>
                </ul>
@@ -168,9 +168,9 @@ module.exports = () => `
 
 <!-- About Section -->
 <section id="about">
-    <div class="container" style="margin-bottom:200px" >
+    <div class="container" style="margin-bottom:100px" >
         <div class="row">
-            <div class="col-lg-12 text-center" style="margin-top:250px; margin-bottom:100px">
+            <div class="col-lg-12 text-center" style="margin-top:100px; margin-bottom:100px">
                 <h2 class="section-heading">About</h2>
             </div>
         </div>
@@ -244,6 +244,68 @@ module.exports = () => `
             </div>
         </div>
     </div>
+</section>
+<section class="latest-news-area" id="latest"style="margin-bottom:100px"  >
+<div class="container">
+<div class="row">
+<div class="col-lg-12 text-center">
+    <h2 class="section-heading">Recent news</h2>
+</div>
+</div>
+   <br><br> 
+   <div class="row">
+      <div class="news-active">
+         <div class="col-md-6 col-sm-6 col-xs-12 wow fadeInRight" data-wow-duration=".6s" data-wow-delay=".6s">
+            <div class="latest-news-wrap">
+               <div class="news-img">
+                  <img  src="img/news6.png"  class="img-responsive" style="width: 500px; height: 360px !important; ">
+                  <div class="deat">
+                     <span>11</span>
+                     <span>Apr</span>  
+                     <span>2022</span>
+                  </div>
+               </div>
+               <div class="news-content">
+                  <!--i class="fab fa-facebook"></i>
+                     <i class="fab fa-twitter"></i>
+                     <i class="fab fa-linkedin"></i>
+                     <i class="fab fa-youtube"></i>
+                     <i class="fab fa-whatsapp"></i-->
+                  <div class="news-word">
+                     Singularity Future Technology and Golden Mainland Form Bitcoin Mining Joint-Venture
+                  </div>
+                  <br>
+                  <a href="https://www.yahoo.com/now/singularity-future-technology-golden-mainland-120000874.html" onclick="basicPopup3(this.href);return false">Read more..</a>
+               </div>
+            </div>
+         </div>
+         <div class="col-md-6 col-sm-6 col-xs-12 wow fadeInRight" data-wow-duration=".6s" data-wow-delay=".6s">
+            <div class="latest-news-wrap">
+               <div class="news-img">
+                  <img  src="img/news4.png"  class="img-responsive" style="width: 500px; height: 360px !important; ">
+                  <div class="deat">
+                     <span>21</span>
+                     <span>Mar</span>  
+                     <span>2022</span>
+                  </div>
+               </div>
+               <div class="news-content">
+                  <!--i class="fab fa-facebook"></i>
+                     <i class="fab fa-twitter"></i>
+                     <i class="fab fa-linkedin"></i>
+                     <i class="fab fa-youtube"></i>
+                     <i class="fab fa-whatsapp"></i-->
+                  <div class="news-word">
+                     Singularity Future Technology expanding into New IDC in New Jersey
+                  </div>
+                  <br>
+                  <a href="https://www.prnewswire.com/news-releases/singularity-future-technology-expanding-into-new-internet-data-center-idc-facility-in-new-jersey-strategic-location-for-planned-distributed-storage-service-provider-business-301505928.html" onclick="basicPopup3(this.href);return false">Read more..</a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
 </section>
       <!-------------Footer markups--------------->
       <div class="column-12 column-xs-12 column-sm-12 tab">

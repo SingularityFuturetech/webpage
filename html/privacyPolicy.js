@@ -82,27 +82,27 @@ module.exports = () =>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
    </head>
    <body>
-      <nav class="navbar navbar-inverse navbar-fixed-top ">
-         <div class="container">
-            <div class="navbar-header">
-               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navi">
-               <span class="icon-bar"></span>
-               <span class="icon-bar"></span>
-               <span class="icon-bar"></span>
-               </button>
-               <a href="/" class="navbar-brand" id="logo"> <img src="img/logo2.png" alt="" class="logo" style="width: 202px; height: 50px;" ></a>
-            </div>
-            <div class="collapse navbar-collapse" id="navi">
-               <ul class="nav navbar-nav navbar-right ">
-                  <li><a href="/about">ABOUT US</a></li>
-                  <li><a href="/service">PRODUCT & SERVICES</a></li>
-                  <li><a href="/news">NEWS</a></li>
-                  <li><a href="/contact">CONTACT US</a></li>
-                  <li><a href="https://thorminer.com/" class="contact">THOR MINER</a></li>
-               </ul>
-            </div>
-         </div>
-      </nav>
+   <nav class="navbar navbar-inverse navbar-fixed-top ">
+   <div class="container">
+      <div class="navbar-header">
+         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navi">
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+         </button>
+         <a href="/" class="navbar-brand" id="logo"> <img src="img/logo2.png" alt="" class="logo" style="width: 202px; height: 50px;" ></a>
+      </div>
+      <div class="collapse navbar-collapse" id="navi">
+         <ul class="nav navbar-nav navbar-right ">
+            <li><a href="/about" class="hover-underline-animation">ABOUT US</a></li>
+            <li><a href="/service" class="hover-underline-animation">PRODUCT & SERVICES</a></li>
+            <li><a href="/team" class="hover-underline-animation">TEAM</a></li>
+            <li><a href="/contact" class="hover-underline-animation">CONTACT US</a></li>
+            <li><a href="https://thorminer.com/" class="contact">THOR MINER</a></li>
+         </ul>
+      </div>
+   </div>
+</nav>
       <h1>Privacy Policy</h1>
       <p>Last updated: September 19, 2022</p>
       <p>This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.</p>
