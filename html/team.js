@@ -126,85 +126,91 @@ module.exports = () => `
 <!-- Team Section
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->  
 <section id="team">
-  <div class="container">
-    <div class="row">
-      <h1>Meet the Team</h1>
-      <div class="block"></div>
-    </div>
-    <div class="row">
-      <div class="three columns">
-        <h4>LEO.J</h4>
-        <p>Chief Executive Officer</p>
-        <span class="typcn typcn-social-facebook-circular icon"></span><span class="typcn typcn-social-instagram-circular icon"></span><span class="typcn typcn-social-google-plus-circular icon"></span><span class="typcn typcn-social-linkedin-circular icon"></span> </div>
-      <div class="three columns"> 
-        <h4>TINA.P</h4>
-        <p>Chief Financial Officer</p>
-        <span class="typcn typcn-social-facebook-circular icon"></span><span class="typcn typcn-social-instagram-circular icon"></span><span class="typcn typcn-social-google-plus-circular icon"></span><span class="typcn typcn-social-linkedin-circular icon"></span> </div>
-      <div class="three columns"> 
-        <h4>ANGELA.S</h4>
-        <p>Chief Operating Officer</p>
-        <span class="typcn typcn-social-facebook-circular icon"></span><span class="typcn typcn-social-instagram-circular icon"></span><span class="typcn typcn-social-google-plus-circular icon"></span><span class="typcn typcn-social-linkedin-circular icon"></span> </div>
-      <div class="three columns"> 
-        <h4>VICTOR.Q</h4>
-        <p>Chief Technology Officer</p>
-        <span class="typcn typcn-social-facebook-circular icon"></span><span class="typcn typcn-social-instagram-circular icon"></span><span class="typcn typcn-social-google-plus-circular icon"></span><span class="typcn typcn-social-linkedin-circular icon"></span> </div>
-    </div>
-  </div>
+   <div class="container">
+      <div class="row">
+         <h1>Meet the Team</h1>
+         <div class="block"></div>
+      </div>
+      <div class="row">
+         <div class="three columns">
+            <h4>LEO.J</h4>
+            <p>Chief Executive Officer</p>
+            <span class="typcn typcn-social-facebook-circular icon"></span><span class="typcn typcn-social-instagram-circular icon"></span><span class="typcn typcn-social-google-plus-circular icon"></span><span class="typcn typcn-social-linkedin-circular icon"></span> 
+         </div>
+         <div class="three columns">
+            <h4>TINA.P</h4>
+            <p>Chief Financial Officer</p>
+            <span class="typcn typcn-social-facebook-circular icon"></span><span class="typcn typcn-social-instagram-circular icon"></span><span class="typcn typcn-social-google-plus-circular icon"></span><span class="typcn typcn-social-linkedin-circular icon"></span> 
+         </div>
+         <div class="three columns">
+            <h4>ANGELA.S</h4>
+            <p>Chief Operating Officer</p>
+            <span class="typcn typcn-social-facebook-circular icon"></span><span class="typcn typcn-social-instagram-circular icon"></span><span class="typcn typcn-social-google-plus-circular icon"></span><span class="typcn typcn-social-linkedin-circular icon"></span> 
+         </div>
+         <div class="three columns">
+            <h4>VICTOR.Q</h4>
+            <p>Chief Technology Officer</p>
+            <span class="typcn typcn-social-facebook-circular icon"></span><span class="typcn typcn-social-instagram-circular icon"></span><span class="typcn typcn-social-google-plus-circular icon"></span><span class="typcn typcn-social-linkedin-circular icon"></span> 
+         </div>
+      </div>
+   </div>
 </section>
-
 <!-- Skills Section
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->  
 <section id="skills_top">
-  <div class="container">
-    <h1 style="margin-top:60px">Workforce</h1>
-    <div class="block"></div>
-  </div>
-</section>
-<section id="skills">
-<div class="board_members_div">
-         <div class="board_members">
-            <p class="my-4" >
-            <div class="column-6 column-xs-12 column-sm-12 tab">
-               <section id="bdmp" class="board_members">
-                  <h1>Global Gender</h1>
-                  <div style="position:relative">
-                     <div class="c100 p80 big">
-                        <span class="font-family-Avenir font-size-super">80% Male</span>
-                        <span class="font-family-Avenir font-size-super" style="margin-top:30px">20% Female</span>
-                        <div class="slice">
-                           <div class="bar"></div>
-                           <div class="fill"></div>
+   <div class="container">
+      <div class="row">
+         <h1 style="margin-top:60px">Workforce</h1>
+         <div class="block"></div>
+      </div>
+      <section id="skills">
+         <div class="row">
+            <div class="board_members_div">
+               <div class="board_members">
+                  <p class="my-4" >
+                  <div class="column-6 column-xs-12 column-sm-12 tab">
+                     <section id="bdmp" class="board_members">
+                        <h1>Global Gender</h1>
+                        <div style="position:relative">
+                           <div class="c100 p80 big">
+                              <span class="font-family-Avenir font-size-super">80% Male</span>
+                              <span class="font-family-Avenir font-size-super" style="margin-top:30px">20% Female</span>
+                              <div class="slice">
+                                 <div class="bar"></div>
+                                 <div class="fill"></div>
+                              </div>
+                              <p class="complete-text font-family-primary font-weight-regular"></p>
+                           </div>
                         </div>
-                        <p class="complete-text font-family-primary font-weight-regular"></p>
-                     </div>
+                     </section>
                   </div>
-               </section>
-            </div>
-         </div>
-            <div class="column-6 column-xs-12 column-sm-12 tab">
-               <div class="percentage_content">
-                  <section class="board_members">
-                     <h2>U.S. Race and Ethnicity</h2>
-                     <b>Asian 80%</b>
-                     <div class="health">
-                        <span class="progress-bar" style="width: 80%;">
-                        <span class="shade warm"></span>
-                        </span>    
-                     </div>
-                     <b>White 20%</b>
-                     <div class="health">
-                        <span class="progress-bar" style="width: 20%;">
-                        <span class="shade warm"></span>
-                        </span>    
-                     </div>
-                  </section>
                </div>
             </div>
-     </div> 
+            <div class="row">
+               <div class="column-6 column-xs-12 column-sm-12 tab">
+                  <div class="percentage_content">
+                     <section class="board_members">
+                        <h2>U.S. Race and Ethnicity</h2>
+                        <b>Asian 80%</b>
+                        <div class="health">
+                           <span class="progress-bar" style="width: 80%;">
+                           <span class="shade warm"></span>
+                           </span>    
+                        </div>
+                        <b>White 20%</b>
+                        <div class="health">
+                           <span class="progress-bar" style="width: 20%;">
+                           <span class="shade warm"></span>
+                           </span>    
+                        </div>
+                     </section>
+                  </div>
+               </div>
+            </div>
+         </div>
+   </div>
+   </section>
 </section>
-
-
-
 <!-- Testimonials Section
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->  
 
