@@ -8,7 +8,6 @@ const team = require('./html/team');
 const terms = require('./html/termsOfUse');
 
 
-const path = require('path');
 app = express();
 app.use(express.static(__dirname + '/public'));
 app.use(express.urlencoded({ extended: false }));
