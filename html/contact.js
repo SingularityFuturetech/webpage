@@ -81,112 +81,111 @@ module.exports = () => `
       <link rel="shortcut icon" href="img/favicon.ico">
    </head>
    <body>
-   <nav class="navbar navbar-inverse navbar-fixed-top ">
-   <div class="container">
-      <div class="navbar-header">
-         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navi">
-         <span class="icon-bar"></span>
-         <span class="icon-bar"></span>
-         <span class="icon-bar"></span>
-         </button>
-         <a href="/" class="navbar-brand" id="logo"> <img src="img/logo2.png" alt="" class="logo" style="width: 202px; height: 50px;" ></a>
+      <nav class="navbar navbar-inverse navbar-fixed-top ">
+         <div class="container">
+            <div class="navbar-header">
+               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navi">
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               </button>
+               <a href="/" class="navbar-brand" id="logo"> <img src="img/logo2.png" alt="" class="logo" style="width: 202px; height: 50px;" ></a>
+            </div>
+            <div class="collapse navbar-collapse" id="navi">
+               <ul class="nav navbar-nav navbar-right ">
+                  <li><a href="/about" class="hover-underline-animation">ABOUT US</a></li>
+                  <li><a href="/service" class="hover-underline-animation">PRODUCT & SERVICES</a></li>
+                  <li><a href="/team" class="hover-underline-animation">TEAM</a></li>
+                  <li><a href="/contact" class="hover-underline-animation">CONTACT US</a></li>
+                  <li><a href="https://thorminer.com/" class="contact">THOR MINER</a></li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <div class="contact-us-body">
+         <div class="contact-form-container">
+            <div class="contact-us">
+               <div class="contact-header">
+                  <h1>&#9135;&#9135;&#9135;&#9135;&nbsp;&nbsp;CONTACT US</h1>
+               </div>
+            </div>
+            <div class="header">
+               <h1>Let's keep in touch</h1>
+            </div>
+            <div class="address">
+               <i class="fas fa-map-marker-alt">
+               </i>
+               <h3>98 Cuttermill Road</h3>
+               <h3>Great Neck Plaza, New York</h3>
+            </div>
+            <div class="phone">
+               <i class="fas fa-phone-alt">
+               </i>
+               <h3>718-888-1814 </h3>
+               <h3>917-714-4331 </h3>
+            </div>
+            <div class="email">
+               <i class="fas fa-envelope">
+               </i>
+               <h3>inquiry@singularity.us </h3>
+               <h3>support@singularity.us  </h3>
+            </div>
+            <div class="contact-form">
+               <form action="https://formspree.io/f/xpzbpjrj"
+                  method="POST">
+                  <input type="text" name="name" placeholder="Name" required  />
+                  <input placeholder="Email" type="email" name="Email" placeholder="Email" required />
+                  <textarea placeholder="Message..." rows="4" required>
+                  </textarea>
+                  <button type="submit">SEND </button>
+               </form>
+            </div>
+         </div>
       </div>
-      <div class="collapse navbar-collapse" id="navi">
-         <ul class="nav navbar-nav navbar-right ">
-            <li><a href="/about" class="hover-underline-animation">ABOUT US</a></li>
-            <li><a href="/service" class="hover-underline-animation">PRODUCT & SERVICES</a></li>
-            <li><a href="/team" class="hover-underline-animation">TEAM</a></li>
-            <li><a href="/contact" class="hover-underline-animation">CONTACT US</a></li>
-            <li><a href="https://thorminer.com/" class="contact">THOR MINER</a></li>
-         </ul>
+      <!-------------Footer markups--------------->
+      <div class="column-12 column-xs-12 column-sm-12 tab">
+         <footer class="footer">
+            <div class="footer__addr">
+               <h1 class="footer__logo"><img src="img/logo2.png" class="logo" style="width: 202px; height: 50px;"></h1>
+               <h2>Contact</h2>
+               <address>
+                  98 Cuttermill Road,
+                  Great Neck Plaza, New York 11021<br>
+                  <a class="footer__btn" href="mailto:inquiry@singularity.us">Email Us</a>
+               </address>
+            </div>
+            <ul class="footer__nav">
+               <li class="nav__item nav__item--extra">
+                  <h2 class="nav__title">Know us more</h2>
+                  <ul class="nav__ul nav__ul--extra">
+                     <li>
+                        <a href="/service">Product and Services</a>
+                     </li>
+                     <li>
+                        <a href="/team">Team</a>
+                     </li>
+                     <li>
+                        <a href="/contact">Contact Us</a>
+                     </li>
+                  </ul>
+               </li>
+               <li class="nav__item">
+                  <h2 class="nav__title">Legal</h2>
+                  <ul class="nav__ul">
+                     <li>
+                        <a href="/privacypolicy">Privacy Policy</a>
+                     </li>
+                     <li>
+                        <a href="#">Terms of Use</a>
+                     </li>
+                  </ul>
+               </li>
+            </ul>
+            <div class="legal">
+               <p>&copy; 2022 Singularity Future Technology Ltd. All rights reserved.</p>
+            </div>
+         </footer>
       </div>
-   </div>
-</nav>
-   <div class="contact-us-body">
-   <div class="contact-form-container">
-   <div class="contact-us">
-     <div class="contact-header">
-       <h1>&#9135;&#9135;&#9135;&#9135;&nbsp;&nbsp;CONTACT US</h1>
-     </div>
-   </div>
-   <div class="header">
-     <h1>Let's keep in touch</h1>
-   </div>
-   <div class="address">
-     <i class="fas fa-map-marker-alt">
-     </i>
-     <h3>98 Cuttermill Road</h3>
-     <h3>Great Neck Plaza, New York</h3>
-   </div>
-   <div class="phone">
-     <i class="fas fa-phone-alt">
-     </i>
-     <h3>718-888-1814 </h3>
-     <h3>917-714-4331 </h3>
-
-   </div>
-   <div class="email">
-     <i class="fas fa-envelope">
-     </i>
-     <h3>inquiry@singularity.us </h3>
-     <h3>support@singularity.us  </h3>
-   </div>
-   <div class="contact-form">
-     <form action="https://formspree.io/f/xpzbpjrj"
-     method="POST">
-       <input type="text" name="name" placeholder="Name" required  />
-       <input placeholder="Email" type="email" name="Email" placeholder="Email" required />
-       <textarea placeholder="Message..." rows="4" required>
- </textarea>
-       <button type="submit">SEND </button>
-     </form>
-   </div>
- </div>
- </div>
- <!-------------Footer markups--------------->
- <div class="column-12 column-xs-12 column-sm-12 tab">
- <footer class="footer">
-    <div class="footer__addr">
-       <h1 class="footer__logo"><img src="img/logo2.png" class="logo" style="width: 202px; height: 50px;"></h1>
-       <h2>Contact</h2>
-       <address>
-          98 Cuttermill Road,
-          Great Neck Plaza, New York 11021<br>
-          <a class="footer__btn" href="mailto:inquiry@singularity.us">Email Us</a>
-       </address>
-    </div>
-    <ul class="footer__nav">
-       <li class="nav__item nav__item--extra">
-          <h2 class="nav__title">Know us more</h2>
-          <ul class="nav__ul nav__ul--extra">
-             <li>
-                <a href="/service">Product and Services</a>
-             </li>
-             <li>
-                <a href="/team">Team</a>
-             </li>
-             <li>
-                <a href="/contact">Contact Us</a>
-             </li>
-          </ul>
-       </li>
-       <li class="nav__item">
-          <h2 class="nav__title">Legal</h2>
-          <ul class="nav__ul">
-             <li>
-                <a href="/privacypolicy">Privacy Policy</a>
-             </li>
-             <li>
-                <a href="#">Terms of Use</a>
-             </li>
-          </ul>
-       </li>
-    </ul>
-    <div class="legal">
-       <p>&copy; 2022 Singularity Future Technology Ltd. All rights reserved.</p>
-    </div>
- </footer>
- </div>
       <script src="js/jquery.ripples-min.js" type="text/javascript"></script>  
       <script src="js/typed.min.js" type="text/javascript"></script>
       <script src="js/jquery.waypoints.min.js" type="text/javascript"></script>

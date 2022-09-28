@@ -74,8 +74,8 @@ body {
 video {
     right: 0;
     bottom: 0;
-    max-width: 850px;
-    max-height:850px;
+    width: 100%    !important;
+    height: auto   !important;
 }
 
 .video_bottom {
@@ -2261,7 +2261,7 @@ a:hover {
 	-webkit-justify-content: center;
 	-ms-flex-pack: center;
 	justify-content: center;
-    width: 100vw;
+    width: 100%;
 	height: 100vh;
     background-image: url(img/team_head.jpeg);
     background-size:cover;

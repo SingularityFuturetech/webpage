@@ -164,91 +164,92 @@ module.exports = () => `
          <div class="block"></div>
       </div>
       <section id="skills">
-         <div class="row">
-            <div class="board_members_div">
-               <div class="board_members">
-                  <p class="my-4" >
-                  <div class="column-6 column-xs-12 column-sm-12 tab">
-                     <section id="bdmp" class="board_members">
-                        <h1>Global Gender</h1>
-                        <div style="position:relative">
-                           <div class="c100 p80 big">
-                              <span class="font-family-Avenir font-size-super">80% Male</span>
-                              <span class="font-family-Avenir font-size-super" style="margin-top:30px">20% Female</span>
-                              <div class="slice">
-                                 <div class="bar"></div>
-                                 <div class="fill"></div>
-                              </div>
-                              <p class="complete-text font-family-primary font-weight-regular"></p>
+            <div class="board_members">
+               <p class="my-4" >
+               <div class="column-6 column-xs-12 column-sm-12 tab">
+                  <section id="bdmp" class="board_members">
+                     <h1>Global Gender</h1>
+                     <div style="position:relative">
+                        <div class="c100 p80 big">
+                           <span class="font-family-Avenir font-size-super">80% Male</span>
+                           <span class="font-family-Avenir font-size-super" style="margin-top:30px">20% Female</span>
+                           <div class="slice">
+                              <div class="bar"></div>
+                              <div class="fill"></div>
                            </div>
+                           <p class="complete-text font-family-primary font-weight-regular"></p>
                         </div>
-                     </section>
-                  </div>
+                     </div>
+                  </section>
                </div>
             </div>
-            <div class="row">
-               <div class="column-6 column-xs-12 column-sm-12 tab">
-                  <div class="percentage_content">
-                     <section class="board_members">
-                        <h2>U.S. Race and Ethnicity</h2>
-                        <b>Asian 80%</b>
-                        <div class="health">
-                           <span class="progress-bar" style="width: 80%;">
-                           <span class="shade warm"></span>
-                           </span>    
-                        </div>
-                        <b>White 20%</b>
-                        <div class="health">
-                           <span class="progress-bar" style="width: 20%;">
-                           <span class="shade warm"></span>
-                           </span>    
-                        </div>
-                     </section>
-                  </div>
+            <div class="board_members">
+            <div class="column-6 column-xs-12 column-sm-12 tab">
+               <div class="percentage_content">
+                  <section id="bdmp" class="board_members" style="margin-top:20px">
+                     <h2>U.S. Race and Ethnicity</h2>
+                     <b>Asian 80%</b>
+                     <div class="health">
+                        <span class="progress-bar" style="width: 80%;">
+                        <span class="shade warm"></span>
+                        </span>    
+                     </div>
+                     <b>White 20%</b>
+                     <div class="health">
+                        <span class="progress-bar" style="width: 20%;">
+                        <span class="shade warm"></span>
+                        </span>    
+                     </div>
+                  </section>
                </div>
             </div>
          </div>
+      </section>
    </div>
-   </section>
 </section>
 <!-- Testimonials Section
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->  
-
 <section id="testimonial">
-  <div class="container">
-    <div class="quoteLoop">
-      <blockquote class="quote"> 
-        <h5>&nbsp;<br>
-        We have elected to put our money and faith in a mathematical framework that is free of politics and human error.<br>
-          <small>Tyler Winkelvoss, Rower & Entrepreneur</small></h5>
-      </blockquote>
-      <blockquote class="quote"> 
-        <h5>&nbsp;<br>
-        Every informed person needs to know about Bitcoin because it might be one of the world’s most important developments.<br>
-          <small>Leon Louw, Nobel Peace Prize Nominee</small></h5>
-      </blockquote>
-      <blockquote class="quote"> 
-        <h5>&nbsp;<br>
-        Bitcoin is a technological tour de force.<br>
-          <small>Bill Gates, Business Magnate, Investor, Author, Philanthropist, and Humanitarian</small></h5>
-      </blockquote>
-      <blockquote class="quote"> 
-        <h5>&nbsp;<br>
-        Blockchain is the biggest opportunity set we can think of over the next decade or so.<br>
-          <small>Bob Greifeld, Nasdaq Chief Executive</small></h5>
-      </blockquote>
-      <blockquote class="quote"> 
-        <h5>&nbsp;<br>
-        Bitcoin is a remarkable cryptographic achievement, and the ability to create something that is not duplicable in the digital world has enormous value.<br>
-          <small>Eric Schmidt, CEO of Google</small></h5>
-      </blockquote>
-      <blockquote class="quote"> 
-        <h5>&nbsp;<br>
-        Anything that can conceive of as a supply chain, blockchain can vastly improve its efficiency- it doesn’t matter if its people, numbers, data, money.<br>
-          <small>Ginni Rometty, CEO IBM</small></h5>
-      </blockquote>
-    </div>
-  </div>
+   <div class="container">
+      <div class="quoteLoop">
+         <blockquote class="quote">
+            <h5>&nbsp;<br>
+               We have elected to put our money and faith in a mathematical framework that is free of politics and human error.<br>
+               <small>Tyler Winkelvoss, Rower & Entrepreneur</small>
+            </h5>
+         </blockquote>
+         <blockquote class="quote">
+            <h5>&nbsp;<br>
+               Every informed person needs to know about Bitcoin because it might be one of the world’s most important developments.<br>
+               <small>Leon Louw, Nobel Peace Prize Nominee</small>
+            </h5>
+         </blockquote>
+         <blockquote class="quote">
+            <h5>&nbsp;<br>
+               Bitcoin is a technological tour de force.<br>
+               <small>Bill Gates, Business Magnate, Investor, Author, Philanthropist, and Humanitarian</small>
+            </h5>
+         </blockquote>
+         <blockquote class="quote">
+            <h5>&nbsp;<br>
+               Blockchain is the biggest opportunity set we can think of over the next decade or so.<br>
+               <small>Bob Greifeld, Nasdaq Chief Executive</small>
+            </h5>
+         </blockquote>
+         <blockquote class="quote">
+            <h5>&nbsp;<br>
+               Bitcoin is a remarkable cryptographic achievement, and the ability to create something that is not duplicable in the digital world has enormous value.<br>
+               <small>Eric Schmidt, CEO of Google</small>
+            </h5>
+         </blockquote>
+         <blockquote class="quote">
+            <h5>&nbsp;<br>
+               Anything that can conceive of as a supply chain, blockchain can vastly improve its efficiency- it doesn’t matter if its people, numbers, data, money.<br>
+               <small>Ginni Rometty, CEO IBM</small>
+            </h5>
+         </blockquote>
+      </div>
+   </div>
 </section>
 <!-------------Footer markups--------------->
 <div class="column-12 column-xs-12 column-sm-12 tab">
