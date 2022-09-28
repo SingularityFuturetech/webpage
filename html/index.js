@@ -187,11 +187,11 @@ module.exports = () => `
          <div class="container">
          <div style="display:flex;justify-content: center;">
             <div class="mainpage_word">
-               <div class="section-title text-center wow zoomIn" data-wow-duration=".15s" data-wow-delay=".15s">
+               <div class=" text-center wow zoomIn" data-wow-duration=".15s" data-wow-delay=".15s">
                   <h1 style="color:#373C38">
                      The future of cryto miner
                   </h1>
-                  <h5 class="section-title text-center wow zoomIn" data-wow-duration=".65s" data-wow-delay=".65s" style="color:#999">We develops solutions for interconnected AI networks in the revolutionized AI and Blockchain supply management area and establishes crypto mining pools. </h5>
+                  <h5 class=" text-center wow zoomIn" data-wow-duration=".65s" data-wow-delay=".65s" style="color:#999">We develops solutions for interconnected AI networks in the revolutionized AI and Blockchain supply management area and establishes crypto mining pools. </h5>
                   <a href="/service" class="hover-underline-animation section-title text-center wow zoomIn" data-wow-duration=".65s" data-wow-delay=".65s" " style="text-decoration: none;">Checkout our latest miner</a>
                </div>
             </div>
@@ -204,7 +204,7 @@ module.exports = () => `
          </div>
          <br><br>
          <div style="margin-top:100px">
-            <h1 class="hover-underline-animation section-title text-center wow zoomIn" data-wow-duration=".65s" data-wow-delay=".65s" " style="text-decoration: none;">Our Story</h1>
+            <h1 class=" text-center wow zoomIn" data-wow-duration=".65s" data-wow-delay=".65s" " style="text-decoration: none;">Our Story</h1>
             <p class="my-4" id="secteam">  
          </div>
          <div class="row">

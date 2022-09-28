@@ -114,18 +114,18 @@ module.exports = () => `
   <div class="title_team">
     <div><span class="typcn typcn-heart-outline icon heading"></span></div>
     <h1 class="heading"> We’re moving forward, together.</h1>
-    <a class="smoothscroll" href="#about">
+    <a class="smoothscroll" href="#workforce">
     <div class="mouse">
       <div class="wheel"></div>
     </div>
     </a> </div>
-  <a class="smoothscroll" href="#team">
+  <a class="smoothscroll" href="#workforce">
   <div class="scroll-down"></div>
   </a> </header>
 
 <!-- Team Section
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->  
-<section id="team">
+<!--<section id="team">
    <div class="container">
       <div class="row">
          <h1>Meet the Team</h1>
@@ -154,10 +154,10 @@ module.exports = () => `
          </div>
       </div>
    </div>
-</section>
+</section> -->
 <!-- Skills Section
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->  
-<section id="skills_top">
+<section id="workforce">
    <div class="container">
       <div class="row">
          <h1 style="margin-top:60px">Workforce</h1>

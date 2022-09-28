@@ -1,7 +1,7 @@
 module.exports = () => `
 <!DOCTYPE html>
 <html lang="en">
-<head>
+   <head>
       <meta charset="UTF-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,9 +22,9 @@ module.exports = () => `
       <link href="css/animate.css" type="text/css" rel="stylesheet">
       <!-------------Google font------------->
       <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@900&family=JetBrains+Mono&display=swap" rel="stylesheet">
-            <!-- jQuery library -->
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@900&family=JetBrains+Mono&display=swap" rel="stylesheet">
+      <!-- jQuery library -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
       <!-------------Owl Carousel Js file------------->
       <script src="js/owl.carousel.min.js" type="text/javascript"></script>  
@@ -81,8 +81,8 @@ module.exports = () => `
       <link rel="stylesheet" href="style.css">
       <link rel="shortcut icon" href="img/favicon.ico">
       <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
    </head>
    <body>
       <nav class="navbar navbar-inverse navbar-fixed-top ">
@@ -112,7 +112,7 @@ module.exports = () => `
       <div id="banner">
          <div id="bannertext">
             <h1>CORPORATE PROFILE</h1>
-                     </div>
+         </div>
       </div>
       <div id="content">
          <h2 id="typing">About us</h2>
@@ -121,8 +121,7 @@ module.exports = () => `
       </div>
       <section class="service-area" id="welcome" style="background-image:"url(https://i.ibb.co/3SNpSdc/IMG-1489.jpg) no-repeat fixed 100% 100%; background-size: cover; color: #fff; height: 100%; width: 100%;"">
       <div class="testing">
-      
-</div>
+      </div>
       <div class="container">
          <div class="row">
             <div class="col-xs-12">
@@ -140,216 +139,214 @@ module.exports = () => `
       <br><br>
       <p class="my-4" id="secteam">      
       </section  >
-      <div class="column-12 column-xs-12 column-sm-12 tab">
-      <!-- TradingView Widget BEGIN -->
-<div class="widget-div">
-<div class="tradingview-widget-container">
-  <div class="tradingview-widget-container__widget"></div>
-  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-info.js" async>
-  {
-  "symbol": "NASDAQ:SGLY",
-  "width": "800",
-  "locale": "en",
-  "colorTheme": "light",
-  "isTransparent": true
-}
-  </script>
-  <div class="download">
-   <a href="/team">
-         see more
-      </a>
-</div>
-</div>
-</div>
-<!-- TradingView Widget END -->
-</div>
-
-
-
-<!-- About Section -->
-<section id="about">
-    <div class="container" style="margin-bottom:100px" >
-        <div class="row">
-            <div class="col-lg-12 text-center" style="margin-top:100px; margin-bottom:100px">
-                <h2 class="section-heading">About</h2>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-12">
-                <ul class="timeline">
-                    <li>
-                        <div class="timeline-image">
-                            <img class="img-circle img-responsive" src="img/about/1.jpg" alt="">
-                        </div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>2009-2011</h4>
-                                <h4 class="subheading">Our Humble Beginnings</h4>
-                            </div>
-                            <div class="timeline-body">
-                                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image">
-                            <img class="img-circle img-responsive" src="img/about/2.jpg" alt="">
-                        </div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>March 2011</h4>
-                                <h4 class="subheading">An Agency is Born</h4>
-                            </div>
-                            <div class="timeline-body">
-                                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="timeline-image">
-                            <img class="img-circle img-responsive" src="img/about/3.jpg" alt="">
-                        </div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>December 2012</h4>
-                                <h4 class="subheading">Transition to Full Service</h4>
-                            </div>
-                            <div class="timeline-body">
-                                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image">
-                            <img class="img-circle img-responsive" src="img/about/4.jpg" alt="">
-                        </div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>July 2014</h4>
-                                <h4 class="subheading">Phase Two Expansion</h4>
-                            </div>
-                            <div class="timeline-body">
-                                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image">
-                            <h4>Be Part
-                                <br>Of Our
-                                <br>Story!</h4>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="latest-news-area" id="latest"style="margin-bottom:100px"  >
-<div class="container">
-<div class="row">
-<div class="col-lg-12 text-center">
-    <h2 class="section-heading">Recent news</h2>
-</div>
-</div>
-   <br><br> 
-   <div class="row">
-      <div class="news-active">
-         <div class="col-md-6 col-sm-6 col-xs-12 wow fadeInRight" data-wow-duration=".6s" data-wow-delay=".6s">
-            <div class="latest-news-wrap">
-               <div class="news-img">
-                  <img  src="img/news6.png"  class="img-responsive" style="width: 500px; height: 360px !important; ">
-                  <div class="deat">
-                     <span>11</span>
-                     <span>Apr</span>  
-                     <span>2022</span>
-                  </div>
-               </div>
-               <div class="news-content">
-                  <!--i class="fab fa-facebook"></i>
-                     <i class="fab fa-twitter"></i>
-                     <i class="fab fa-linkedin"></i>
-                     <i class="fab fa-youtube"></i>
-                     <i class="fab fa-whatsapp"></i-->
-                  <div class="news-word">
-                     Singularity Future Technology and Golden Mainland Form Bitcoin Mining Joint-Venture
-                  </div>
-                  <br>
-                  <a href="https://www.yahoo.com/now/singularity-future-technology-golden-mainland-120000874.html" onclick="basicPopup3(this.href);return false">Read more..</a>
+      <div class="column-12 column-xs-12 column-sm-12 tab ">
+         <!-- TradingView Widget BEGIN -->
+         <div class="widget-div">
+            <div class="tradingview-widget-container">
+               <div class="tradingview-widget-container__widget"></div>
+               <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-info.js" async>
+                  {
+                  "symbol": "NASDAQ:SGLY",
+                  "width": "100%",
+                  "locale": "en",
+                  "colorTheme": "light",
+                  "isTransparent": true
+                  }
+               </script>
+               <div class="download">
+                  <a href="/team">
+                  see more
+                  </a>
                </div>
             </div>
          </div>
-         <div class="col-md-6 col-sm-6 col-xs-12 wow fadeInRight" data-wow-duration=".6s" data-wow-delay=".6s">
-            <div class="latest-news-wrap">
-               <div class="news-img">
-                  <img  src="img/news4.png"  class="img-responsive" style="width: 500px; height: 360px !important; ">
-                  <div class="deat">
-                     <span>21</span>
-                     <span>Mar</span>  
-                     <span>2022</span>
-                  </div>
-               </div>
-               <div class="news-content">
-                  <!--i class="fab fa-facebook"></i>
-                     <i class="fab fa-twitter"></i>
-                     <i class="fab fa-linkedin"></i>
-                     <i class="fab fa-youtube"></i>
-                     <i class="fab fa-whatsapp"></i-->
-                  <div class="news-word">
-                     Singularity Future Technology expanding into New IDC in New Jersey
-                  </div>
-                  <br>
-                  <a href="https://www.prnewswire.com/news-releases/singularity-future-technology-expanding-into-new-internet-data-center-idc-facility-in-new-jersey-strategic-location-for-planned-distributed-storage-service-provider-business-301505928.html" onclick="basicPopup3(this.href);return false">Read more..</a>
-               </div>
-            </div>
-         </div>
+         <!-- TradingView Widget END -->
       </div>
-   </div>
-</div>
-</section>
+      <!-- About Section -->
+      <section id="about">
+         <div class="container" style="margin-bottom:100px" >
+            <div class="row">
+               <div class="col-lg-12 text-center" style="margin-top:100px; margin-bottom:100px">
+                  <h2 class="section-heading">About</h2>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-lg-12">
+                  <ul class="timeline">
+                     <li>
+                        <div class="timeline-image">
+                           <img class="img-circle img-responsive" src="img/about/1.jpg" alt="">
+                        </div>
+                        <div class="timeline-panel">
+                           <div class="timeline-heading">
+                              <h4>2009-2011</h4>
+                              <h4 class="subheading">Our Humble Beginnings</h4>
+                           </div>
+                           <div class="timeline-body">
+                              <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                           </div>
+                        </div>
+                     </li>
+                     <li class="timeline-inverted">
+                        <div class="timeline-image">
+                           <img class="img-circle img-responsive" src="img/about/2.jpg" alt="">
+                        </div>
+                        <div class="timeline-panel">
+                           <div class="timeline-heading">
+                              <h4>March 2011</h4>
+                              <h4 class="subheading">An Agency is Born</h4>
+                           </div>
+                           <div class="timeline-body">
+                              <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                           </div>
+                        </div>
+                     </li>
+                     <li>
+                        <div class="timeline-image">
+                           <img class="img-circle img-responsive" src="img/about/3.jpg" alt="">
+                        </div>
+                        <div class="timeline-panel">
+                           <div class="timeline-heading">
+                              <h4>December 2012</h4>
+                              <h4 class="subheading">Transition to Full Service</h4>
+                           </div>
+                           <div class="timeline-body">
+                              <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                           </div>
+                        </div>
+                     </li>
+                     <li class="timeline-inverted">
+                        <div class="timeline-image">
+                           <img class="img-circle img-responsive" src="img/about/4.jpg" alt="">
+                        </div>
+                        <div class="timeline-panel">
+                           <div class="timeline-heading">
+                              <h4>July 2014</h4>
+                              <h4 class="subheading">Phase Two Expansion</h4>
+                           </div>
+                           <div class="timeline-body">
+                              <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                           </div>
+                        </div>
+                     </li>
+                     <li class="timeline-inverted">
+                        <div class="timeline-image">
+                           <h4>Be Part
+                              <br>Of Our
+                              <br>Story!
+                           </h4>
+                        </div>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="latest-news-area" id="latest"style="margin-bottom:100px"  >
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-12 text-center">
+                  <h2 class="section-heading">Recent news</h2>
+               </div>
+            </div>
+            <br><br> 
+            <div class="row">
+               <div class="news-active">
+                  <div class="col-md-6 col-sm-6 col-xs-12 wow fadeInRight" data-wow-duration=".6s" data-wow-delay=".6s">
+                     <div class="latest-news-wrap">
+                        <div class="news-img">
+                           <img  src="img/news6.png"  class="img-responsive" style="width: 500px; height: 360px !important; ">
+                           <div class="deat">
+                              <span>11</span>
+                              <span>Apr</span>  
+                              <span>2022</span>
+                           </div>
+                        </div>
+                        <div class="news-content">
+                           <!--i class="fab fa-facebook"></i>
+                              <i class="fab fa-twitter"></i>
+                              <i class="fab fa-linkedin"></i>
+                              <i class="fab fa-youtube"></i>
+                              <i class="fab fa-whatsapp"></i-->
+                           <div class="news-word">
+                              Singularity Future Technology and Golden Mainland Form Bitcoin Mining Joint-Venture
+                           </div>
+                           <br>
+                           <a href="https://www.yahoo.com/now/singularity-future-technology-golden-mainland-120000874.html" onclick="basicPopup3(this.href);return false">Read more..</a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-6 col-sm-6 col-xs-12 wow fadeInRight" data-wow-duration=".6s" data-wow-delay=".6s">
+                     <div class="latest-news-wrap">
+                        <div class="news-img">
+                           <img  src="img/news4.png"  class="img-responsive" style="width: 500px; height: 360px !important; ">
+                           <div class="deat">
+                              <span>21</span>
+                              <span>Mar</span>  
+                              <span>2022</span>
+                           </div>
+                        </div>
+                        <div class="news-content">
+                           <!--i class="fab fa-facebook"></i>
+                              <i class="fab fa-twitter"></i>
+                              <i class="fab fa-linkedin"></i>
+                              <i class="fab fa-youtube"></i>
+                              <i class="fab fa-whatsapp"></i-->
+                           <div class="news-word">
+                              Singularity Future Technology expanding into New IDC in New Jersey
+                           </div>
+                           <br>
+                           <a href="https://www.prnewswire.com/news-releases/singularity-future-technology-expanding-into-new-internet-data-center-idc-facility-in-new-jersey-strategic-location-for-planned-distributed-storage-service-provider-business-301505928.html" onclick="basicPopup3(this.href);return false">Read more..</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
       <!-------------Footer markups--------------->
       <div class="column-12 column-xs-12 column-sm-12 tab">
-      <footer class="footer">
-         <div class="footer__addr">
-            <h1 class="footer__logo"><img src="img/logo2.png" class="logo" style="width: 202px; height: 50px;"></h1>
-            <h2>Contact</h2>
-            <address>
-               98 Cuttermill Road,
-               Great Neck Plaza, New York 11021<br>
-               <a class="footer__btn" href="mailto:inquiry@singularity.us">Email Us</a>
-            </address>
-         </div>
-         <ul class="footer__nav">
-            <li class="nav__item nav__item--extra">
-               <h2 class="nav__title">Know us more</h2>
-               <ul class="nav__ul nav__ul--extra">
-                  <li>
-                     <a href="/service">Product and Services</a>
-                  </li>
-                  <li>
-                     <a href="/team">Team</a>
-                  </li>
-                  <li>
-                     <a href="/contact">Contact Us</a>
-                  </li>
-               </ul>
-            </li>
-            <li class="nav__item">
-               <h2 class="nav__title">Legal</h2>
-               <ul class="nav__ul">
-                  <li>
-                     <a href="/privacypolicy">Privacy Policy</a>
-                  </li>
-                  <li>
-                     <a href="#">Terms of Use</a>
-                  </li>
-               </ul>
-            </li>
-         </ul>
-         <div class="legal">
-            <p>&copy; 2022 Singularity Future Technology Ltd. All rights reserved.</p>
-         </div>
-      </footer>
+         <footer class="footer">
+            <div class="footer__addr">
+               <h1 class="footer__logo"><img src="img/logo2.png" class="logo" style="width: 202px; height: 50px;"></h1>
+               <h2>Contact</h2>
+               <address>
+                  98 Cuttermill Road,
+                  Great Neck Plaza, New York 11021<br>
+                  <a class="footer__btn" href="mailto:inquiry@singularity.us">Email Us</a>
+               </address>
+            </div>
+            <ul class="footer__nav">
+               <li class="nav__item nav__item--extra">
+                  <h2 class="nav__title">Know us more</h2>
+                  <ul class="nav__ul nav__ul--extra">
+                     <li>
+                        <a href="/service">Product and Services</a>
+                     </li>
+                     <li>
+                        <a href="/team">Team</a>
+                     </li>
+                     <li>
+                        <a href="/contact">Contact Us</a>
+                     </li>
+                  </ul>
+               </li>
+               <li class="nav__item">
+                  <h2 class="nav__title">Legal</h2>
+                  <ul class="nav__ul">
+                     <li>
+                        <a href="/privacypolicy">Privacy Policy</a>
+                     </li>
+                     <li>
+                        <a href="#">Terms of Use</a>
+                     </li>
+                  </ul>
+               </li>
+            </ul>
+            <div class="legal">
+               <p>&copy; 2022 Singularity Future Technology Ltd. All rights reserved.</p>
+            </div>
+         </footer>
       </div>
       <script src="js/jquery.ripples-min.js" type="text/javascript"></script>  
       <script src="js/typed.min.js" type="text/javascript"></script>
