@@ -57,27 +57,27 @@ module.exports = () => `
       <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
    </head>
    <body>
-      <nav class="navbar navbar-inverse navbar-fixed-top ">
-         <div class="container">
-            <div class="navbar-header">
-               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navi">
-               <span class="icon-bar"></span>
-               <span class="icon-bar"></span>
-               <span class="icon-bar"></span>
-               </button>
-               <a href="/" class="navbar-brand" id="logo"> <img src="img/logo.png" alt="" class="logo" style="width: 202px; height: 50px;" ></a>
-            </div>
-            <div class="collapse navbar-collapse" id="navi">
-               <ul class="nav navbar-nav navbar-right ">
-                  <li><a href="/about" class="hover-underline-animation">ABOUT US</a></li>
-                  <li><a href="/service" class="hover-underline-animation">PRODUCT & SERVICES</a></li>
-                  <li><a href="/team" class="hover-underline-animation">TEAM</a></li>
-                  <li><a href="/contact" class="hover-underline-animation">CONTACT US</a></li>
-                  <li><a href="https://thorminer.com/" class="contact">THOR MINER</a></li>
-               </ul>
-            </div>
-         </div>
-      </nav>
+   <nav class="navbar navbar-default navbar-fixed-top" id="navbar" role="navigation">
+   <div class="container">
+      <div class="navbar-header">
+         <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".navbar-collapse" role="button">
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+         </button>
+         <a href="/" class="navbar-brand" id="logo"> <img src="img/logo.png" alt="" class="logo" style="width: 202px; height: 45px; margin-top:-13px;" ></a>
+      </div>
+      <div class="collapse navbar-collapse">
+         <ul class="nav navbar-nav navbar-right js-nav">
+            <li><a href="/about" class="hover-underline-animation">ABOUT US</a></li>
+            <li><a href="/service" class="hover-underline-animation">PRODUCT & SERVICES</a></li>
+            <li><a href="/team" class="hover-underline-animation">TEAM</a></li>
+            <li><a href="/contact" class="hover-underline-animation">CONTACT US</a></li>
+            <li><a href="https://www.thorminer.com/" class="contact">THOR MINER</a></li>
+         </ul>
+      </div>
+   </div>
+</nav>
       <div>
          <img src="img/nyc.jpeg" width=100% height=100%>
       </div>
