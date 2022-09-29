@@ -29,34 +29,6 @@ module.exports = () =>
       <script src="js/jquery.magnific-popup.min.js" type="text/javascript"></script>
       <!-- Latest compiled JavaScript -->
       <script src="js/bootstrap.min.js" type="text/javascript"></script>
-      <!-- Start of Async Drift Code -->
-      <script>
-         "use strict";
-         
-         !function() {
-           var t = window.driftt = window.drift = window.driftt || [];
-           if (!t.init) {
-             if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
-             t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
-             t.factory = function(e) {
-               return function() {
-                 var n = Array.prototype.slice.call(arguments);
-                 return n.unshift(e), t.push(n), t;
-               };
-             }, t.methods.forEach(function(e) {
-               t[e] = t.factory(e);
-             }), t.load = function(t) {
-               var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
-               o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
-               var i = document.getElementsByTagName("script")[0];
-               i.parentNode.insertBefore(o, i);
-             };
-           }
-         }();
-         drift.SNIPPET_VERSION = '0.3.1';
-         drift.load('4xdvnxpbgs9f');
-      </script>
-      <!-- End of Async Drift Code -->
       <script>
          // setTimeout(() => window.open('Popit1.html','_blank'), 1000);
          function basicPopup(url) {
@@ -90,7 +62,7 @@ module.exports = () =>
                <span class="icon-bar"></span>
                <span class="icon-bar"></span>
                </button>
-               <a href="/" class="navbar-brand" id="logo"> <img src="img/logo2.png" alt="" class="logo" style="width: 202px; height: 50px;" ></a>
+               <a href="/" class="navbar-brand" id="logo"> <img src="img/logo.png" alt="" class="logo" style="width: 202px; height: 50px;" ></a>
             </div>
             <div class="collapse navbar-collapse" id="navi">
                <ul class="nav navbar-nav navbar-right ">
