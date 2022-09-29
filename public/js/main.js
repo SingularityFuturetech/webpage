@@ -19,7 +19,7 @@ jQuery(document).ready(function () {
   var prevScrollpos = window.pageYOffset;
   window.onscroll = function() {
     var currentScrollPos = window.pageYOffset;
-    if (currentScrollPos - prevScrollpos < 1 ) {
+    if (currentScrollPos - prevScrollpos < 3 ) {
       document.getElementById("navbar").style.top = "0";
     } else {
       document.getElementById("navbar").style.top = "-50px";
