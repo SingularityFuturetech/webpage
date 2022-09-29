@@ -19,21 +19,14 @@ jQuery(document).ready(function () {
   var prevScrollpos = window.pageYOffset;
   window.onscroll = function() {
     var currentScrollPos = window.pageYOffset;
-    if (prevScrollpos > currentScrollPos) {
+    if (currentScrollPos - prevScrollpos < 1 ) {
       document.getElementById("navbar").style.top = "0";
     } else {
       document.getElementById("navbar").style.top = "-50px";
     }
     prevScrollpos = currentScrollPos;
   }
-  // $(window).scroll(function () {
-  //   var top = $(window).scrollTop();
-  //   if (top >= 60) {
-  //     $("nav").addClass("secondary");
-  //   } else if ($("nav").hasClass("secondary")) {
-  //     $("nav").removeClass("secondary");
-  //   }
-  // });
+ 
 
   $(".work").magnificPopup({
     delegate: "a", // child items selector, by clicking on it popup will open
