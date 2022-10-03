@@ -30,7 +30,7 @@ jQuery(document).ready(function () {
     }
     prevScrollpos = currentScrollPos;
   }
- 
+  
 
   $(".work").magnificPopup({
     delegate: "a", // child items selector, by clicking on it popup will open
