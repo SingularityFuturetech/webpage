@@ -93,9 +93,18 @@ module.exports = () => `
                </div>
                <br><br>
             </div>
+            <a class="smoothscroll" href="#workforce">
+    <div class="mouse">
+      <div class="wheel"></div>
+    </div>
+    </a> </div>
+  <a class="smoothscroll" href="#widget">
+  <div class="scroll-down"></div>
+  </a>
          </div>
       </section>
       <!-- TradingView Widget BEGIN -->
+      <section id = "widget">
       <div class="tradingview-widget-container">
          <div class="tradingview-widget-container__widget"></div>
          <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
@@ -154,6 +163,7 @@ module.exports = () => `
             }
          </script>
       </div>
+      </section>
       <!-- TradingView Widget END -->
       <section class="service-area" id="welcome">
          <div class="container">
@@ -254,6 +264,7 @@ module.exports = () => `
       <script src="js/smoothscroll.js" type="text/javascript"></script>
       <script src="js/jquery.easing.1.3.js" type="text/javascript"></script>
       <script src="js/wow.min.js" type="text/javascript"></script>
+      <script src="js/team.js" type="text/javascript"></script>
    </body>
 </html>
 `;

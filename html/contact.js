@@ -103,13 +103,12 @@ module.exports = () => `
                <h3>support@singularity.us  </h3>
             </div>
             <div class="contact-form">
-               <form action="https://formspree.io/f/xpzbpjrj"
-                  method="POST">
-                  <input type="text" name="name" placeholder="Name" required  />
-                  <input placeholder="Email" type="email" name="Email" placeholder="Email" required />
-                  <textarea placeholder="Message..." rows="4" required>
-                  </textarea>
-                  <button type="submit">SEND </button>
+               <form   action="https://formspree.io/f/xwkzbbyb"
+               method="POST">
+                  <input type="text" name="name" placeholder="Name" required/>
+                  <input placeholder="Email" type="email" name="email" placeholder="Email" required />
+                  <textarea name="message" placeholder="Message" rows="4" required></textarea>
+                  <button type="submit">SEND</button>
                </form>
             </div>
          </div>
@@ -148,7 +147,7 @@ module.exports = () => `
                         <a href="/privacypolicy">Privacy Policy</a>
                      </li>
                      <li>
-                        <a href="#">Terms of Use</a>
+                        <a href="/terms">Terms of Use</a>
                      </li>
                   </ul>
                </li>

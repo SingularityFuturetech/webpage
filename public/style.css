@@ -2607,7 +2607,6 @@ form {
     resize: none;
     outline: none;
     font-size: 1rem;
-    font-family: lato;
     color: rgba(68, 68, 68, 0.8); }
   form button {
     position: absolute;

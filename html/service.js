@@ -265,8 +265,8 @@ module.exports = () => `
                      <a href="/privacypolicy">Privacy Policy</a>
                   </li>
                   <li>
-                     <a href="#">Terms of Use</a>
-                  </li>
+                  <a href="/terms">Terms of Use</a>
+               </li>
                </ul>
             </li>
          </ul>

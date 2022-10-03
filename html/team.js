@@ -258,8 +258,8 @@ module.exports = () => `
                <a href="/privacypolicy">Privacy Policy</a>
             </li>
             <li>
-               <a href="#">Terms of Use</a>
-            </li>
+            <a href="/terms">Terms of Use</a>
+         </li>
          </ul>
       </li>
    </ul>
@@ -277,7 +277,6 @@ module.exports = () => `
       <script src="js/jquery.easing.1.3.js" type="text/javascript"></script>
       <script src="js/wow.min.js" type="text/javascript"></script>
       <script src="js/team.js" type="text/javascript"></script>
-
       </body>
    </html>
    `;
