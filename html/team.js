@@ -135,6 +135,7 @@ module.exports = () => `
          <h1 style="margin-top:60px">Workforce</h1>
          <div class="block"></div>
       </div>
+      <h4>2022</h4>
       <section id="skills">
             <div class="board_members">
                <p class="my-4" >
