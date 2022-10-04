@@ -1,20 +1,36 @@
 {
   "api": {
-    "webpage": {
-      "service": "AppSync",
+    "node": {
+      "service": "API Gateway",
       "providerPlugin": "awscloudformation",
-      "dependsOn": [],
-      "output": {
-        "authConfig": {
-          "defaultAuthentication": {
-            "authenticationType": "API_KEY",
-            "apiKeyConfig": {
-              "apiKeyExpirationDays": 7
-            }
-          },
-          "additionalAuthenticationProviders": []
+      "dependsOn": [
+        {
+          "category": "function",
+          "resourceName": "webpage48a195c0",
+          "attributes": [
+            "Name",
+            "Arn"
+          ]
         }
-      }
+      ]
     }
-  }
+  },
+  "function": {
+    "webpage33f1e1ac": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "webpagecda4bf9c": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "webpage48a195c0": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "auth": {}
 }
