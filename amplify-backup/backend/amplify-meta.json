@@ -1,0 +1,49 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-webpage-node-103223-authRole",
+      "UnauthRoleArn": "arn:aws:iam::605280641942:role/amplify-webpage-node-103223-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::605280641942:role/amplify-webpage-node-103223-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-webpage-node-103223-deployment",
+      "UnauthRoleName": "amplify-webpage-node-103223-unauthRole",
+      "StackName": "amplify-webpage-node-103223",
+      "StackId": "arn:aws:cloudformation:us-east-1:605280641942:stack/amplify-webpage-node-103223/87bfc050-44ba-11ed-909a-128a19809aeb",
+      "AmplifyAppId": "d2futq5udvetms"
+    }
+  },
+  "api": {
+    "node": {
+      "service": "API Gateway",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [
+        {
+          "category": "function",
+          "resourceName": "webpage48a195c0",
+          "attributes": [
+            "Name",
+            "Arn"
+          ]
+        }
+      ]
+    }
+  },
+  "function": {
+    "webpage33f1e1ac": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "webpagecda4bf9c": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "webpage48a195c0": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "auth": {}
+}
