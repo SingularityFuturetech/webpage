@@ -2993,9 +2993,6 @@ form {
     padding-bottom: 50px;
   }
 
-  @media (min-width: 900px) {
-
-  }
   
   .container-product {
     margin: 0 auto;
@@ -3132,4 +3129,17 @@ form {
     color: rgb(243, 243, 243);
     font-size: 70px;
    font-family:Arial, Helvetica, sans-serif;
+   margin-bottom: 100px;
+}
+
+  @media (max-width: 820px) {
+    .product-head h2 {
+        margin-top: 200px;
+    }
+
+    @media (max-width: 600px) {
+        .product-head h2 {
+            margin-top: 100px;
+            font-size: 60px;
+        }
 }
