@@ -548,6 +548,7 @@ h4.team-member-designation{
     color: #f9f9f9;
     background-attachment: fixed;
     opacity: 0.8;
+    margin-bottom: 100px;
 }
 .stat i {
     font-size: 85px;
@@ -2989,6 +2990,7 @@ form {
     width: 100%;
     background-color: #F5F5F5;
     padding-top: 30px;
+    padding-bottom: 50px;
   }
 
   @media (min-width: 900px) {
@@ -3120,12 +3122,14 @@ form {
     background-image: url(img/product.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     height: 55vh;
     width: 100%;
     text-align: center;
   }
   .product-head h2 {
     margin-top: 300px;
-    color: white;
-    font-size: 50px;
-  }
+    color: rgb(243, 243, 243);
+    font-size: 70px;
+   font-family:Arial, Helvetica, sans-serif;
+}

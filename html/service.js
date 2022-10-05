@@ -76,9 +76,7 @@ module.exports = () => `
    </nav>
    <div class="product-head">
       <div class="col-xs-12">
-         <div class="section-title text-center wow zoomIn" data-wow-duration=".5s" data-wow-delay=".5s">
-            <h2><b>WHAT WE DO</b></h2>
-         </div>
+            <h2>Just Everything You Need.</h2>
       </div>
    </div>
    <h2 class="product-h2">Our Services</h2>
