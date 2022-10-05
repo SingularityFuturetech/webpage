@@ -161,15 +161,57 @@ module.exports = () => `
                <div class="percentage_content">
                   <section id="bdmp" class="board_members" style="margin-top:20px">
                      <h2>U.S. Race and Ethnicity</h2>
+                     <b>African American or Black 0%</b>
+                     <div class="health">
+                        <span class="progress-bar" style="width: 0%;">
+                        <span class="shade warm"></span>
+                        </span>    
+                     </div>
+                     <b>Alaskan Native or American Indian 0%</b>
+                     <div class="health">
+                        <span class="progress-bar" style="width: 0%;">
+                        <span class="shade warm"></span>
+                        </span>    
+                     </div>
                      <b>Asian 80%</b>
                      <div class="health">
                         <span class="progress-bar" style="width: 80%;">
                         <span class="shade warm"></span>
                         </span>    
                      </div>
+                     <b>Hispanic or Latinx 0%</b>
+                     <div class="health">
+                        <span class="progress-bar" style="width:0%;">
+                        <span class="shade warm"></span>
+                        </span>    
+                     </div>
+                     <b>Native Hawaiian or Pacific Islander 0%</b>
+                     <div class="health">
+                        <span class="progress-bar" style="width:0%;">
+                        <span class="shade warm"></span>
+                        </span>    
+                     </div>
                      <b>White 20%</b>
                      <div class="health">
                         <span class="progress-bar" style="width: 20%;">
+                        <span class="shade warm"></span>
+                        </span>    
+                     </div>
+                     <b>Two or More Races or Ethnicities 0%</b>
+                     <div class="health">
+                        <span class="progress-bar" style="width: 0%;">
+                        <span class="shade warm"></span>
+                        </span>    
+                     </div>
+                     <b>LGBTQ+ 0%</b>
+                     <div class="health">
+                        <span class="progress-bar" style="width: 0%;">
+                        <span class="shade warm"></span>
+                        </span>    
+                     </div>
+                     <b>Did Not Disclose Demographic Background 0%</b>
+                     <div class="health">
+                        <span class="progress-bar" style="width: 0%;">
                         <span class="shade warm"></span>
                         </span>    
                      </div>

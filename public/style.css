@@ -3136,6 +3136,7 @@ form {
     .product-head h2 {
         margin-top: 200px;
     }
+}
 
     @media (max-width: 600px) {
         .product-head h2 {
