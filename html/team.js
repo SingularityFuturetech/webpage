@@ -136,7 +136,104 @@ module.exports = () => `
          <div class="block"></div>
       </div>
       <h4>2022</h4>
+      </div>
       <section id="skills">
+   <div class="container">
+      <div class="text-center">
+         <h2>Board Diversity Matrix</h2>
+         <div class="table-responsive-sm">
+            <table class="table table-hover table-bordered table-striped ">
+               <thead>
+                  <tr  class="table-primary">
+                     <td colspan="8" class="table-primary" align="left">As of August 3, 2022<br></td>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr>
+                     <td colspan="4" align="left">Total Number of Directors</td>
+                     <td colspan="4">5</td>
+                  </tr>
+                  <tr>
+                     <td colspan="4" align="left"><b>Part I: Gender Identity</b></td>
+                     <td><b>Female</b><br></td>
+                     <td><b>Male</b></td>
+                     <td><b>Non-Binary</b></td>
+                     <td><b>Did Not<br>Disclose<br>Gender<br></b></td>
+                  </tr>
+                  <tr>
+                     <td colspan="4" align="left">Directors</td>
+                     <td>0</td>
+                     <td>5</td>
+                     <td>0</td>
+                     <td>0</td>
+                  </tr>
+                  <tr>
+                     <td colspan="8" align="left"><b>Part II: Demographic Background</b></td>
+                  </tr>
+                  <tr>
+                     <td colspan="4" align="left">African American or Black<br></td>
+                     <td>0</td>
+                     <td>0</td>
+                     <td>0</td>
+                     <td>0</td>
+                  </tr>
+                  <tr>
+                     <td colspan="4" align="left">Alaskan Native or American Indian</td>
+                     <td>0</td>
+                     <td>0</td>
+                     <td>0</td>
+                     <td>0</td>
+                  </tr>
+                  <tr>
+                     <td colspan="4" align="left">Asian</td>
+                     <td>0</td>
+                     <td>4</td>
+                     <td>0</td>
+                     <td>0</td>
+                  </tr>
+                  <tr>
+                     <td colspan="4" align="left">Hispanic or Latinx</td>
+                     <td>0</td>
+                     <td>0</td>
+                     <td>0</td>
+                     <td>0</td>
+                  </tr>
+                  <tr>
+                     <td colspan="4" align="left">Native Hawaiian or Pacific Islander</td>
+                     <td>0</td>
+                     <td>0</td>
+                     <td>0</td>
+                     <td>0</td>
+                  </tr>
+                  <tr>
+                     <td colspan="4" align="left">White</td>
+                     <td>0</td>
+                     <td>1</td>
+                     <td>0</td>
+                     <td>0</td>
+                  </tr>
+                  <tr>
+                     <td colspan="4" align="left">Two or More Races or Ethnicities</td>
+                     <td>0</td>
+                     <td>0</td>
+                     <td>0</td>
+                     <td>0</td>
+                  </tr>
+                  <tr>
+                     <td colspan="4" align="left">LGBTQ+</td>
+                     <td colspan="4">0</td>
+                  </tr>
+                  <tr>
+                     <td colspan="4" align="left">Did Not Disclose Demographic Background<br></td>
+                     <td colspan="4">0</td>
+                  </tr>
+               </tbody>
+            </table>
+         </div>
+      </div>
+   </div>
+</section>
+ <!--    <section id="skills">
             <div class="board_members">
                <p class="my-4" >
                <div class="column-6 column-xs-12 column-sm-12 tab">
@@ -221,7 +318,7 @@ module.exports = () => `
          </div>
       </section>
    </div>
-</section>
+</section>  -->  
 <!-- Testimonials Section
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->  
 <section id="testimonial">
