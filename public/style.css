@@ -539,7 +539,7 @@ h4.team-member-designation{
 /*======================================= Blog style Ends =========================================*/
 /*======================================= Counter stat style starts =========================================*/
 .stat {
-    background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0)),url(img/cover-bg-2.jpeg);
+    background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0)),url("https://images.pexels.com/photos/417173/pexels-photo-417173.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -3118,7 +3118,7 @@ form {
 
 
   .product-head{
-    background-image: url(img/product.jpeg);
+    background-image: url("https://images.pexels.com/photos/3608056/pexels-photo-3608056.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
