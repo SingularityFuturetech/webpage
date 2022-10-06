@@ -550,6 +550,14 @@ h4.team-member-designation{
     opacity: 0.8;
     margin-bottom: 100px;
 }
+
+@media (max-width: 750px) {
+.stat{
+    background-size:auto;
+}
+}
+
+
 .stat i {
     font-size: 85px;
 }
