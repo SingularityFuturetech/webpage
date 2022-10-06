@@ -553,7 +553,7 @@ h4.team-member-designation{
 
 @media (max-width: 750px) {
 .stat{
-    background-size:auto;
+    background-attachment: scroll;
 }
 }
 
