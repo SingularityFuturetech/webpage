@@ -126,7 +126,7 @@ module.exports = () => `
                   }
                </script>
                <div class="download">
-                  <a href="/team">
+                  <a href="https://www.sec.gov/edgar/browse/?CIK=1422892&owner=exclude">
                   see more
                   </a>
                </div>
@@ -135,7 +135,7 @@ module.exports = () => `
          <!-- TradingView Widget END -->
       </div>
       <!-- About Section -->
-      <section id="about">
+      <!--    <section id="about">
          <div class="container" style="margin-bottom:100px" >
             <div class="row">
                <div class="col-lg-12 text-center" style="margin-top:100px; margin-bottom:100px">
@@ -213,7 +213,7 @@ module.exports = () => `
                </div>
             </div>
          </div>
-      </section>
+      </section> -->
       <section class="latest-news-area" id="latest"style="margin-bottom:100px"  >
          <div class="container">
             <div class="row">
