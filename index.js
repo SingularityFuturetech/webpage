@@ -6,7 +6,6 @@ const contact = require('./html/contact');
 const policy = require('./html/privacyPolicy');
 const team = require('./html/team');
 const terms = require('./html/termsOfUse');
-const sec = require("./html/sec")
 
 app = express();
 app.use(express.static(__dirname + '/public'));
@@ -70,13 +69,6 @@ app.get('/terms', async (req, res, next) => {
   }
 });
 
-app.get('/sec', async (req, res, next) => {
-  try {
-    res.send(sec());
-  } catch (ex) {
-    next(ex);
-  }
-});
 
 
 const PORT = process.env.PORT || 3000;

@@ -1,3 +1,9 @@
+@import url(https://fonts.googleapis.com/css?family=Duru+Sans|Architects+Daughter);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,400italic);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
+@import url(https://fonts.googleapis.com/css?family=Share+Tech+Mono|Montserrat:700);
+
+
 *{
     margin: 0;
     padding: 0;
@@ -551,12 +557,6 @@ h4.team-member-designation{
     margin-bottom: 100px;
 }
 
-@media (max-width: 750px) {
-.stat{
-    background-attachment: scroll;
-}
-}
-
 
 .stat i {
     font-size: 85px;
@@ -712,58 +712,7 @@ h4.team-member-designation{
 .heart {
     color: #2f2f2f;
 }
-@media screen and (min-width: 24.375em) {
-    .legal .legal__links {
-        margin-left: auto;
-}
 
-
-@media screen and (min-width: 40.375em) {
-    .footer__nav > * {
-        flex: 1;
-   }
-    .nav__item--extra {
-        flex-grow: 2;
-   }
-    .footer__addr {
-        flex: 1 0px;
-   }
-    .footer__nav {
-        flex: 2 0px;
-   }
-
-}
-
-@media screen and (max-width: 24.375em) {
-   .title{
-    display: flex;
-    justify-content: center;
-    margin-left:0px ;
-    margin-top: -10px;
-    font-family: 'JetBrains Mono', monospace;
-
-   }
-   .title h1{
-    font-family: 'JetBrains Mono', monospace;
-    font-size: 40px;
-   }
-   .cta-div{
-    display: flex;
-    justify-content: center;
-    margin: 0;
-   }
-   .btn2{
-    margin-left: 60px;
-    margin-right: 60px;
-   }
-
-   video{
-    max-width: 100px;
-   }
-
-
-}
-}
 
 /* card */
 
@@ -841,12 +790,6 @@ h4.team-member-designation{
     padding: 2em 0;
 }
 
-@media (max-width: 1200px) {
-     #bannertext {
-        visibility:hidden;
-       }
-}
-
 #content {
     max-width: 48em;
     text-align: justify;
@@ -866,9 +809,6 @@ h4.team-member-designation{
    padding-left: 40px;
 
 }
-
-@import url("https://fonts.googleapis.com/css?family=Share+Tech+Mono|Montserrat:700");
-
 
 
 .timeline {
@@ -983,92 +923,6 @@ h4.team-member-designation{
     margin-bottom: 0;
 }
 
-@media(min-width:768px) {
-    .timeline:before {
-        left: 50%;
-    }
-
-    .timeline>li {
-        margin-bottom: 100px;
-        min-height: 100px;
-    }
-
-    .timeline>li .timeline-panel {
-        float: left;
-        width: 41%;
-        padding: 0 20px 20px 30px;
-        text-align: right;
-    }
-
-    .timeline>li .timeline-image {
-        left: 50%;
-        width: 100px;
-        height: 100px;
-        margin-left: -50px;
-    }
-
-    .timeline>li .timeline-image h4 {
-        margin-top: 16px;
-        font-size: 13px;
-        line-height: 18px;
-    }
-
-    .timeline>li.timeline-inverted>.timeline-panel {
-        float: right;
-        padding: 0 30px 20px 20px;
-        text-align: left;
-    }
-}
-
-@media(min-width:992px) {
-    .timeline>li {
-        min-height: 150px;
-    }
-
-    .timeline>li .timeline-panel {
-        padding: 0 20px 20px;
-    }
-
-    .timeline>li .timeline-image {
-        width: 150px;
-        height: 150px;
-        margin-left: -75px;
-    }
-
-    .timeline>li .timeline-image h4 {
-        margin-top: 30px;
-        font-size: 18px;
-        line-height: 26px;
-    }
-
-    .timeline>li.timeline-inverted>.timeline-panel {
-        padding: 0 20px 20px;
-    }
-}
-
-@media(min-width:1200px) {
-    .timeline>li {
-        min-height: 170px;
-    }
-
-    .timeline>li .timeline-panel {
-        padding: 0 20px 20px 100px;
-    }
-
-    .timeline>li .timeline-image {
-        width: 170px;
-        height: 170px;
-        margin-left: -85px;
-    }
-
-    .timeline>li .timeline-image h4 {
-        margin-top: 40px;
-    }
-
-    .timeline>li.timeline-inverted>.timeline-panel {
-        padding: 0 100px 20px 20px;
-    }
-}
 
 /**************************************************************** * * CSS Percentage Circle * Author: Andre Firchow/ Vikas * *****************************************************************/
 .rect-auto, .c100.p51 .slice, .c100.p52 .slice, .c100.p53 .slice, .c100.p54 .slice, .c100.p55 .slice, .c100.p56 .slice, .c100.p57 .slice, .c100.p58 .slice, .c100.p59 .slice, .c100.p60 .slice, .c100.p61 .slice, .c100.p62 .slice, .c100.p63 .slice, .c100.p64 .slice, .c100.p65 .slice, .c100.p66 .slice, .c100.p67 .slice, .c100.p68 .slice, .c100.p69 .slice, .c100.p70 .slice, .c100.p71 .slice, .c100.p72 .slice, .c100.p73 .slice, .c100.p74 .slice, .c100.p75 .slice, .c100.p76 .slice, .c100.p77 .slice, .c100.p78 .slice, .c100.p79 .slice, .c100.p80 .slice, .c100.p81 .slice, .c100.p82 .slice, .c100.p83 .slice, .c100.p84 .slice, .c100.p85 .slice, .c100.p86 .slice, .c100.p87 .slice, .c100.p88 .slice, .c100.p89 .slice, .c100.p90 .slice, .c100.p91 .slice, .c100.p92 .slice, .c100.p93 .slice, .c100.p94 .slice, .c100.p95 .slice, .c100.p96 .slice, .c100.p97 .slice, .c100.p98 .slice, .c100.p99 .slice, .c100.p100 .slice {
@@ -1967,7 +1821,6 @@ h4.team-member-designation{
 }
 
 
-@import url(https://fonts.googleapis.com/css?family=Duru+Sans|Architects+Daughter);
 
  .percentage_content {
 	 overflow:auto;
@@ -2063,7 +1916,6 @@ h4.team-member-designation{
 }
  
 
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,300");
 
 /* Base Styles
 ********************************************************************* */
@@ -2718,7 +2570,7 @@ form {
 /* Policy
 ********************************************************************* */
 
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,400italic);
+
  .hero {
 	 background: #171b23;
 	 padding-left: 0;
@@ -3179,4 +3031,157 @@ form {
     background-image: linear-gradient(-122deg, #d7d2cc 0%, #304352 100%);
     text-align: left;
     color: #e8e8e8;
+}
+
+
+@media (max-width: 750px) {
+.stat{
+    background-attachment: scroll;
+}
+}
+
+@media screen and (min-width: 24.375em) {
+    .legal .legal__links {
+        margin-left: auto;
+}
+
+
+@media screen and (min-width: 40.375em) {
+    .footer__nav > * {
+        flex: 1;
+   }
+    .nav__item--extra {
+        flex-grow: 2;
+   }
+    .footer__addr {
+        flex: 1 0px;
+   }
+    .footer__nav {
+        flex: 2 0px;
+   }
+
+}
+
+@media screen and (max-width: 24.375em) {
+   .title{
+    display: flex;
+    justify-content: center;
+    margin-left:0px ;
+    margin-top: -10px;
+    font-family: 'JetBrains Mono', monospace;
+
+   }
+   .title h1{
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 40px;
+   }
+   .cta-div{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+   }
+   .btn2{
+    margin-left: 60px;
+    margin-right: 60px;
+   }
+
+   video{
+    max-width: 100px;
+   }
+
+
+}
+}
+
+@media (max-width: 1200px) {
+    #bannertext {
+       visibility:hidden;
+      }
+}
+
+@media(min-width:992px) {
+    .timeline>li {
+        min-height: 150px;
+    }
+
+    .timeline>li .timeline-panel {
+        padding: 0 20px 20px;
+    }
+
+    .timeline>li .timeline-image {
+        width: 150px;
+        height: 150px;
+        margin-left: -75px;
+    }
+
+    .timeline>li .timeline-image h4 {
+        margin-top: 30px;
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .timeline>li.timeline-inverted>.timeline-panel {
+        padding: 0 20px 20px;
+    }
+}
+
+@media(min-width:1200px) {
+    .timeline>li {
+        min-height: 170px;
+    }
+
+    .timeline>li .timeline-panel {
+        padding: 0 20px 20px 100px;
+    }
+
+    .timeline>li .timeline-image {
+        width: 170px;
+        height: 170px;
+        margin-left: -85px;
+    }
+
+    .timeline>li .timeline-image h4 {
+        margin-top: 40px;
+    }
+
+    .timeline>li.timeline-inverted>.timeline-panel {
+        padding: 0 100px 20px 20px;
+    }
+}
+
+@media(min-width:768px) {
+    .timeline:before {
+        left: 50%;
+    }
+
+    .timeline>li {
+        margin-bottom: 100px;
+        min-height: 100px;
+    }
+
+    .timeline>li .timeline-panel {
+        float: left;
+        width: 41%;
+        padding: 0 20px 20px 30px;
+        text-align: right;
+    }
+
+    .timeline>li .timeline-image {
+        left: 50%;
+        width: 100px;
+        height: 100px;
+        margin-left: -50px;
+    }
+
+    .timeline>li .timeline-image h4 {
+        margin-top: 16px;
+        font-size: 13px;
+        line-height: 18px;
+    }
+
+    .timeline>li.timeline-inverted>.timeline-panel {
+        float: right;
+        padding: 0 30px 20px 20px;
+        text-align: left;
+    }
 }
