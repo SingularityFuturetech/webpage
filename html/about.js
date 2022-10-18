@@ -73,7 +73,7 @@ module.exports = () => `
             <li><a href="/service" class="hover-underline-animation">PRODUCT & SERVICES</a></li>
             <li><a href="/team" class="hover-underline-animation">TEAM</a></li>
             <li><a href="/contact" class="hover-underline-animation">CONTACT US</a></li>
-            <li><a href="https://www.thorminer.com/" class="contact">THOR MINER</a></li>
+            <li><a href="https://www.thorminers.com/" class="contact">THOR MINER</a></li>
          </ul>
       </div>
    </div>

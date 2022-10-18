@@ -12,13 +12,6 @@ See the License for the specific language governing permissions and limitations 
 const express = require('express')
 const bodyParser = require('body-parser')
 const awsServerlessExpressMiddleware = require('aws-serverless-express/middleware')
-const homePage = require('../../../../../../html/index');
-const service = require('./html/service');
-const about = require('./html/about');
-const contact = require('./html/contact');
-const policy = require('./html/privacyPolicy');
-const team = require('./html/team');
-const terms = require('./html/termsOfUse');
 
 // declare a new express app
 const app = express()
@@ -37,24 +30,26 @@ app.use(function(req, res, next) {
  * Example get method *
  **********************/
 
- app.get('/', async (req, res, next) => {
-  try {
-    res.send(homePage());
-  } catch (ex) {
-    next(ex);
-  }
+app.get('/', function(req, res) {
+  // Add your code here
+  res.json({success: 'get call succeed!', url: req.url});
+});
+
+app.get('//*', function(req, res) {
+  // Add your code here
+  res.json({success: 'get call succeed!', url: req.url});
 });
 
 /****************************
 * Example post method *
 ****************************/
 
-app.post('/items', function(req, res) {
+app.post('/', function(req, res) {
   // Add your code here
   res.json({success: 'post call succeed!', url: req.url, body: req.body})
 });
 
-app.post('/items/*', function(req, res) {
+app.post('//*', function(req, res) {
   // Add your code here
   res.json({success: 'post call succeed!', url: req.url, body: req.body})
 });
@@ -63,12 +58,12 @@ app.post('/items/*', function(req, res) {
 * Example put method *
 ****************************/
 
-app.put('/items', function(req, res) {
+app.put('/', function(req, res) {
   // Add your code here
   res.json({success: 'put call succeed!', url: req.url, body: req.body})
 });
 
-app.put('/items/*', function(req, res) {
+app.put('//*', function(req, res) {
   // Add your code here
   res.json({success: 'put call succeed!', url: req.url, body: req.body})
 });
@@ -77,12 +72,12 @@ app.put('/items/*', function(req, res) {
 * Example delete method *
 ****************************/
 
-app.delete('/items', function(req, res) {
+app.delete('/', function(req, res) {
   // Add your code here
   res.json({success: 'delete call succeed!', url: req.url});
 });
 
-app.delete('/items/*', function(req, res) {
+app.delete('//*', function(req, res) {
   // Add your code here
   res.json({success: 'delete call succeed!', url: req.url});
 });

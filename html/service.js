@@ -69,7 +69,7 @@ module.exports = () => `
                <li><a href="/service" class="hover-underline-animation">PRODUCT & SERVICES</a></li>
                <li><a href="/team" class="hover-underline-animation">TEAM</a></li>
                <li><a href="/contact" class="hover-underline-animation">CONTACT US</a></li>
-               <li><a href="https://www.thorminer.com/" class="contact">THOR MINER</a></li>
+               <li><a href="https://www.thorminers.com/" class="contact">THOR MINER</a></li>
             </ul>
          </div>
       </div>
@@ -127,18 +127,18 @@ module.exports = () => `
                <img src="img/miner01.png" alt="" class="pricing-img">
                <h2 class="pricing-header">S99 Max</h2>
                <ul class="pricing-features">
-                 <li class="pricing-features-item">92th/s Hash Rate</li>
+                 <li class="pricing-features-item">113th/s Hash Rate</li>
                  <li class="pricing-features-item">3400w Power Consumption</li>
-                 <li class="pricing-features-item">36j/t Power Efficiency</li>
+                 <li class="pricing-features-item">30j/t Power Efficiency</li>
                </ul>
              </div>
              <div class="pricing-plan">
                <img src="img/miner02.png" alt="" class="pricing-img">
                <h2 class="pricing-header">S99 Pro</h2>
                <ul class="pricing-features">
-               <li class="pricing-features-item">92th/s Hash Rate</li>
+               <li class="pricing-features-item">98th/s Hash Rate</li>
                  <li class="pricing-features-item">3400w Power Consumption</li>
-                 <li class="pricing-features-item">36j/t Power Efficiency</li>
+                 <li class="pricing-features-item">34j/t Power Efficiency</li>
                </ul>
              </div>
              
@@ -148,7 +148,7 @@ module.exports = () => `
                <ul class="pricing-features">
                <li class="pricing-features-item">92th/s Hash Rate</li>
                <li class="pricing-features-item">3400w Power Consumption</li>
-               <li class="pricing-features-item">36j/t Power Efficiency</li>
+               <li class="pricing-features-item">37j/t Power Efficiency</li>
                </ul>
              </div>
            </div>
