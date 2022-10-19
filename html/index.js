@@ -72,6 +72,7 @@ module.exports = () => `
                <li><a href="/about" class="hover-underline-animation">ABOUT US</a></li>
                <li><a href="/service" class="hover-underline-animation">PRODUCT & SERVICES</a></li>
                <li><a href="/team" class="hover-underline-animation">TEAM</a></li>
+               <li><a href="/news" class="hover-underline-animation">NEWS</a></li>
                <li><a href="/contact" class="hover-underline-animation">CONTACT US</a></li>
                <li><a href="https://www.thorminers.com/" class="contact">THOR MINER</a></li>
             </ul>
@@ -86,7 +87,7 @@ module.exports = () => `
                <br>
                <br>
                <div class = "title">
-                  <h1>WE MADE <span style="color:gold">CRYPTOCURRENCY</span> BETTER</h1>
+                  <h1> A better planet with <span style="color:#23D75F">renewable</span> energy</h1>
                </div>
                <div class="cta-div">
                   <a href="/service" class="btn2">LEARN MORE</a>
@@ -171,10 +172,10 @@ module.exports = () => `
             <div class="mainpage_word">
                <div class=" text-center wow zoomIn" data-wow-duration=".15s" data-wow-delay=".15s">
                   <h1 style="color:#373C38">
-                     The future of cryto miner
+                  Allow green to shine.
                   </h1>
-                  <h5 class=" text-center wow zoomIn" data-wow-duration=".65s" data-wow-delay=".65s" style="color:#999">We develops solutions for interconnected AI networks in the revolutionized AI and Blockchain supply management area and establishes crypto mining pools. </h5>
-                  <a href="/service" class="hover-underline-animation section-title text-center wow zoomIn" data-wow-duration=".65s" data-wow-delay=".65s" " style="text-decoration: none;">Checkout our latest miner</a>
+                  <h5 class=" text-center wow zoomIn" data-wow-duration=".65s" data-wow-delay=".65s" style="color:#999">We develop environmentally friendly solutions for interconnected AI networks and build cryptocurrency mining pools in the revolutionary AI and blockchain supply management space. </h5>
+                  <a href="/future" class="hover-underline-animation section-title text-center wow zoomIn" data-wow-duration=".65s" data-wow-delay=".65s" " style="text-decoration: none;">Checkout our future plan</a>
                </div>
             </div>
          </div>
@@ -185,10 +186,6 @@ module.exports = () => `
             </video>
          </div>
          <br><br>
-         <div style="margin-top:100px">
-            <h1 class=" text-center wow zoomIn" data-wow-duration=".65s" data-wow-delay=".65s" " style="text-decoration: none;">Our Story</h1>
-            <p class="my-4" id="secteam">  
-         </div>
          <div class="row">
             <div class="col-md-6 col-sm-6 col-xs-12">
                <div class="item-2">

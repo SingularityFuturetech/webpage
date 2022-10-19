@@ -5,7 +5,10 @@ const about = require('./html/about');
 const contact = require('./html/contact');
 const policy = require('./html/privacyPolicy');
 const team = require('./html/team');
+const news = require('./html/news');
 const terms = require('./html/termsOfUse');
+const future = require('./html/future');
+
 
 app = express();
 app.use(express.static(__dirname + '/public'));
@@ -68,6 +71,23 @@ app.get('/terms', async (req, res, next) => {
     next(ex);
   }
 });
+
+app.get('/news', async (req, res, next) => {
+  try {
+    res.send(news());
+  } catch (ex) {
+    next(ex);
+  }
+});
+
+app.get('/future', async (req, res, next) => {
+  try {
+    res.send(future());
+  } catch (ex) {
+    next(ex);
+  }
+});
+
 
 
 

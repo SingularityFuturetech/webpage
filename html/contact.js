@@ -68,6 +68,7 @@ module.exports = () => `
             <li><a href="/about" class="hover-underline-animation">ABOUT US</a></li>
             <li><a href="/service" class="hover-underline-animation">PRODUCT & SERVICES</a></li>
             <li><a href="/team" class="hover-underline-animation">TEAM</a></li>
+            <li><a href="/news" class="hover-underline-animation">NEWS</a></li>
             <li><a href="/contact" class="hover-underline-animation">CONTACT US</a></li>
             <li><a href="https://www.thorminers.com/" class="contact">THOR MINER</a></li>
          </ul>
@@ -94,7 +95,6 @@ module.exports = () => `
                <i class="fas fa-phone-alt">
                </i>
                <h3>718-888-1814 </h3>
-               <h3>917-714-4331 </h3>
             </div>
             <div class="email">
                <i class="fas fa-envelope">
@@ -103,7 +103,7 @@ module.exports = () => `
                <h3>support@singularity.us  </h3>
             </div>
             <div class="contact-form">
-               <form   action="https://formspree.io/f/xwkzbbyb"
+               <form   action="https://formspree.io/f/xpzbpjrj"
                method="POST">
                   <input type="text" name="name" placeholder="Name" required/>
                   <input placeholder="Email" type="email" name="email" placeholder="Email" required />
