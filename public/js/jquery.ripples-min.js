@@ -274,7 +274,7 @@
   };
   (d.DEFAULTS = {
     imageUrl: null,
-    resolution: 256,
+    resolution: 1, //256
     dropRadius: 20,
     perturbance: 0.03,
     interactive: !0,

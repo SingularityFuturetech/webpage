@@ -87,10 +87,10 @@ module.exports = () => `
                <br>
                <br>
                <div class = "title">
-                  <h1> A better planet with <span style="color:#23D75F">renewable</span> energy</h1>
+                  <h1> A better planet with <span style="color:#DAEDB7">renewable</span> energy</h1>
                </div>
                <div class="cta-div">
-                  <a href="/service" class="btn2">LEARN MORE</a>
+                  <a href="/future" class="btn2">LEARN MORE</a>
                </div>
                <br><br>
             </div>
@@ -172,10 +172,10 @@ module.exports = () => `
             <div class="mainpage_word">
                <div class=" text-center wow zoomIn" data-wow-duration=".15s" data-wow-delay=".15s">
                   <h1 style="color:#373C38">
-                  Allow green to shine.
+                  Allow green to shine
                   </h1>
                   <h5 class=" text-center wow zoomIn" data-wow-duration=".65s" data-wow-delay=".65s" style="color:#999">We develop environmentally friendly solutions for interconnected AI networks and build cryptocurrency mining pools in the revolutionary AI and blockchain supply management space. </h5>
-                  <a href="/future" class="hover-underline-animation section-title text-center wow zoomIn" data-wow-duration=".65s" data-wow-delay=".65s" " style="text-decoration: none;">Checkout our future plan</a>
+                  <a href="/service" class="hover-underline-animation section-title text-center wow zoomIn" data-wow-duration=".65s" data-wow-delay=".65s" " style="text-decoration: none;">Checkout our latest miner</a>
                </div>
             </div>
          </div>
