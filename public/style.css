@@ -3160,13 +3160,12 @@ p {
     display: flex;
     justify-content: center;
     margin-left:0px ;
-    margin-top: -50px;
+    margin-top: -20px;
     font-family: 'JetBrains Mono', monospace;
 
    }
    .title h1{
-    font-family: 'JetBrains Mono', monospace;
-    font-size: 40px;
+    font-size: 60px;
    }
    .cta-div{
     display: flex;
@@ -3179,7 +3178,7 @@ p {
    }
 
    video{
-    max-width: 100px;
+    max-width: 400px;
    }
 
 }
