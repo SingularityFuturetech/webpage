@@ -175,7 +175,7 @@ module.exports = () => `
                   Allow green to shine
                   </h1>
                   <h5 class=" text-center wow zoomIn" data-wow-duration=".65s" data-wow-delay=".65s" style="color:#999">We develop environmentally friendly solutions for interconnected AI networks and build cryptocurrency mining pools in the revolutionary AI and blockchain supply management space. </h5>
-                  <a href="/service" class="hover-underline-animation section-title text-center wow zoomIn" data-wow-duration=".65s" data-wow-delay=".65s" " style="text-decoration: none;">Checkout our latest miner</a>
+                  <a href="/service" class="hover-underline-animation section-title text-center wow zoomIn" data-wow-duration=".65s" data-wow-delay=".65s" style="text-decoration: none;">Checkout our latest miner</a>
                </div>
             </div>
          </div>
@@ -189,7 +189,7 @@ module.exports = () => `
          <div class="row">
             <div class="col-md-6 col-sm-6 col-xs-12">
                <div class="item-2">
-                  <a href="/about" class="card section-title text-center wow zoomIn" data-wow-duration=".65s" data-wow-delay=".65s"">
+                  <a href="/about" class="card section-title text-center wow zoomIn" data-wow-duration=".65s" data-wow-delay=".65s">
                      <div class="thumb" style="background-image: url(https://images.pexels.com/photos/380769/pexels-photo-380769.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);"></div>
                      <article>
                         <span>About us</span>

@@ -75,10 +75,12 @@ module.exports = () => `
          </div>
       </div>
    </nav>
+   <div class="product-head-overlay">
    <div class="product-head">
       <div class="col-xs-12">
-            <h2>Just Everything You Need.</h2>
+            <h2>Just Everything You Need</h2>
       </div>
+   </div>
    </div>
    <h2 class="product-h2">Our Services</h2>
    <section class="service-area" id="services" >
