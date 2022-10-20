@@ -3155,17 +3155,17 @@ p {
 
 }
 
-@media screen and (max-width: 24.375em) {
+@media screen and (max-width: 25.375em) {
    .title{
     display: flex;
     justify-content: center;
     margin-left:0px ;
-    margin-top: -20px;
+    margin-top: -50px;
     font-family: 'JetBrains Mono', monospace;
 
    }
    .title h1{
-    font-size: 60px;
+    font-size: 65px;
    }
    .cta-div{
     display: flex;
