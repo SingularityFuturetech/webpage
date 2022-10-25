@@ -1,17 +1,21 @@
-window.addEventListener("scroll", function(event) {
-    var depth, i, layer, layers, len, movement, topDistance, translate3d;
-    topDistance = this.pageYOffset;
-    layers = document.querySelectorAll("[data-type='parallax']");
-    for (i = 0, len = layers.length; i < len; i++) {
-      layer = layers[i];
-      depth = layer.getAttribute("data-depth");
-      movement = -(topDistance * depth);
-      translate3d = "translate3d(0, " + movement + "px, 0)";
-      layer.style["-webkit-transform"] = translate3d;
-      layer.style["-moz-transform"] = translate3d;
-      layer.style["-ms-transform"] = translate3d;
-      layer.style["-o-transform"] = translate3d;
-      layer.style.transform = translate3d;
-    }
+
+$(window).scroll(function () {
+    const a = $(this).scrollTop(),
+      b = 400,
+      t = window.pageYOffset;
+    $(".parallax").css('transform', 'translate(-' + a / 1.6 + 'px, -' + 1 - a / b + 'px)');
+    $(".one").css('bottom', -(t * 0.3) + 'px');
+    $(".two").css('bottom', -(t * 0.4) + 'px');
+    $(".three").css('bottom', -(t * 0.5) + 'px');
+    $(".four").css('bottom', -(t * 0.6) + 'px');
+    $(".five").css('bottom', -(t * 0.7) + 'px');
   });
-  
+  $("header").on('mousemove', e => {
+    const cx = $(window).width() / 2,
+      cy = $(window).height() / 2,
+      x = (cx - e.pageX) / cx * 2,
+      y = (cy - e.pageY) / cy * 2;
+    $(".two").css('transform', `translate(${x}px, ${y}px)`);
+    $(".four").css('transform', `translate(-${x}px, ${y}px)`);
+    $(".five").css('transform', `translate(${x}px, -${y}px)`);
+  });

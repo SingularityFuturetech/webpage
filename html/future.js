@@ -79,52 +79,28 @@ module.exports = () => `
       </div>
    </div>
 </nav>
-<div class="hero2">
-  <div class='hero--layer hero__1' data-depth='0.20' data-type='parallax'></div>
-  <div class='hero--layer hero__2' data-depth='0.30' data-type='parallax'></div>
-  <div class='hero--layer hero__3' data-depth='0.40' data-type='parallax'></div>
-  <div class='hero--layer hero__4' data-depth='0.50' data-type='parallax'></div>
-  <div class='hero--layer hero__5' data-depth='0.60' data-type='parallax'></div>
-  <div class='hero--layer hero__6' data-depth='0.70' data-type='parallax'></div>
-  <div class='hero--layer hero__7' data-depth='0.80' data-type='parallax'></div>
-  <div class='hero--layer hero__8' data-depth='0.90' data-type='parallax'></div>
-  <div class='hero--layer hero__9' data-depth='1.00' data-type='parallax'></div>
-</div>
-<div class="container2">
-  <div class="container--item2">
-    <h1 class="container--h1">Multi Layer Parallax</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at arcu sit amet nisi molestie aliquet. Integer a massa egestas, hendrerit purus in, pharetra lacus. Morbi vehicula sem nec accumsan cursus. Maecenas eu porta ante, in mollis odio.
-      Proin pellentesque lacinia congue. Vivamus lacus nunc, lacinia iaculis tempor nec, egestas et tortor. Praesent in laoreet enim. Sed tempus purus id commodo blandit. Fusce sit amet malesuada mauris. Phasellus imperdiet ornare tellus ac volutpat.</p>
-    <p>Aenean rutrum mattis dolor vel placerat. Nulla urna magna, mollis commodo elementum nec, tincidunt nec nunc. Maecenas mollis tellus sit amet tortor tincidunt, et elementum felis suscipit. Phasellus eget dolor ullamcorper, sollicitudin felis posuere,
-      laoreet metus. Nam posuere feugiat elementum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In ac eleifend ex. Vestibulum aliquam pharetra metus, sit amet faucibus eros varius ut. Duis cursus, ligula eu efficitur
-      cursus, sem sem porttitor nisl, ut lacinia neque massa faucibus mauris. Nullam eu nisl quam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
-    <p>Cras quam lacus, dictum nec hendrerit eget, porta non ipsum. Morbi sit amet justo non tellus viverra volutpat at et augue. Nunc quis dignissim elit, ut aliquet mauris. Praesent fringilla ipsum nec placerat iaculis. Cras est erat, tincidunt vitae egestas
-      ac, dictum eu enim. Maecenas aliquet vestibulum nisi, non tristique nisi consectetur ac. Phasellus rhoncus sollicitudin eros blandit tempus. Donec vitae massa quis tortor pulvinar mollis a eu turpis. Cras lobortis odio et tempor mollis. Suspendisse
-      posuere dignissim augue in fringilla.</p>
-    <p>Vestibulum tempor laoreet quam, eget pellentesque leo tincidunt sit amet. Aenean arcu lorem, gravida ac mauris vel, sollicitudin facilisis dui. Curabitur a vulputate erat. Curabitur rhoncus sem et leo malesuada, commodo cursus ipsum aliquet. Sed ornare
-      sem nec fringilla ornare. Pellentesque a nisi quis purus egestas luctus vitae in est. Proin faucibus rutrum mi ut sollicitudin. Pellentesque dapibus risus ut mattis consectetur.</p>
-    <p>Nam vitae condimentum erat. Quisque auctor mauris lorem. Integer fringilla vehicula nisi a efficitur. Duis scelerisque fringilla lacus id maximus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In sapien
-      neque, viverra non odio ac, maximus lobortis arcu. Mauris volutpat tincidunt malesuada. Donec nisl mauris, ornare vitae tincidunt nec, semper tincidunt massa. Donec tincidunt, lacus at mattis commodo, lorem tortor sagittis risus, vel gravida justo
-      felis sed ante. Proin pellentesque nunc quis urna suscipit, dignissim bibendum lectus maximus. Integer odio diam, consectetur eget urna vestibulum, egestas suscipit lacus. Donec euismod condimentum viverra. Quisque quis tincidunt erat. Nunc in arcu
-      rhoncus, posuere justo eu, vestibulum nibh.</p>
-    <p>Vestibulum et aliquam metus. Integer quis cursus enim. Fusce sit amet massa arcu. Curabitur nunc lacus, viverra sed enim at, congue lobortis purus. Donec faucibus leo pellentesque velit semper semper sit amet sed neque. Quisque sodales lacinia viverra.
-      Donec pharetra mauris sed turpis tincidunt hendrerit. Aenean rutrum, metus ut posuere congue, odio mi feugiat libero, in varius lectus sapien non mi. Pellentesque consequat ullamcorper ex, quis tincidunt sem rutrum sed. Vivamus scelerisque erat
-      quis magna viverra commodo.</p>
-    <p>Vestibulum commodo aliquam magna, vitae blandit metus dictum eget. Quisque vitae luctus libero, quis mattis ex. Nullam volutpat consequat massa vitae iaculis. Cras id lacus tempor, bibendum est ac, suscipit eros. Vivamus vestibulum turpis et elit
-      volutpat, quis dignissim ex lobortis. Pellentesque tortor tortor, condimentum nec mauris ut, elementum vehicula felis. Pellentesque sed malesuada sem. Ut quis lorem sed eros pharetra aliquet. Morbi at ipsum eget augue pretium auctor a sit amet erat.
-      Curabitur eleifend ac elit eu ultrices. Nunc interdum lacus nec lacus sollicitudin cursus.</p>
-    <p>Donec ipsum lacus, tristique ut dictum sed, pellentesque non purus. Pellentesque pretium venenatis aliquam. Donec porta mauris sed odio condimentum, nec sodales lorem commodo. Sed vehicula vehicula malesuada. Sed dictum faucibus elit in laoreet. Integer
-      porta ante vel bibendum varius. Maecenas eget elementum erat. Pellentesque euismod venenatis eleifend. Suspendisse commodo ligula id enim rhoncus, nec aliquam turpis fringilla. Suspendisse potenti. Nunc nec ipsum ante. Proin nec ultrices nisi, non
-      laoreet ante.</p>
-    <p>Curabitur facilisis consequat diam at feugiat. In iaculis eros non elit mollis, porta facilisis risus gravida. Proin placerat sed tellus ac pellentesque. Fusce mattis convallis nisl, in tincidunt sapien vehicula et. Praesent eu accumsan leo. Fusce
-      finibus leo id ipsum laoreet ultricies. Nullam nibh mauris, dignissim id metus id, posuere malesuada ante. Nulla dignissim, neque sit amet tincidunt pulvinar, odio tortor commodo neque, et imperdiet ligula velit eu ligula. Nulla vel facilisis tortor.
-      Nunc elit metus, sollicitudin a tristique a, efficitur a augue. Vivamus dictum elementum magna semper faucibus. Pellentesque dignissim ligula id urna fringilla, eget porttitor felis fermentum. Duis maximus augue quam. Nunc accumsan, libero a consequat
-      luctus, risus erat pellentesque nibh, ac viverra metus diam quis ex.</p>
-    <p>Suspendisse quis nunc arcu. Proin suscipit, lacus non venenatis venenatis, libero nulla iaculis quam, sed porttitor justo orci ut lacus. Aliquam semper nisi metus, a sollicitudin enim aliquet sed. Morbi non purus et nibh convallis ultrices. Vestibulum
-      gravida magna at augue hendrerit fringilla a id magna. Vestibulum id dignissim urna, venenatis maximus nisl. In ac dictum nisl. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent auctor elit tempor ex
-      placerat ultricies. Morbi lacus odio, laoreet eget arcu ac, finibus volutpat massa. Fusce condimentum eros at tortor fermentum lacinia. Nullam auctor, elit a rutrum ultricies, sem odio suscipit diam, a vestibulum est nulla non metus.</p>
-  </div>
-</div>
+<header>
+    <div class="overlay">
+        <div class="parallax">
+            <h1>Eco-Friendly Crypto<span>Scroll down to read more</span></h1>
+            <div class="one"></div>
+            <div class="two"></div>
+            <div class="three"></div>
+            <div class="four"></div>
+            <div class="five"></div>
+        </div>
+    </div>
+</header>
+<main>
+    <div class="container2">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat veniam tenetur praesentium, ex nobis error obcaecati mollitia voluptas earum quo sapiente recusandae voluptatum distinctio. Minus, perspiciatis. Repudiandae omnis quisquam sapiente!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis eum odio, aliquam voluptatibus dignissimos eaque iure minus tempore a adipisci labore illum fugiat consequuntur dolor quos facilis maxime ea provident?</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate excepturi repudiandae omnis obcaecati expedita? Cum iusto quos necessitatibus quis voluptates, aspernatur dolorum error nobis quisquam non, ullam consequatur molestias. Voluptatum.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat veniam tenetur praesentium, ex nobis error obcaecati mollitia voluptas earum quo sapiente recusandae voluptatum distinctio. Minus, perspiciatis. Repudiandae omnis quisquam sapiente!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis eum odio, aliquam voluptatibus dignissimos eaque iure minus tempore a adipisci labore illum fugiat consequuntur dolor quos facilis maxime ea provident?</p>
+        <p>pictures from the site https://tornis.robbowen.digital/</p>
+    </div>
+</main>
       <!-------------Footer markups--------------->
       <div class="column-12 column-xs-12 column-sm-12 tab">
          <footer class="footer">
@@ -139,8 +115,8 @@ module.exports = () => `
             </div>
             <ul class="footer__nav">
                <li class="nav__item nav__item--extra">
-                  <h2 class="nav__title">Know us more</h2>
                   <ul class="nav__ul nav__ul--extra">
+                  <h2 class="nav__title">Know us more</h2>
                      <li>
                         <a href="/service">Product and Services</a>
                      </li>
@@ -153,8 +129,8 @@ module.exports = () => `
                   </ul>
                </li>
                <li class="nav__item">
-                  <h2 class="nav__title">Legal</h2>
                   <ul class="nav__ul">
+                  <h2 class="nav__title">Legal</h2>
                      <li>
                         <a href="/privacypolicy">Privacy Policy</a>
                      </li>

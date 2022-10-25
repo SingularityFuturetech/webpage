@@ -83,9 +83,8 @@ module.exports = () => `
    <h2 class="display-4 text-left news"></h2>
    </div>
    <div style="margin-top:100px;margin-bottom:100px">
-     <rssapp-ticker id="t0Abu0pOzDIU60e2"></rssapp-ticker><script src="https://widget.rss.app/v1/ticker.js" type="text/javascript" async></script>
-   <rssapp-magazine id="t0Abu0pOzDIU60e2"></rssapp-magazine><script src="https://widget.rss.app/v1/magazine.js" type="text/javascript" async></script>
-      </div>
+   <rssapp-ticker id="ts0iZhCy3BcenJoT"></rssapp-ticker><script src="https://widget.rss.app/v1/ticker.js" type="text/javascript" async></script>
+    <rssapp-magazine id="ts0iZhCy3BcenJoT"></rssapp-magazine><script src="https://widget.rss.app/v1/magazine.js" type="text/javascript" async></script>      </div>
 </div>
    <!-------------Footer markups--------------->
       <div class="column-12 column-xs-12 column-sm-12 tab">
@@ -101,7 +100,7 @@ module.exports = () => `
             </div>
             <ul class="footer__nav">
                <li class="nav__item nav__item--extra">
-                  <h2 class="nav__title">Know us more</h2>
+                  <h3 class="nav__title">Know us more</h3>
                   <ul class="nav__ul nav__ul--extra">
                      <li>
                         <a href="/service">Product and Services</a>
@@ -115,7 +114,7 @@ module.exports = () => `
                   </ul>
                </li>
                <li class="nav__item">
-                  <h2 class="nav__title">Legal</h2>
+                  <h3 class="nav__title">Legal</h3>
                   <ul class="nav__ul">
                      <li>
                         <a href="/privacypolicy">Privacy Policy</a>
