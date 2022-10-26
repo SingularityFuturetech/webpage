@@ -102,6 +102,8 @@ video {
     position: absolute;
 }
 .slider-content{
+    display: flexbox;
+    justify-content: center;
     position: absolute;
     top:39%;
     width:100%;
@@ -143,8 +145,6 @@ video {
     border-color: #dfd385 !important;
 }
 .cta-div{
-    display: flex;
-    justify-content: center;
     margin-top: 20px;
 }
 .fab{
@@ -471,6 +471,11 @@ h4.team-member-designation{
     font-size: 95px;
     font-weight: 100;
 
+}
+
+.smoothscroll{
+    display: flex;
+    justify-content: center;
 }
 /*======================================= FAQs style Ends =========================================*/
 /*======================================= Blog style Start =========================================*/
@@ -2246,7 +2251,8 @@ a:hover {
 }
 .scroll-down {
 	position: absolute;
-	left: 50%;
+    left: 50%;
+    right: 50%;
 	bottom: 5vh;
 	display: block;
 	text-align: center;

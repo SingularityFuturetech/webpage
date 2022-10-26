@@ -94,14 +94,6 @@ module.exports = () => `
                </div>
                <br><br>
             </div>
-            <a class="smoothscroll" href="#workforce">
-    <div class="mouse">
-      <div class="wheel"></div>
-    </div>
-    </a> </div>
-  <a class="smoothscroll" href="#widget">
-  <div class="scroll-down"></div>
-  </a>
          </div>
       </section>
       <!-- TradingView Widget BEGIN -->
