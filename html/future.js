@@ -56,7 +56,6 @@ module.exports = () => `
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
    </head>
-   <body>
    <nav class="navbar navbar-default navbar-fixed-top" id="navbar" role="navigation">
    <div class="container">
       <div class="navbar-header">
@@ -91,16 +90,63 @@ module.exports = () => `
         </div>
     </div>
 </header>
+<div class="future-body">
+<div class="body-1">
+ <header class="future-tittle">
+    <video autoplay playsinline muted loop preload poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/oceanshot.jpg">
+       <source src="sun.mp4" type="video/mp4" id="video" />
+     <source src="sun.mp4" type="video/mp4" id="video" />
+    </video>
+     <svg class='svg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 285 80" preserveAspectRatio="xMidYMid slice">
+     <defs>
+     <mask id="mask1" x="0" y="0" width="100%" height="100%" >
+       <rect class='rect1'  x="0" y="0" width="100%" height="100%" />
+     <text x="35"  y="60">solar</text>
+       </mask>
+   </defs>
+  <rect x="0" y="0" width="100%" height="100%" />
+   </svg>
+ </header>
 <main>
-    <div class="container2">
-    <h1>Mining powered by solar energy</h1>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat veniam tenetur praesentium, ex nobis error obcaecati mollitia voluptas earum quo sapiente recusandae voluptatum distinctio. Minus, perspiciatis. Repudiandae omnis quisquam sapiente!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis eum odio, aliquam voluptatibus dignissimos eaque iure minus tempore a adipisci labore illum fugiat consequuntur dolor quos facilis maxime ea provident?</p>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate excepturi repudiandae omnis obcaecati expedita? Cum iusto quos necessitatibus quis voluptates, aspernatur dolorum error nobis quisquam non, ullam consequatur molestias. Voluptatum.</p>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat veniam tenetur praesentium, ex nobis error obcaecati mollitia voluptas earum quo sapiente recusandae voluptatum distinctio. Minus, perspiciatis. Repudiandae omnis quisquam sapiente!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis eum odio, aliquam voluptatibus dignissimos eaque iure minus tempore a adipisci labore illum fugiat consequuntur dolor quos facilis maxime ea provident?</p>
-    </div>
-</main>
+ <div class="container2">
+ <h1>Mining powered by solar energy</h1>
+     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat veniam tenetur praesentium, ex nobis error obcaecati mollitia voluptas earum quo sapiente recusandae voluptatum distinctio. Minus, perspiciatis. Repudiandae omnis quisquam sapiente!</p>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis eum odio, aliquam voluptatibus dignissimos eaque iure minus tempore a adipisci labore illum fugiat consequuntur dolor quos facilis maxime ea provident?</p>
+     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate excepturi repudiandae omnis obcaecati expedita? Cum iusto quos necessitatibus quis voluptates, aspernatur dolorum error nobis quisquam non, ullam consequatur molestias. Voluptatum.</p>
+     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat veniam tenetur praesentium, ex nobis error obcaecati mollitia voluptas earum quo sapiente recusandae voluptatum distinctio. Minus, perspiciatis. Repudiandae omnis quisquam sapiente!</p>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis eum odio, aliquam voluptatibus dignissimos eaque iure minus tempore a adipisci labore illum fugiat consequuntur dolor quos facilis maxime ea provident?</p>
+ </div>
+</div>
+</div>
+
+<div class="future-body">
+<div class="body-2">
+ <header class="future-tittle2">
+    <video autoplay playsinline muted loop preload poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/oceanshot.jpg">
+       <source src="sun.mp4" type="video/mp4" id="video" />
+     <source src="sun.mp4" type="video/mp4" id="video" />
+    </video>
+     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 285 80" preserveAspectRatio="xMidYMid slice">
+     <defs>
+     <mask id="mask2" x="0" y="0" width="100%" height="100%" >
+       <rect x="0" y="0" width="100%" height="100%" />
+     <text x="0"  y="60">hydroelectric</text>
+       </mask>
+   </defs>
+  <rect x="0" y="0" width="100%" height="100%" />
+   </svg>
+ </header>
+<main>
+ <div class="container2">
+ <h1>Mining powered by solar energy</h1>
+     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat veniam tenetur praesentium, ex nobis error obcaecati mollitia voluptas earum quo sapiente recusandae voluptatum distinctio. Minus, perspiciatis. Repudiandae omnis quisquam sapiente!</p>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis eum odio, aliquam voluptatibus dignissimos eaque iure minus tempore a adipisci labore illum fugiat consequuntur dolor quos facilis maxime ea provident?</p>
+     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate excepturi repudiandae omnis obcaecati expedita? Cum iusto quos necessitatibus quis voluptates, aspernatur dolorum error nobis quisquam non, ullam consequatur molestias. Voluptatum.</p>
+     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat veniam tenetur praesentium, ex nobis error obcaecati mollitia voluptas earum quo sapiente recusandae voluptatum distinctio. Minus, perspiciatis. Repudiandae omnis quisquam sapiente!</p>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis eum odio, aliquam voluptatibus dignissimos eaque iure minus tempore a adipisci labore illum fugiat consequuntur dolor quos facilis maxime ea provident?</p>
+ </div>
+</div>
+</div>
       <!-------------Footer markups--------------->
       <div class="column-12 column-xs-12 column-sm-12 tab">
          <footer class="footer">

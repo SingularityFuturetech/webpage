@@ -90,7 +90,10 @@ module.exports = () => `
       <div id="content">
          <h2 id="typing">About us</h2>
          <br><br><br><br>
-         <p>We are a Nasdaq-listed company, revolutionizing Blockchain supply management by focusing on innovative solutions for globally interconnected networks and establishing state-of-the-art crypto mining pools. As the landscape of Blockchain constantly shifts, we strive to provide frictionless involvement and growth-enabling ecosystem for our clients in this ever-changing space.</p>
+         <p>We are a Nasdaq-listed company, revolutionizing Blockchain supply management by focusing 
+         on innovative solutions for globally interconnected networks and establishing state-of-the-art 
+         crypto mining pools. As the landscape of Blockchain constantly shifts, we strive to provide 
+         frictionless involvement and growth-enabling ecosystem for our clients in this ever-changing space.</p>
       </div>
       <section class="service-area" id="welcome" style="background-image:"url(https://i.ibb.co/3SNpSdc/IMG-1489.jpg) no-repeat fixed 100% 100%; background-size: cover; color: #fff; height: 100%; width: 100%;"">
       <div class="testing">

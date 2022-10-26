@@ -112,11 +112,8 @@ module.exports = () => `
                      <div class="service-icon">
                         <i class="fa fa-server"></i>
                      </div>
-                     <h3>IDC</h3>
-                     <p>
-                        Instant electricity support program, stabilized data center.
-                     </p>
-                  </div>
+                     <h3>Mining Farm</h3>
+                     <p>quickly improved the practitioners' professional expertise.</p>
                </div>
             </div>
          </div>
@@ -155,7 +152,8 @@ module.exports = () => `
                </ul>
              </div>
            </div>
-           <h4 style="text-align:center">contact us for inqury</h4>
+           <a href="mailto:inquiry@singularity.us"><h4 style="text-align:center;margin-top:100px">Please contact us for inqury</h4></a>
+           
          </div>
        </div>
          <br>
