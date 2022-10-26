@@ -127,8 +127,8 @@ module.exports = () => `
             </div>
             <ul class="footer__nav">
                <li class="nav__item nav__item--extra">
-                  <h2 class="nav__title">Know us more</h2>
                   <ul class="nav__ul nav__ul--extra">
+                  <h2 class="nav__title">Know us more</h2>
                      <li>
                         <a href="/service">Product and Services</a>
                      </li>
@@ -141,8 +141,8 @@ module.exports = () => `
                   </ul>
                </li>
                <li class="nav__item">
-                  <h2 class="nav__title">Legal</h2>
                   <ul class="nav__ul">
+                  <h2 class="nav__title">Legal</h2>
                      <li>
                         <a href="/privacypolicy">Privacy Policy</a>
                      </li>

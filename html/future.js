@@ -82,7 +82,7 @@ module.exports = () => `
 <header>
     <div class="overlay">
         <div class="parallax">
-            <h1>Eco-Friendly Crypto<span>Scroll down to read more</span></h1>
+            <h1>Eco-Friendly Crypto<span></span></h1>
             <div class="one"></div>
             <div class="two"></div>
             <div class="three"></div>
@@ -93,12 +93,12 @@ module.exports = () => `
 </header>
 <main>
     <div class="container2">
+    <h1>Mining powered by solar energy</h1>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat veniam tenetur praesentium, ex nobis error obcaecati mollitia voluptas earum quo sapiente recusandae voluptatum distinctio. Minus, perspiciatis. Repudiandae omnis quisquam sapiente!</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis eum odio, aliquam voluptatibus dignissimos eaque iure minus tempore a adipisci labore illum fugiat consequuntur dolor quos facilis maxime ea provident?</p>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate excepturi repudiandae omnis obcaecati expedita? Cum iusto quos necessitatibus quis voluptates, aspernatur dolorum error nobis quisquam non, ullam consequatur molestias. Voluptatum.</p>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat veniam tenetur praesentium, ex nobis error obcaecati mollitia voluptas earum quo sapiente recusandae voluptatum distinctio. Minus, perspiciatis. Repudiandae omnis quisquam sapiente!</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis eum odio, aliquam voluptatibus dignissimos eaque iure minus tempore a adipisci labore illum fugiat consequuntur dolor quos facilis maxime ea provident?</p>
-        <p>pictures from the site https://tornis.robbowen.digital/</p>
     </div>
 </main>
       <!-------------Footer markups--------------->

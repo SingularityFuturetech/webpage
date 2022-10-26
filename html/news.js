@@ -91,7 +91,7 @@ module.exports = () => `
          <footer class="footer">
             <div class="footer__addr">
                <h1 class="footer__logo"><img src="img/logo2.png" class="logo" style="width: 202px; height: 50px;"></h1>
-               <h2>Contact</h2>
+               <h7>Contact</h7>
                <address>
                   98 Cuttermill Road,
                   Great Neck Plaza, New York 11021<br>
@@ -100,8 +100,8 @@ module.exports = () => `
             </div>
             <ul class="footer__nav">
                <li class="nav__item nav__item--extra">
-                  <h3 class="nav__title">Know us more</h3>
                   <ul class="nav__ul nav__ul--extra">
+                  <h3 class="nav__title">Know us more</h3>
                      <li>
                         <a href="/service">Product and Services</a>
                      </li>
@@ -114,8 +114,8 @@ module.exports = () => `
                   </ul>
                </li>
                <li class="nav__item">
-                  <h3 class="nav__title">Legal</h3>
                   <ul class="nav__ul">
+                  <h3 class="nav__title">Legal</h3>
                      <li>
                         <a href="/privacypolicy">Privacy Policy</a>
                      </li>

@@ -2712,6 +2712,11 @@ form {
 	 #about-main .jumbotron .img-1, #about-main .jumbotron .img-2, #about-main .jumbotron .team-image {
 		 display: none;
 	}
+
+    .title h1 {
+        font-size: 65px;
+    
+    }
 }
  @media (max-width: 420px) {
 	 #about-main .jumbotron .jumbotron-inner {
@@ -3062,7 +3067,7 @@ form {
 }
 header {
     position: relative;
-    height: 100vh;
+    height: 85vh;
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -3088,7 +3093,7 @@ header .overlay h1 {
     font-size: 4vw;
     color: rgb(174, 179, 181);
     mix-blend-mode: screen;
-    opacity: 0.78;
+    opacity: 1;
 }
 @media (max-width: 768px) {
     header .overlay h1 {
@@ -3163,7 +3168,6 @@ header .parallax .five {
 }
 main {
     position: relative;
-    margin-bottom: 15vh;
     padding: 2em 4em;
     min-height: 85vh;
     background-color: #f9f9f9;
@@ -3172,5 +3176,6 @@ main .container2 {
     position: relative;
     z-index: 2;
     font-size: 2rem;
-    color: lightblue;
+    color: rgb(0, 0, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
