@@ -93,7 +93,7 @@ module.exports = () => `
    <div class="future-body">
       <div class="body-1">
          <header class="future-tittle">
-            <video autoplay playsinline muted loop preload poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/oceanshot.jpg">
+            <video autoplay playsinline muted loop preload>
                <source src="sun.mp4" type="video/mp4" id="video" />
                <source src="sun.mp4" type="video/mp4" id="video" />
             </video>
@@ -149,7 +149,7 @@ module.exports = () => `
    <div class="future-body">
       <div class="body-3">
          <header class="future-tittle3">
-            <video autoplay playsinline muted loop preload poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/oceanshot.jpg">
+            <video autoplay playsinline muted loop>
                <source src="wind.mp4"  type="video/mp4" id="video" />
                <source src=src="wind.mp4" type="video/mp4" id="video" />
             </video>
