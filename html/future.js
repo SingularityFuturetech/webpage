@@ -94,13 +94,13 @@ module.exports = () => `
       <div class="body-1">
          <header class="future-tittle">
             <video autoplay playsinline muted loop preload>
-               <source src="https://assets.mixkit.co/videos/preview/mixkit-landscape-of-mountains-and-sunset-3128-large.mp4" type="video/mp4" id="video" />
+               <source src="https://assets.mixkit.co/videos/preview/mixkit-bright-sunshine-through-thick-clouds-20574-large.mp4" type="video/mp4" id="video" />
             </video>
             <svg class='svg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 285 80" preserveAspectRatio="xMidYMid slice">
                <defs>
                   <mask id="mask1" x="0" y="0" width="100%" height="100%" >
                      <rect class='rect1'  x="0" y="0" width="100%" height="100%" />
-                     <text x="35"  y="60">solar</text>
+                     <text x="55"  y="60">solar</text>
                   </mask>
                </defs>
                <rect x="0" y="0" width="100%" height="100%" />
@@ -125,7 +125,7 @@ module.exports = () => `
                <defs>
                   <mask id="mask2" x="0" y="0" width="200%" height="100%" >
                      <rect x="0" y="0" width="100%" height="100%" />
-                     <text x="0"  y="60">hydroelectric</text>
+                     <text x="10"  y="60">hydroelectric</text>
                   </mask>
                </defs>
                <rect x="0" y="0" width="100%" height="100%" />
@@ -149,13 +149,13 @@ module.exports = () => `
       <div class="body-3">
          <header class="future-tittle3">
             <video autoplay playsinline muted loop>
-               <source src= "/img/wind.mp4"  type="video/mp4" id="video" />
+               <source src= "https://media.istockphoto.com/id/1185850693/video/aerial-wind-farm-at-sea-in-sunshine.mp4?s=mp4-640x640-is&k=20&c=xxBxXPWX6Tq2HMmk6BF9QAI_EShfWSts5ASf9Mvx8kM="  type="video/mp4" id="video" />
             </video>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 285 80" preserveAspectRatio="xMidYMid slice">
                <defs>
                   <mask id="mask3" x="0" y="0" width="200%" height="100%" >
                      <rect x="0" y="0" width="100%" height="100%" />
-                     <text x="40"  y="60">Wind</text>
+                     <text x="70"  y="60">Wind</text>
                   </mask>
                </defs>
                <rect x="0" y="0" width="100%" height="100%" />
