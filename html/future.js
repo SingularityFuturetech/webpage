@@ -94,8 +94,8 @@ module.exports = () => `
       <div class="body-1">
          <header class="future-tittle">
             <video autoplay playsinline muted loop preload>
-               <source src="sun.mp4" type="video/mp4" id="video" />
-               <source src="sun.mp4" type="video/mp4" id="video" />
+               <source src="./sun.mp4" type="video/mp4" id="video" />
+               <source src="./sun.mp4" type="video/mp4" id="video" />
             </video>
             <svg class='svg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 285 80" preserveAspectRatio="xMidYMid slice">
                <defs>
@@ -150,8 +150,8 @@ module.exports = () => `
       <div class="body-3">
          <header class="future-tittle3">
             <video autoplay playsinline muted loop>
-               <source src="wind.mp4"  type="video/mp4" id="video" />
-               <source src=src="wind.mp4" type="video/mp4" id="video" />
+               <source src="./wind.mp4"  type="video/mp4" id="video" />
+               <source src=src="./wind.mp4" type="video/mp4" id="video" />
             </video>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 285 80" preserveAspectRatio="xMidYMid slice">
                <defs>
