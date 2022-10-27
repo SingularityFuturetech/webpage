@@ -149,7 +149,7 @@ module.exports = () => `
       <div class="body-3">
          <header class="future-tittle3">
             <video autoplay playsinline muted loop>
-               <source src= "https://media.istockphoto.com/id/1185850693/video/aerial-wind-farm-at-sea-in-sunshine.mp4?s=mp4-640x640-is&k=20&c=xxBxXPWX6Tq2HMmk6BF9QAI_EShfWSts5ASf9Mvx8kM="  type="video/mp4" id="video" />
+               <source src= "https://assets.mixkit.co/videos/preview/mixkit-wind-turbine-working-in-the-countryside-31687-large.mp4"  type="video/mp4" id="video" />
             </video>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 285 80" preserveAspectRatio="xMidYMid slice">
                <defs>
