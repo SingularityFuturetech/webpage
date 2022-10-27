@@ -94,8 +94,7 @@ module.exports = () => `
       <div class="body-1">
          <header class="future-tittle">
             <video autoplay playsinline muted loop preload>
-               <source src="/img/sun.mp4" type="video/mp4" id="video" />
-               <source src="/videos/sun.webm" type="video/webm" id="video" />
+               <source src="https://assets.mixkit.co/videos/preview/mixkit-landscape-of-mountains-and-sunset-3128-large.mp4" type="video/mp4" id="video" />
             </video>
             <svg class='svg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 285 80" preserveAspectRatio="xMidYMid slice">
                <defs>
