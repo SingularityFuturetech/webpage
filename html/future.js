@@ -57,150 +57,174 @@ module.exports = () => `
       <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
    </head>
    <nav class="navbar navbar-default navbar-fixed-top" id="navbar" role="navigation">
-   <div class="container">
-      <div class="navbar-header">
-         <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".navbar-collapse" role="button">
-         <span class="icon-bar"></span>
-         <span class="icon-bar"></span>
-         <span class="icon-bar"></span>
-         </button>
-         <a href="/" class="navbar-brand" id="logo"> <img src="img/logo.png" alt="" class="logo" style="width: 202px; height: 45px; margin-top:-13px;" ></a>
+      <div class="container">
+         <div class="navbar-header">
+            <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".navbar-collapse" role="button">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <a href="/" class="navbar-brand" id="logo"> <img src="img/logo.png" alt="" class="logo" style="width: 202px; height: 45px; margin-top:-13px;" ></a>
+         </div>
+         <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right js-nav">
+               <li><a href="/about" class="hover-underline-animation">ABOUT US</a></li>
+               <li><a href="/service" class="hover-underline-animation">PRODUCT & SERVICES</a></li>
+               <li><a href="/team" class="hover-underline-animation">TEAM</a></li>
+               <li><a href="/news" class="hover-underline-animation">NEWS</a></li>
+               <li><a href="/contact" class="hover-underline-animation">CONTACT US</a></li>
+               <li><a href="https://www.thorminers.com/" class="contact">THOR MINER</a></li>
+            </ul>
+         </div>
       </div>
-      <div class="collapse navbar-collapse">
-         <ul class="nav navbar-nav navbar-right js-nav">
-            <li><a href="/about" class="hover-underline-animation">ABOUT US</a></li>
-            <li><a href="/service" class="hover-underline-animation">PRODUCT & SERVICES</a></li>
-            <li><a href="/team" class="hover-underline-animation">TEAM</a></li>
-            <li><a href="/news" class="hover-underline-animation">NEWS</a></li>
-            <li><a href="/contact" class="hover-underline-animation">CONTACT US</a></li>
-            <li><a href="https://www.thorminers.com/" class="contact">THOR MINER</a></li>
-         </ul>
-      </div>
-   </div>
-</nav>
-<header>
-    <div class="overlay">
-        <div class="parallax">
+   </nav>
+   <header>
+      <div class="overlay">
+         <div class="parallax">
             <h1>Eco-Friendly Crypto<span></span></h1>
             <div class="one"></div>
             <div class="two"></div>
             <div class="three"></div>
             <div class="four"></div>
             <div class="five"></div>
-        </div>
-    </div>
-</header>
-<div class="future-body">
-<div class="body-1">
- <header class="future-tittle">
-    <video autoplay playsinline muted loop preload poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/oceanshot.jpg">
-       <source src="sun.mp4" type="video/mp4" id="video" />
-     <source src="sun.mp4" type="video/mp4" id="video" />
-    </video>
-     <svg class='svg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 285 80" preserveAspectRatio="xMidYMid slice">
-     <defs>
-     <mask id="mask1" x="0" y="0" width="100%" height="100%" >
-       <rect class='rect1'  x="0" y="0" width="100%" height="100%" />
-     <text x="35"  y="60">solar</text>
-       </mask>
-   </defs>
-  <rect x="0" y="0" width="100%" height="100%" />
-   </svg>
- </header>
-<main>
- <div class="container2">
- <h1>Mining powered by solar energy</h1>
-     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat veniam tenetur praesentium, ex nobis error obcaecati mollitia voluptas earum quo sapiente recusandae voluptatum distinctio. Minus, perspiciatis. Repudiandae omnis quisquam sapiente!</p>
-     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis eum odio, aliquam voluptatibus dignissimos eaque iure minus tempore a adipisci labore illum fugiat consequuntur dolor quos facilis maxime ea provident?</p>
-     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate excepturi repudiandae omnis obcaecati expedita? Cum iusto quos necessitatibus quis voluptates, aspernatur dolorum error nobis quisquam non, ullam consequatur molestias. Voluptatum.</p>
-     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat veniam tenetur praesentium, ex nobis error obcaecati mollitia voluptas earum quo sapiente recusandae voluptatum distinctio. Minus, perspiciatis. Repudiandae omnis quisquam sapiente!</p>
-     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis eum odio, aliquam voluptatibus dignissimos eaque iure minus tempore a adipisci labore illum fugiat consequuntur dolor quos facilis maxime ea provident?</p>
- </div>
-</div>
-</div>
-
-<div class="future-body">
-<div class="body-2">
- <header class="future-tittle2">
-    <video autoplay playsinline muted loop preload poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/oceanshot.jpg">
-       <source src="sun.mp4" type="video/mp4" id="video" />
-     <source src="sun.mp4" type="video/mp4" id="video" />
-    </video>
-     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 285 80" preserveAspectRatio="xMidYMid slice">
-     <defs>
-     <mask id="mask2" x="0" y="0" width="100%" height="100%" >
-       <rect x="0" y="0" width="100%" height="100%" />
-     <text x="0"  y="60">hydroelectric</text>
-       </mask>
-   </defs>
-  <rect x="0" y="0" width="100%" height="100%" />
-   </svg>
- </header>
-<main>
- <div class="container2">
- <h1>Mining powered by solar energy</h1>
-     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat veniam tenetur praesentium, ex nobis error obcaecati mollitia voluptas earum quo sapiente recusandae voluptatum distinctio. Minus, perspiciatis. Repudiandae omnis quisquam sapiente!</p>
-     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis eum odio, aliquam voluptatibus dignissimos eaque iure minus tempore a adipisci labore illum fugiat consequuntur dolor quos facilis maxime ea provident?</p>
-     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate excepturi repudiandae omnis obcaecati expedita? Cum iusto quos necessitatibus quis voluptates, aspernatur dolorum error nobis quisquam non, ullam consequatur molestias. Voluptatum.</p>
-     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat veniam tenetur praesentium, ex nobis error obcaecati mollitia voluptas earum quo sapiente recusandae voluptatum distinctio. Minus, perspiciatis. Repudiandae omnis quisquam sapiente!</p>
-     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis eum odio, aliquam voluptatibus dignissimos eaque iure minus tempore a adipisci labore illum fugiat consequuntur dolor quos facilis maxime ea provident?</p>
- </div>
-</div>
-</div>
-      <!-------------Footer markups--------------->
-      <div class="column-12 column-xs-12 column-sm-12 tab">
-         <footer class="footer">
-            <div class="footer__addr">
-               <h1 class="footer__logo"><img src="img/logo2.png" class="logo" style="width: 202px; height: 50px;"></h1>
-               <h2>Contact</h2>
-               <address>
-                  98 Cuttermill Road,
-                  Great Neck Plaza, New York 11021<br>
-                  <a class="footer__btn" href="mailto:inquiry@singularity.us">Email Us</a>
-               </address>
-            </div>
-            <ul class="footer__nav">
-               <li class="nav__item nav__item--extra">
-                  <ul class="nav__ul nav__ul--extra">
-                  <h2 class="nav__title">Know us more</h2>
-                     <li>
-                        <a href="/service">Product and Services</a>
-                     </li>
-                     <li>
-                        <a href="/team">Team</a>
-                     </li>
-                     <li>
-                        <a href="/contact">Contact Us</a>
-                     </li>
-                  </ul>
-               </li>
-               <li class="nav__item">
-                  <ul class="nav__ul">
-                  <h2 class="nav__title">Legal</h2>
-                     <li>
-                        <a href="/privacypolicy">Privacy Policy</a>
-                     </li>
-                     <li>
-                        <a href="/terms">Terms of Use</a>
-                     </li>
-                  </ul>
-               </li>
-            </ul>
-            <div class="legal">
-               <p>&copy; 2022 Singularity Future Technology Ltd. All rights reserved.</p>
-            </div>
-         </footer>
+         </div>
       </div>
-      <script src="js/jquery.ripples-min.js" type="text/javascript"></script>  
-      <script src="js/typed.min.js" type="text/javascript"></script>
-      <script src="js/jquery.waypoints.min.js" type="text/javascript"></script>
-      <script src="js/jquery.counterup.min.js" type="text/javascript"></script>           
-      <script src="js/main.js" type="text/javascript"></script>
-      <script src="js/smoothscroll.js" type="text/javascript"></script>
-      <script src="js/jquery.easing.1.3.js" type="text/javascript"></script>
-      <script src="js/wow.min.js" type="text/javascript"></script>
-      <script src="js/paral.js" type="text/javascript"></script>
-      <script src="js/futureVideo.js" type="text/javascript"></script>
+   </header>
+   <div class="future-body">
+      <div class="body-1">
+         <header class="future-tittle">
+            <video autoplay playsinline muted loop preload poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/oceanshot.jpg">
+               <source src="sun.mp4" type="video/mp4" id="video" />
+               <source src="sun.mp4" type="video/mp4" id="video" />
+            </video>
+            <svg class='svg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 285 80" preserveAspectRatio="xMidYMid slice">
+               <defs>
+                  <mask id="mask1" x="0" y="0" width="100%" height="100%" >
+                     <rect class='rect1'  x="0" y="0" width="100%" height="100%" />
+                     <text x="35"  y="60">solar</text>
+                  </mask>
+               </defs>
+               <rect x="0" y="0" width="100%" height="100%" />
+            </svg>
+         </header>
+         <main>
+         <div class="container2">
+            <p>Many individuals consider the potential for renewable energy use in cryptocurrency mining as a virtuous cycle, with the share of solar hash rates appearing to be likely to increase. The distinctive incentives of bitcoin mining, which drive operations to use the cheapest power possible, will encourage more businesses around the world to switch to renewable energy sources, such as solar.</p>
+            <p>The percentage of mining companies adopting solar energy is projected to rise even more as governments agree to lower carbon emission targets and implement additional incentives like investment tax credits.</p>
+            <p>"Bitcoin has the ability to incentivize renewable energy development around the world by providing a mechanism to monetize extra energy that would otherwise go to waste," stated Dan Frumkin, head of research and content at Braiins and Slush Pool, in a recent article.</p>
+         </div>
+      </div>
+   </div>
+   <div class="future-body">
+      <div class="body-2">
+         <header class="future-tittle2">
+            <video autoplay playsinline muted loop preload poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/oceanshot.jpg">
+               <source src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/ocean-small.webm"  type="video/mp4" id="video" />
+               <source src=src="http://thenewcode.com/assets/videos/ocean-small.mp4" type="video/mp4" id="video" />
+            </video>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 285 80" preserveAspectRatio="xMidYMid slice">
+               <defs>
+                  <mask id="mask2" x="0" y="0" width="200%" height="100%" >
+                     <rect x="0" y="0" width="100%" height="100%" />
+                     <text x="0"  y="60">hydroelectric</text>
+                  </mask>
+               </defs>
+               <rect x="0" y="0" width="100%" height="100%" />
+            </svg>
+         </header>
+         <main>
+         <div class="container2">
+            <div>
+               <p>Hydro mining offers improved performance, cost savings, and reliability in addition to utilising eco-friendly energy sources.</p>
+               <p>Mining demands exceptionally high loads and continuous use of powerful, specialized computer equipment throughout the day. This means that overheating-related failures and breakdowns are a very serious issue in the mining of cryptocurrencies.</p>
+               <p>Each and every day, even each and every hour, the business is losing money.</p>
+               <p>The hydro-mining technology uses water-cooling devices to keep the mining rigs and processors at a safe operating temperature at a lower cost. As a result, there is less downtime due to failure, making the mining environment more dependable.</p>
+               <p>HydroMiner, for instance, can sustain constant lower temperatures at a very high density thanks to the improved cooling methods. Therefore, mining equipment performance can be enhanced to offer the largest mining power possible at a constant rate.</p>
+               <p>The main outlay for every mining operation is electricity.</p>
+               <p>Energy usage is substantially lower than on traditional mining farms since hydropower, one of the least expensive, most environmentally friendly sources of electricity generation, is used. Reduced energy use translates into greater cost savings and improved profit margins, which can then be distributed to investors.</p>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="future-body">
+      <div class="body-3">
+         <header class="future-tittle3">
+            <video autoplay playsinline muted loop preload poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/oceanshot.jpg">
+               <source src="wind.mp4"  type="video/mp4" id="video" />
+               <source src=src="wind.mp4" type="video/mp4" id="video" />
+            </video>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 285 80" preserveAspectRatio="xMidYMid slice">
+               <defs>
+                  <mask id="mask3" x="0" y="0" width="200%" height="100%" >
+                     <rect x="0" y="0" width="100%" height="100%" />
+                     <text x="40"  y="60">Wind</text>
+                  </mask>
+               </defs>
+               <rect x="0" y="0" width="100%" height="100%" />
+            </svg>
+         </header>
+         <main>
+         <div class="container2">
+            <p>When maintenance is taken into account, wind power is more profitable for bitcoin mining than solar power because of its 25-year service life.</p>
+            <p>Location is vital when it comes to wind energy, as evidenced by wind speed, air density, and swept area. Engineers have been investigating design choices that offer the best optimization of wind turbine efficiency while lowering cost, constrained by the Betz Limit. Turbines with a horizontal axis are common. Though they cannot be viewed as substantial competitors, bladeless turbine designs are nevertheless making progress.</p>
+            <p>The design efficiency and capacity of wind power designs are rapidly improving. The renewable energy mix of bitcoin mining will be improved by implementing additional wind-powered mining devices. However, wind energy shares the same fate as solar electricity and will need batteries to make up for deficiencies during calmer weather. In a distributed arrangement, it can be scaled up most effectively by adding energy to the grid.</p>
+         </div>
+      </div>
+   </div>
+   <!-------------Footer markups--------------->
+   <div class="column-12 column-xs-12 column-sm-12 tab">
+      <footer class="footer">
+         <div class="footer__addr">
+            <h1 class="footer__logo"><img src="img/logo2.png" class="logo" style="width: 202px; height: 50px;"></h1>
+            <h2>Contact</h2>
+            <address>
+               98 Cuttermill Road,
+               Great Neck Plaza, New York 11021<br>
+               <a class="footer__btn" href="mailto:inquiry@singularity.us">Email Us</a>
+            </address>
+         </div>
+         <ul class="footer__nav">
+            <li class="nav__item nav__item--extra">
+               <ul class="nav__ul nav__ul--extra">
+                  <h2 class="nav__title">Know us more</h2>
+                  <li>
+                     <a href="/service">Product and Services</a>
+                  </li>
+                  <li>
+                     <a href="/team">Team</a>
+                  </li>
+                  <li>
+                     <a href="/contact">Contact Us</a>
+                  </li>
+               </ul>
+            </li>
+            <li class="nav__item">
+               <ul class="nav__ul">
+                  <h2 class="nav__title">Legal</h2>
+                  <li>
+                     <a href="/privacypolicy">Privacy Policy</a>
+                  </li>
+                  <li>
+                     <a href="/terms">Terms of Use</a>
+                  </li>
+               </ul>
+            </li>
+         </ul>
+         <div class="legal">
+            <p>&copy; 2022 Singularity Future Technology Ltd. All rights reserved.</p>
+         </div>
+      </footer>
+   </div>
+   <script src="js/jquery.ripples-min.js" type="text/javascript"></script>  
+   <script src="js/typed.min.js" type="text/javascript"></script>
+   <script src="js/jquery.waypoints.min.js" type="text/javascript"></script>
+   <script src="js/jquery.counterup.min.js" type="text/javascript"></script>           
+   <script src="js/main.js" type="text/javascript"></script>
+   <script src="js/smoothscroll.js" type="text/javascript"></script>
+   <script src="js/jquery.easing.1.3.js" type="text/javascript"></script>
+   <script src="js/wow.min.js" type="text/javascript"></script>
+   <script src="js/paral.js" type="text/javascript"></script>
+   <script src="js/futureVideo.js" type="text/javascript"></script>
    </body>
 </html>
 `;
