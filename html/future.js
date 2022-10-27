@@ -108,7 +108,7 @@ module.exports = () => `
          </header>
          <main>
          <div class="container2">
-            <p>MMany individuals consider the potential for renewable energy use in cryptocurrency mining as a virtuous cycle, with the share of solar hash rates appearing to be likely to increase. The distinctive incentives of bitcoin mining, which drive operations to use the cheapest power possible, will encourage more businesses around the world to switch to renewable energy sources, such as solar.</p>
+            <p>Many individuals consider the potential for renewable energy use in cryptocurrency mining as a virtuous cycle, with the share of solar hash rates appearing to be likely to increase. The distinctive incentives of bitcoin mining, which drive operations to use the cheapest power possible, will encourage more businesses around the world to switch to renewable energy sources, such as solar.</p>
             <p>The percentage of mining companies adopting solar energy is projected to rise even more as governments agree to lower carbon emission targets and implement additional incentives like investment tax credits.</p>
             <p>"Bitcoin has the ability to incentivize renewable energy development around the world by providing a mechanism to monetize extra energy that would otherwise go to waste," stated Dan Frumkin, head of research and content at Braiins and Slush Pool, in a recent article.</p>
          </div>
