@@ -113,7 +113,7 @@ module.exports = () => `
                         <i class="fa fa-server"></i>
                      </div>
                      <h3>Mining Farm</h3>
-                     <p>quickly improved the practitioners' professional expertise.</p>
+                     <p>Quickly improved the practitioners' professional expertise.</p>
                </div>
             </div>
          </div>

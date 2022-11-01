@@ -117,9 +117,8 @@ module.exports = () => `
    <div class="future-body">
       <div class="body-2">
          <header class="future-tittle2">
-            <video autoplay playsinline muted loop preload poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/oceanshot.jpg">
-               <source src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/ocean-small.webm"  type="video/mp4" id="video" />
-               <source src=src="http://thenewcode.com/assets/videos/ocean-small.mp4" type="video/mp4" id="video" />
+            <video autoplay playsinline muted loop preload>
+               <source src="https://assets.mixkit.co/videos/preview/mixkit-turquoise-ocean-background-with-foaming-waves-2091-large.mp4" type="video/mp4" id="video" />
             </video>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 285 80" preserveAspectRatio="xMidYMid slice">
                <defs>
